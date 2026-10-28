@@ -1,6 +1,6 @@
 # Seguridad de Eleven Force
 
-Revisión y despliegue: 28 de octubre de 2026. Correcciones instaladas en producción desde el commit `7a354a5`, con copias privadas previas y configuración conservada. Repositorio aún privado. La privacidad del repositorio no sustituye los controles de acceso.
+Revisión y despliegue: 28 de octubre de 2026. Correcciones instaladas en producción desde el commit `7a354a5`, con copias privadas previas y configuración conservada. Repositorio público; configuración privada y datos fuera de Git. La privacidad del repositorio no sustituye los controles de acceso.
 
 ## Controles y correcciones
 
@@ -24,7 +24,7 @@ Revisión y despliegue: 28 de octubre de 2026. Correcciones instaladas en produc
 
 ## Antes de hacer público y desplegar
 
-1. En futuras actualizaciones, conservar la configuración privada y respaldar SQLite. El despliegue del 28 de octubre ya está verificado por HTTPS: sala, pertenencia, CSRF, cookie segura y SSE. La contraseña administrativa existente se conserva; no se ha probado un inicio de sesión administrativo con contraseña real. Antes de cambiar la visibilidad de GitHub, mantener la configuración y los respaldos fuera del repositorio.
+1. En futuras actualizaciones, conservar la configuración privada y respaldar SQLite. El despliegue del 28 de octubre ya está verificado por HTTPS: sala, pertenencia, CSRF, cookie segura y SSE. La contraseña administrativa existente se conserva; no se ha probado un inicio de sesión administrativo con contraseña real. El repositorio es público; mantener la configuración y los respaldos fuera de Git.
 2. Usar Node.js 24 o reconstruir la imagen. Conservar las restricciones y el puerto loopback de Compose. Revisar el usuario de la imagen y la propiedad del directorio `data` al preparar un volumen nuevo; no cambiar permisos de datos existentes sin comprobarlos.
 3. Generar un hash mediante `npm run hash:admin` si se quiere habilitar la administración. Guardarlo en `.env`, nunca en Git. Usar una contraseña larga y exclusiva. No exponer el servidor de desarrollo.
 4. Revisar periódicamente dependencias y alertas de GitHub. No publicar futuros respaldos, datos de usuarios ni secretos.
