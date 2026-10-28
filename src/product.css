@@ -1,0 +1,88 @@
+.solo-session-bar { display:flex; align-items:center; justify-content:space-between; gap:12px; margin-top:12px; color:var(--muted); font-size:12px; }
+.solo-session-bar button { display:flex; align-items:center; gap:7px; min-height:44px; border:1px solid var(--line); background:#0b2347; padding:8px 12px; cursor:pointer; }
+.solo-session-bar svg { width:15px; }
+.roster-content { display:grid; gap:14px; }
+.roster-toggle { display:none; }
+.picker-toolbar { display:grid; gap:9px; margin:16px 0; }
+.picker-search { display:flex; align-items:center; gap:8px; min-height:44px; padding:0 12px; background:#06152d; border:1px solid #587697; }
+.picker-search > svg { width:17px; color:var(--cyan); flex:none; }
+.picker-search input { width:100%; min-width:0; min-height:44px; border:0; outline:0; background:transparent; color:white; font:inherit; font-size:16px; }
+.picker-search:focus-within { outline:2px solid var(--yellow); outline-offset:2px; }
+.picker-search input::placeholder { color:#acc3dc; }
+.picker-search input::-webkit-search-cancel-button { display:none; }
+.picker-search button { display:grid; place-items:center; width:44px; height:44px; flex:none; background:none; border:0; cursor:pointer; }
+.picker-search button svg { width:17px; }
+.picker-positions { display:flex; gap:6px; }
+.picker-positions button { display:flex; align-items:center; justify-content:center; gap:7px; min-height:44px; flex:1; padding:7px 8px; font-weight:900; border:1px solid #587697; background:#0a2143; cursor:pointer; }
+.picker-positions small { font-size:10px; min-width:16px; line-height:18px; color:var(--cyan); background:#06152d; border-radius:3px; }
+.picker-positions button[aria-pressed=true] { border-color:var(--yellow); background:var(--yellow); color:#06152c; }
+.picker-meta { display:flex; justify-content:space-between; align-items:center; gap:8px; min-height:38px; font-size:12px; color:#bcd4ec; }
+.picker-meta label { display:flex; align-items:center; gap:7px; min-height:44px; cursor:pointer; }
+.picker-meta input { width:18px; height:18px; accent-color:var(--yellow); }
+.picker-meta > span { text-align:right; }
+.picker-empty { min-height:190px; display:grid; place-items:center; align-content:center; gap:10px; text-align:center; padding:22px; border:1px dashed var(--line); }
+.picker-empty svg { color:var(--cyan); }
+.picker-empty p { margin:0; color:var(--muted); max-width:40ch; }
+.player-card__copy strong { white-space:normal; overflow:visible; overflow-wrap:anywhere; line-height:1.22; }
+.player-card { transition:border-color .16s, transform .16s; }
+.player-card__rating small { color:#a9c5e3; }
+.connection-notice { display:flex; align-items:center; gap:10px; padding:12px 16px; margin-bottom:16px; border:1px solid #e5b349; background:#342707; color:#ffe8ac; font-size:13px; }
+.connection-notice > svg { width:20px; flex:none; }
+.connection-notice button { margin-left:auto; min-height:44px; padding:7px 10px; border:1px solid currentColor; background:transparent; color:inherit; cursor:pointer; }
+.product-dialog { position:fixed; inset:0; margin:auto; width:min(660px,calc(100% - 24px)); max-height:calc(100dvh - 32px); overflow:auto; padding:0; color:#eaf4ff; border:2px solid var(--cyan); background:#08244d; box-shadow:0 24px 90px #0009; }
+.product-dialog::backdrop { background:#020b1be3; backdrop-filter:blur(6px); }
+.product-dialog > header { display:flex; align-items:center; justify-content:space-between; gap:16px; padding:20px 24px; position:sticky; top:0; background:#08244d; z-index:2; border-bottom:1px solid var(--line); }
+.product-dialog > header h2 { font-family:var(--body); font-size:23px; line-height:1.2; margin:0; }
+.product-dialog > header button { flex:none; }
+.product-dialog-body { padding:24px; }
+.product-dialog-body > p { color:#bfd5ed; line-height:1.6; }
+.dialog-actions { display:flex; justify-content:flex-end; flex-wrap:wrap; gap:12px; margin-top:22px; }
+.catalog-loading { gap:20px; text-align:center; padding:30px; }
+.catalog-loading strong { max-width:60ch; line-height:1.6; }
+@media (max-width:760px) {
+  .compact-roster, .room-draft .compact-roster { grid-row:1; gap:0; }
+  .roster-toggle { display:flex; align-items:center; gap:10px; width:100%; min-height:48px; padding:10px 14px; border:1px solid #466486; background:#0b254b; cursor:pointer; text-align:left; }
+  .roster-toggle > svg { width:18px; flex:none; color:var(--cyan); }
+  .roster-toggle span { font-size:12px; flex:1; font-weight:800; }
+  .roster-toggle b { color:var(--yellow); font-size:13px; }
+  .roster-toggle[aria-expanded=true] > svg:last-child { transform:rotate(180deg); }
+  .roster-content:not(.is-expanded) { display:none; }
+  .roster-content.is-expanded { margin-top:12px; }
+  .draft-layout { gap:12px; padding-top:12px; }
+  .draft-header { padding-bottom:10px; min-height:76px; gap:8px; }
+  .draft-header h1 { font-size:24px; }
+  .draft-header .kicker { margin-bottom:5px; }
+  .draft-counter { min-width:80px; }
+  .draft-counter strong { font-size:20px; }
+  .solo-session-bar { margin-top:8px; font-size:11px; gap:8px; }
+  .solo-session-bar button { padding:4px 8px; font-size:11px; min-height:44px; flex:none; }
+  .draft-console { min-height:0; }
+  .roll-idle { min-height:290px; padding:18px 0; }
+  .dice-orbit { width:90px; }
+  .dice-orbit > svg { width:40px; }
+  .roll-result { display:flex; min-height:115px; padding:12px; gap:12px; }
+  .roll-result > div { min-width:0; }
+  .roll-result h2 { font-size:17px; overflow-wrap:anywhere; }
+  .roll-result .kicker { font-size:7px; line-height:1.6; }
+  .roll-result small { font-size:9px; }
+  .reroll-button { min-width:82px; width:82px; padding:10px 6px; flex:none; }
+  .reroll-button strong { font-size:12px; }
+  .reroll-button span { font-size:10px; }
+  .reroll-rule { font-size:10px; line-height:1.5; margin:10px 0; padding:9px; }
+  .picker-toolbar { margin:10px 0 12px; gap:6px; }
+  .picker-meta { font-size:11px; }
+  .picker-positions button { font-size:12px; padding:5px; gap:5px; }
+  .player-card { min-height:96px; }
+  .product-dialog { width:calc(100% - 20px); max-height:calc(100dvh - 24px); }
+  .product-dialog > header { padding:16px; }
+  .product-dialog > header h2 { font-size:21px; }
+  .product-dialog-body { padding:18px 16px max(18px,env(safe-area-inset-bottom)); }
+  .dialog-actions { display:grid; grid-template-columns:1fr 1fr; }
+  .ds-screen--top { min-height:0; padding:54px 20px 112px; }
+  .hero-ball { width:90px; bottom:14px; right:20px; border-width:5px; opacity:.8; }
+  .season-grid { grid-template-columns:repeat(2,minmax(0,1fr)); }
+  .season-option strong { overflow-wrap:anywhere; }
+}
+@media (prefers-reduced-motion:reduce) {
+  .player-card { transition:none; }
+}

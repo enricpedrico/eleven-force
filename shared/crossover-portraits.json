@@ -1,0 +1,5084 @@
+{
+  "sources": [
+    "https://bluelock.fandom.com/api.php",
+    "https://captaintsubasa.fandom.com/api.php",
+    "https://captaintsubasastats.robla.es/players"
+  ],
+  "generatedAt": "2026-08-11T14:54:24.312Z",
+  "actualPortraits": 359,
+  "keys": [
+    "blue-lock-abdi",
+    "blue-lock-achanpong",
+    "blue-lock-agbim",
+    "blue-lock-agi",
+    "blue-lock-aiki-himizu",
+    "blue-lock-akira-endoji",
+    "blue-lock-alexis-ness",
+    "blue-lock-ali",
+    "blue-lock-anri-teieri",
+    "blue-lock-aoshi-tokimitsu",
+    "blue-lock-arthur",
+    "blue-lock-asahi-naruhaya",
+    "blue-lock-ashime-suzuki",
+    "blue-lock-bachman",
+    "blue-lock-bats",
+    "blue-lock-beita-tsuru",
+    "blue-lock-bello",
+    "blue-lock-birkenstock",
+    "blue-lock-bos",
+    "blue-lock-bunny-iglesias",
+    "blue-lock-burai-daido",
+    "blue-lock-busby",
+    "blue-lock-camus",
+    "blue-lock-canali",
+    "blue-lock-chapa",
+    "blue-lock-charles-chevalier",
+    "blue-lock-chihiro-ezaki",
+    "blue-lock-childs",
+    "blue-lock-chris-prince",
+    "blue-lock-daiya-morinaga",
+    "blue-lock-damon",
+    "blue-lock-delon",
+    "blue-lock-don-lorenzo",
+    "blue-lock-drago",
+    "blue-lock-driver",
+    "blue-lock-eita-otoya",
+    "blue-lock-ekpo",
+    "blue-lock-erik-gesner",
+    "blue-lock-espesso",
+    "blue-lock-ezekiel",
+    "blue-lock-fox",
+    "blue-lock-fuma-rokkaku",
+    "blue-lock-gabin",
+    "blue-lock-gabon",
+    "blue-lock-gambari",
+    "blue-lock-gen-fukaku",
+    "blue-lock-gin-gagamaru",
+    "blue-lock-gomez",
+    "blue-lock-goodman",
+    "blue-lock-gurimu-igarashi",
+    "blue-lock-haato-meiji",
+    "blue-lock-hajime-nishioka",
+    "blue-lock-haneru-shindo",
+    "blue-lock-haru-hayate",
+    "blue-lock-haruhiko-yuzu",
+    "blue-lock-hermes",
+    "blue-lock-hibiki-okawa",
+    "blue-lock-hirakazu-midorikawa",
+    "blue-lock-hiromu-munakata",
+    "blue-lock-hirotoshi-buratsuta",
+    "blue-lock-hyoma-chigiri",
+    "blue-lock-hyuga-koshiba",
+    "blue-lock-ignacio-lara",
+    "blue-lock-igor-schneider",
+    "blue-lock-iito-morita",
+    "blue-lock-ikki-niko",
+    "blue-lock-imaru-akashi",
+    "blue-lock-iori-sato",
+    "blue-lock-itsuki-wakatsuki",
+    "blue-lock-jin-kiyora",
+    "blue-lock-jingo-raichi",
+    "blue-lock-julian-loki",
+    "blue-lock-julien-loki",
+    "blue-lock-junichi-wanima",
+    "blue-lock-juraki-ito",
+    "blue-lock-jyubei-aryu",
+    "blue-lock-kai-tokita",
+    "blue-lock-kairu-saramadara",
+    "blue-lock-kaita",
+    "blue-lock-kanji-torikai",
+    "blue-lock-kazuma-nio",
+    "blue-lock-kei-shishiya",
+    "blue-lock-keisuke-wanima",
+    "blue-lock-ken-andatte-shimura",
+    "blue-lock-kento-cho",
+    "blue-lock-kenyu-yukimiya",
+    "blue-lock-kisaburo-hijikata",
+    "blue-lock-kiyoshi-yasushi",
+    "blue-lock-koki-mera",
+    "blue-lock-kosei-otsuka",
+    "blue-lock-kuso",
+    "blue-lock-kyohei-shiguma",
+    "blue-lock-lavinho",
+    "blue-lock-leyden",
+    "blue-lock-marc-snuffy",
+    "blue-lock-mareto-takeyama",
+    "blue-lock-masumi-atatame",
+    "blue-lock-meguru-bachira",
+    "blue-lock-mensah",
+    "blue-lock-michael-kaiser",
+    "blue-lock-michelin",
+    "blue-lock-miroku-darai",
+    "blue-lock-momodu",
+    "blue-lock-moro",
+    "blue-lock-ndiaye",
+    "blue-lock-niang",
+    "blue-lock-nijiro-nanase",
+    "blue-lock-noboru-jigen",
+    "blue-lock-noel-noa",
+    "blue-lock-oboabona",
+    "blue-lock-okuhito-iemon",
+    "blue-lock-oliver-aiku",
+    "blue-lock-onazi",
+    "blue-lock-paris-x-gen",
+    "blue-lock-peron",
+    "blue-lock-picasso",
+    "blue-lock-raito-fuwa",
+    "blue-lock-ranze-kurona",
+    "blue-lock-reiji-hiiragi",
+    "blue-lock-renoir",
+    "blue-lock-rensuke-kunigami",
+    "blue-lock-reo-mikage",
+    "blue-lock-retsu-nerima",
+    "blue-lock-rian-sanga",
+    "blue-lock-rico",
+    "blue-lock-rikiya-hohai",
+    "blue-lock-rin-itoshi",
+    "blue-lock-rodin",
+    "blue-lock-rook",
+    "blue-lock-rooke",
+    "blue-lock-ruiz",
+    "blue-lock-ruto-kora",
+    "blue-lock-ryosuke-kira",
+    "blue-lock-ryu-kamioka",
+    "blue-lock-ryuhei-osuna",
+    "blue-lock-ryusei-shido",
+    "blue-lock-sadiq",
+    "blue-lock-sae-itoshi",
+    "blue-lock-seishiro-nagi",
+    "blue-lock-shingen-tanaka",
+    "blue-lock-shinichi-konan",
+    "blue-lock-shizuka-haiji",
+    "blue-lock-shoei-baro",
+    "blue-lock-shuhei-ebina",
+    "blue-lock-shuto-sendo",
+    "blue-lock-skelton",
+    "blue-lock-so",
+    "blue-lock-soshi-kagura",
+    "blue-lock-sota-nemoto",
+    "blue-lock-swift",
+    "blue-lock-tabito-karasu",
+    "blue-lock-taiga-tsunzaki",
+    "blue-lock-taisho-hagimoto",
+    "blue-lock-takayuki-tokorojoji",
+    "blue-lock-takeshi-bito",
+    "blue-lock-takuma-isezaki",
+    "blue-lock-teddy-knight",
+    "blue-lock-teppei-neru",
+    "blue-lock-teru-kitsunezato",
+    "blue-lock-tetsu-sokura",
+    "blue-lock-theo-sachs",
+    "blue-lock-tobio-madoka",
+    "blue-lock-tsukoteru-eiyu",
+    "blue-lock-umaru",
+    "blue-lock-urzaiz",
+    "blue-lock-vivian-hugo",
+    "blue-lock-wataru-kuon",
+    "blue-lock-yasumori-hoichi",
+    "blue-lock-yawara-banku",
+    "blue-lock-yo-hiori",
+    "blue-lock-yoichi-isagi",
+    "blue-lock-young",
+    "blue-lock-yudai-imamura",
+    "blue-lock-yujin-koshinaka",
+    "blue-lock-yukio-ishikari",
+    "blue-lock-yusei-amazora",
+    "blue-lock-yuza-dokomo",
+    "blue-lock-zantetsu-tsurugi",
+    "captain-tsubasa-aguin",
+    "captain-tsubasa-akio-nakao",
+    "captain-tsubasa-akira-hatakeyama",
+    "captain-tsubasa-akira-ichinose",
+    "captain-tsubasa-alaberdo",
+    "captain-tsubasa-alan-pascal",
+    "captain-tsubasa-alberto",
+    "captain-tsubasa-alessandro-delpi",
+    "captain-tsubasa-alvez",
+    "captain-tsubasa-amerigo",
+    "captain-tsubasa-amoro",
+    "captain-tsubasa-amudin",
+    "captain-tsubasa-andrea",
+    "captain-tsubasa-antoni",
+    "captain-tsubasa-bassarello",
+    "captain-tsubasa-belmondo",
+    "captain-tsubasa-bergerus",
+    "captain-tsubasa-bernard",
+    "captain-tsubasa-borghi",
+    "captain-tsubasa-bossi",
+    "captain-tsubasa-branca",
+    "captain-tsubasa-bravo",
+    "captain-tsubasa-brian-cruyfford",
+    "captain-tsubasa-briegel",
+    "captain-tsubasa-brolin",
+    "captain-tsubasa-brown",
+    "captain-tsubasa-callusias",
+    "captain-tsubasa-cao-jingjiang",
+    "captain-tsubasa-captain-tsubasa-3109-nichi-zenkiroku",
+    "captain-tsubasa-captain-tsubasa-road-to-2002-2001",
+    "captain-tsubasa-carlos-1983",
+    "captain-tsubasa-carlos-bara",
+    "captain-tsubasa-carlos-santana",
+    "captain-tsubasa-carvajal",
+    "captain-tsubasa-casa-grande",
+    "captain-tsubasa-chalermsri",
+    "captain-tsubasa-chana-khongsawat",
+    "captain-tsubasa-chatchai",
+    "captain-tsubasa-chawatana",
+    "captain-tsubasa-claude",
+    "captain-tsubasa-conti",
+    "captain-tsubasa-conzales",
+    "captain-tsubasa-daichi-ozora",
+    "captain-tsubasa-daigo-sasaki",
+    "captain-tsubasa-daisuke-yamamoto",
+    "captain-tsubasa-daniel-costa",
+    "captain-tsubasa-davi",
+    "captain-tsubasa-de-gaulle",
+    "captain-tsubasa-deuter-muller",
+    "captain-tsubasa-diayea",
+    "captain-tsubasa-dimos-marinio",
+    "captain-tsubasa-dionisi",
+    "captain-tsubasa-dotor",
+    "captain-tsubasa-dugo",
+    "captain-tsubasa-elle-sid-pierre",
+    "captain-tsubasa-elle-sid-pierre-1983",
+    "captain-tsubasa-enrico",
+    "captain-tsubasa-eric-schmidt",
+    "captain-tsubasa-esnander",
+    "captain-tsubasa-espino",
+    "captain-tsubasa-etsuo-nagai",
+    "captain-tsubasa-falan-khongsawat",
+    "captain-tsubasa-fan-yueyong",
+    "captain-tsubasa-fatalah",
+    "captain-tsubasa-fatia",
+    "captain-tsubasa-federico",
+    "captain-tsubasa-fei-xiang",
+    "captain-tsubasa-fengas",
+    "captain-tsubasa-fernando-ruiz-blueno",
+    "captain-tsubasa-fersio-torres",
+    "captain-tsubasa-filippo",
+    "captain-tsubasa-filippo-inzars",
+    "captain-tsubasa-francesco",
+    "captain-tsubasa-franco",
+    "captain-tsubasa-franz-schester",
+    "captain-tsubasa-fredericks",
+    "captain-tsubasa-gaalin",
+    "captain-tsubasa-gakuto-igawa",
+    "captain-tsubasa-galtoni",
+    "captain-tsubasa-galvan",
+    "captain-tsubasa-gao-fengde",
+    "captain-tsubasa-garcia",
+    "captain-tsubasa-garella",
+    "captain-tsubasa-garelli",
+    "captain-tsubasa-geites",
+    "captain-tsubasa-gentile-golluvate",
+    "captain-tsubasa-genzo-wakabayashi",
+    "captain-tsubasa-georges",
+    "captain-tsubasa-gino-hernandez",
+    "captain-tsubasa-giuliano",
+    "captain-tsubasa-gomes",
+    "captain-tsubasa-gomez-mexico-youth",
+    "captain-tsubasa-gongels",
+    "captain-tsubasa-hain",
+    "captain-tsubasa-hajime-noguchi",
+    "captain-tsubasa-hajime-taki",
+    "captain-tsubasa-halal",
+    "captain-tsubasa-halin",
+    "captain-tsubasa-hanji-urabe",
+    "captain-tsubasa-hannes",
+    "captain-tsubasa-hans",
+    "captain-tsubasa-hardwig",
+    "captain-tsubasa-haruo-kaneda",
+    "captain-tsubasa-hefner",
+    "captain-tsubasa-hermann-kaltz",
+    "captain-tsubasa-hideto-koike",
+    "captain-tsubasa-hikaru-matsuyama",
+    "captain-tsubasa-hiromichi-hori",
+    "captain-tsubasa-hiroshi-imai",
+    "captain-tsubasa-hiroshi-ishii",
+    "captain-tsubasa-hiroshi-jito",
+    "captain-tsubasa-hiroshi-mukai",
+    "captain-tsubasa-hiroshi-nagano",
+    "captain-tsubasa-hiroshi-tamai",
+    "captain-tsubasa-hisashi-matsuda",
+    "captain-tsubasa-hu-jianliang",
+    "captain-tsubasa-ibn",
+    "captain-tsubasa-ienista",
+    "captain-tsubasa-immel",
+    "captain-tsubasa-inoue-musashi-ms",
+    "captain-tsubasa-inter-juniores-number-10",
+    "captain-tsubasa-inter-juniores-number-2",
+    "captain-tsubasa-inter-juniores-number-5-1",
+    "captain-tsubasa-inter-juniores-number-5-2",
+    "captain-tsubasa-inter-juniores-number-7",
+    "captain-tsubasa-inter-juniores-number-9",
+    "captain-tsubasa-inter-juniores-player-unknown-number-2",
+    "captain-tsubasa-ippei-kobayashi",
+    "captain-tsubasa-isamu-ichijo",
+    "captain-tsubasa-ito-shimada-es",
+    "captain-tsubasa-jahar",
+    "captain-tsubasa-jara",
+    "captain-tsubasa-jean-rust",
+    "captain-tsubasa-jekin",
+    "captain-tsubasa-jiang-shouren",
+    "captain-tsubasa-jorgi",
+    "captain-tsubasa-jorginho",
+    "captain-tsubasa-josep-grandios",
+    "captain-tsubasa-juan-diaz",
+    "captain-tsubasa-jun-misugi",
+    "captain-tsubasa-junichi-nagasaki",
+    "captain-tsubasa-junji-yamada",
+    "captain-tsubasa-karl-heinz-schneider",
+    "captain-tsubasa-karl-heinz-schneider-1983-anime",
+    "captain-tsubasa-katsuji-kawabe",
+    "captain-tsubasa-katsumi-himeji",
+    "captain-tsubasa-kazuaki-soda",
+    "captain-tsubasa-kazuki-sorimachi",
+    "captain-tsubasa-kazumasa-oda",
+    "captain-tsubasa-kazuo-tachibana",
+    "captain-tsubasa-kazuo-takeno",
+    "captain-tsubasa-kazushige-enomoto",
+    "captain-tsubasa-kazutaka-kimura",
+    "captain-tsubasa-kazuya-nakajima",
+    "captain-tsubasa-kazuyasu-onodera",
+    "captain-tsubasa-keiji-kawagoe",
+    "captain-tsubasa-ken-koda",
+    "captain-tsubasa-ken-wakashimazu",
+    "captain-tsubasa-kenichi-iwami",
+    "captain-tsubasa-kentaro-kamata",
+    "captain-tsubasa-kevin-schmidt",
+    "captain-tsubasa-khlestov",
+    "captain-tsubasa-kimio-yoshikura",
+    "captain-tsubasa-kimura-shimada-es",
+    "captain-tsubasa-kiyoshi-furuta",
+    "captain-tsubasa-kiyoshi-sase",
+    "captain-tsubasa-klaus",
+    "captain-tsubasa-kohei-takayanagi",
+    "captain-tsubasa-koichi-fujisawa",
+    "captain-tsubasa-koichi-wakamatsu",
+    "captain-tsubasa-koji-ishikawa",
+    "captain-tsubasa-koji-nakajo",
+    "captain-tsubasa-koji-nishio",
+    "captain-tsubasa-koji-yoshida",
+    "captain-tsubasa-kojiro-hyuga",
+    "captain-tsubasa-komasevic",
+    "captain-tsubasa-kota-aizawa",
+    "captain-tsubasa-kotaro-furukawa",
+    "captain-tsubasa-kotaro-sugawara",
+    "captain-tsubasa-kouman",
+    "captain-tsubasa-kozo-kawada",
+    "captain-tsubasa-kuniaki-narita",
+    "captain-tsubasa-larson",
+    "captain-tsubasa-leandro-sao-paulo",
+    "captain-tsubasa-lindt",
+    "captain-tsubasa-ljung",
+    "captain-tsubasa-lopez",
+    "captain-tsubasa-lopez-1983",
+    "captain-tsubasa-louis-napoleon",
+    "captain-tsubasa-luay",
+    "captain-tsubasa-luciano-leo",
+    "captain-tsubasa-luikal",
+    "captain-tsubasa-luis-enpoli",
+    "captain-tsubasa-luis-fago",
+    "captain-tsubasa-magath",
+    "captain-tsubasa-makoto-soda",
+    "captain-tsubasa-mamoru-izawa",
+    "captain-tsubasa-manabu-okawa",
+    "captain-tsubasa-manfred-margus",
+    "captain-tsubasa-marcel",
+    "captain-tsubasa-marcio",
+    "captain-tsubasa-marco-banchi",
+    "captain-tsubasa-marco-torino",
+    "captain-tsubasa-marcos-almieja",
+    "captain-tsubasa-mario-1983",
+    "captain-tsubasa-mario-goethe",
+    "captain-tsubasa-mark-owairan",
+    "captain-tsubasa-masaki-yoshikawa",
+    "captain-tsubasa-masanori-kato",
+    "captain-tsubasa-masanori-kitagawa",
+    "captain-tsubasa-masao-nakayama",
+    "captain-tsubasa-masao-tachibana",
+    "captain-tsubasa-masashi-matsumoto",
+    "captain-tsubasa-masato-nakazato",
+    "captain-tsubasa-masatsugu-nakagawa",
+    "captain-tsubasa-masayuki-jinbo",
+    "captain-tsubasa-mateo",
+    "captain-tsubasa-matteo",
+    "captain-tsubasa-max",
+    "captain-tsubasa-mayer-hamburg-jr-youth",
+    "captain-tsubasa-medina",
+    "captain-tsubasa-meyer",
+    "captain-tsubasa-michael",
+    "captain-tsubasa-michel-ferreri",
+    "captain-tsubasa-michel-yamada",
+    "captain-tsubasa-mild",
+    "captain-tsubasa-milews",
+    "captain-tsubasa-minoru-honma",
+    "captain-tsubasa-mitsuo-hashimoto",
+    "captain-tsubasa-mitsuru-ide",
+    "captain-tsubasa-mitsuru-sano",
+    "captain-tsubasa-moelders",
+    "captain-tsubasa-montana",
+    "captain-tsubasa-moriyama",
+    "captain-tsubasa-motoharu-nagano",
+    "captain-tsubasa-nakamoto-shutetsu-es",
+    "captain-tsubasa-naoki-uesugi",
+    "captain-tsubasa-napa",
+    "captain-tsubasa-nassar",
+    "captain-tsubasa-natureza",
+    "captain-tsubasa-nazarov",
+    "captain-tsubasa-neto-o",
+    "captain-tsubasa-nicol",
+    "captain-tsubasa-nilsson",
+    "captain-tsubasa-nishiyama",
+    "captain-tsubasa-noboru-sawaki",
+    "captain-tsubasa-nobuo-aimoto",
+    "captain-tsubasa-nobuyuki-yumikura",
+    "captain-tsubasa-norio-nakamura",
+    "captain-tsubasa-olivares",
+    "captain-tsubasa-osamu-kido",
+    "captain-tsubasa-overus",
+    "captain-tsubasa-palus",
+    "captain-tsubasa-passaro",
+    "captain-tsubasa-payol",
+    "captain-tsubasa-pazu",
+    "captain-tsubasa-pedro",
+    "captain-tsubasa-pedro-fonseca",
+    "captain-tsubasa-peng-fuyi",
+    "captain-tsubasa-pepe",
+    "captain-tsubasa-pessota",
+    "captain-tsubasa-pinto",
+    "captain-tsubasa-popov",
+    "captain-tsubasa-radchenko",
+    "captain-tsubasa-radunga",
+    "captain-tsubasa-rail",
+    "captain-tsubasa-ramon-victorino",
+    "captain-tsubasa-raphael",
+    "captain-tsubasa-rashid",
+    "captain-tsubasa-ravelli",
+    "captain-tsubasa-rechard",
+    "captain-tsubasa-rehn",
+    "captain-tsubasa-ricardo-espadas",
+    "captain-tsubasa-richard",
+    "captain-tsubasa-rivaul",
+    "captain-tsubasa-rivera",
+    "captain-tsubasa-roberto-carolus",
+    "captain-tsubasa-rodriguez",
+    "captain-tsubasa-ruggeri",
+    "captain-tsubasa-ruzimov",
+    "captain-tsubasa-ryo-ishizaki",
+    "captain-tsubasa-ryo-shirai",
+    "captain-tsubasa-ryoichi-sano",
+    "captain-tsubasa-ryoma-hino",
+    "captain-tsubasa-ryota-kojima",
+    "captain-tsubasa-ryota-tsuji",
+    "captain-tsubasa-sakun-khongsawat",
+    "captain-tsubasa-salenko",
+    "captain-tsubasa-salinas",
+    "captain-tsubasa-salvatore-gentile",
+    "captain-tsubasa-sandro",
+    "captain-tsubasa-sao-paulo-fc-number-1",
+    "captain-tsubasa-sao-paulo-fc-number-2",
+    "captain-tsubasa-sao-paulo-fc-number-3",
+    "captain-tsubasa-sao-paulo-fc-number-8",
+    "captain-tsubasa-sao-paulo-fc-player-unknown-number",
+    "captain-tsubasa-savishe",
+    "captain-tsubasa-schmidt-1983",
+    "captain-tsubasa-schweil-teigerbran",
+    "captain-tsubasa-seiji-kanda",
+    "captain-tsubasa-sembero",
+    "captain-tsubasa-senardo",
+    "captain-tsubasa-sergio-sao-paulo",
+    "captain-tsubasa-shimada-shutetsu-es",
+    "captain-tsubasa-shingo-aoi",
+    "captain-tsubasa-shingo-tadami",
+    "captain-tsubasa-shingo-takasugi",
+    "captain-tsubasa-shinichi-sakamoto",
+    "captain-tsubasa-shinji-morisue",
+    "captain-tsubasa-shinji-noda",
+    "captain-tsubasa-shinji-sanada",
+    "captain-tsubasa-shinnosuke-kazami",
+    "captain-tsubasa-sho-oizumi",
+    "captain-tsubasa-shogo-yamamori",
+    "captain-tsubasa-shohei-mihashi",
+    "captain-tsubasa-shuichi-yamamuro",
+    "captain-tsubasa-shun-nitta",
+    "captain-tsubasa-silva",
+    "captain-tsubasa-simeore",
+    "captain-tsubasa-singprasert-bunnag",
+    "captain-tsubasa-somrit",
+    "captain-tsubasa-stefan-levin",
+    "captain-tsubasa-stein",
+    "captain-tsubasa-steve",
+    "captain-tsubasa-suarez",
+    "captain-tsubasa-susumu-honda",
+    "captain-tsubasa-tacchinardini",
+    "captain-tsubasa-tachibana-twins",
+    "captain-tsubasa-tadashi-shimano",
+    "captain-tsubasa-taichi-nakanishi",
+    "captain-tsubasa-takahashi-shimada-es",
+    "captain-tsubasa-takashi-nakamura",
+    "captain-tsubasa-takashi-sugimoto",
+    "captain-tsubasa-takayuki-shiota",
+    "captain-tsubasa-takeshi-kishida",
+    "captain-tsubasa-takeshi-sawada",
+    "captain-tsubasa-takuya-fukutani",
+    "captain-tsubasa-tanaka-naniwa-fc",
+    "captain-tsubasa-tardelli",
+    "captain-tsubasa-taro-misaki",
+    "captain-tsubasa-tatsuya-hayashi",
+    "captain-tsubasa-tatsuya-tazawa",
+    "captain-tsubasa-tawan",
+    "captain-tsubasa-teppei-kisugi",
+    "captain-tsubasa-tetradze",
+    "captain-tsubasa-tetsuji-murasawa",
+    "captain-tsubasa-tetsuya-marui",
+    "captain-tsubasa-thoma",
+    "captain-tsubasa-tomeya-akai",
+    "captain-tsubasa-tonoike",
+    "captain-tsubasa-toru-hiraoka",
+    "captain-tsubasa-toru-nakai",
+    "captain-tsubasa-toshio-akisawa",
+    "captain-tsubasa-toshiya-okano",
+    "captain-tsubasa-toshiyuki-takagi",
+    "captain-tsubasa-tresaga",
+    "captain-tsubasa-tsubasa-ozora",
+    "captain-tsubasa-tsuneo-takashima",
+    "captain-tsubasa-tsutomu-nagaoka",
+    "captain-tsubasa-tsuyoshi-kondo",
+    "captain-tsubasa-tsuyoshi-oda",
+    "captain-tsubasa-uchida",
+    "captain-tsubasa-vaalen-voort",
+    "captain-tsubasa-valtes",
+    "captain-tsubasa-varon",
+    "captain-tsubasa-vulcan",
+    "captain-tsubasa-wacharapong",
+    "captain-tsubasa-wang-zhongming",
+    "captain-tsubasa-wikipedia-michel-platini",
+    "captain-tsubasa-wikipedia-roberto-baggio",
+    "captain-tsubasa-wu-junren",
+    "captain-tsubasa-xavii",
+    "captain-tsubasa-xiao-junguang",
+    "captain-tsubasa-xie-xuedong",
+    "captain-tsubasa-xu-guangzhi",
+    "captain-tsubasa-yamashiro",
+    "captain-tsubasa-yamashita-naniwa-fc",
+    "captain-tsubasa-yasuaki-murasawa",
+    "captain-tsubasa-yohei-kuramochi",
+    "captain-tsubasa-yohei-maeda",
+    "captain-tsubasa-yoshida-musashi-ms",
+    "captain-tsubasa-yoshiharu-ono",
+    "captain-tsubasa-yuichi-suenaga",
+    "captain-tsubasa-yuichiro-daimaru",
+    "captain-tsubasa-yuji-kawaguchi",
+    "captain-tsubasa-yuji-sakaki",
+    "captain-tsubasa-yuji-soga",
+    "captain-tsubasa-yuta-ogami",
+    "captain-tsubasa-yuta-takeda",
+    "captain-tsubasa-yutaka-matsuki",
+    "captain-tsubasa-yuzo-morisaki",
+    "captain-tsubasa-zangiev",
+    "captain-tsubasa-zaragoza",
+    "captain-tsubasa-zedane"
+  ],
+  "missing": [
+    {
+      "characterKey": "captain-tsubasa-pinto",
+      "name": "Pinto",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-inter-juniores-number-2",
+      "name": "Giovanni Panun",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-gomes",
+      "name": "Renardo Gomes",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-inter-juniores-number-9",
+      "name": "Gesto Bobasti",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-inter-juniores-player-unknown-number-2",
+      "name": "Otello Caruanno",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-inter-juniores-number-5-2",
+      "name": "Samuele Caricone",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-inter-juniores-number-5-1",
+      "name": "Nicola Olmetzuer",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-inter-juniores-number-10",
+      "name": "Wittore Lensi",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-franco",
+      "name": "Paolo Framenco",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-inter-juniores-number-7",
+      "name": "Michela Lauracci",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-wikipedia-michel-platini",
+      "name": "Michel Platini",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-wikipedia-roberto-baggio",
+      "name": "Roberto Baggio",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-vaalen-voort",
+      "name": "Vaalen Voort",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-esnander",
+      "name": "Esnander",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-daniel-costa",
+      "name": "Daniel Costa",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-tacchinardini",
+      "name": "Tacchinardini",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-pessota",
+      "name": "Pessota",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-komasevic",
+      "name": "Komasevic",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-marco-banchi",
+      "name": "Marco Banchi",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-senardo",
+      "name": "Senardo",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-jorgi",
+      "name": "Jorgi",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-branca",
+      "name": "Branca",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-stein",
+      "name": "Stein",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-hardwig",
+      "name": "Hardwig",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-meyer",
+      "name": "Meyer",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-magath",
+      "name": "Magath",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-milews",
+      "name": "Milews",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-hans",
+      "name": "Hans",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-kenichi-iwami",
+      "name": "Kenichi Iwami",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-de-gaulle",
+      "name": "De Gaulle",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-jean-rust",
+      "name": "Jean Rust",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-bergerus",
+      "name": "Bergerus",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-marcel",
+      "name": "Marcel",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-bravo",
+      "name": "Bravo",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-michel-ferreri",
+      "name": "Michel Ferreri",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-georges",
+      "name": "Georges",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-montana",
+      "name": "Montana",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-belmondo",
+      "name": "Belmondo",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-borghi",
+      "name": "Borghi",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-yuji-kawaguchi",
+      "name": "Yuji Kawaguchi",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-toshiyuki-takagi",
+      "name": "Toshiyuki Takagi",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-hiroshi-ishii",
+      "name": "Hiroshi Ishii",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-keiji-kawagoe",
+      "name": "Keiji Kawagoe",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-kazushige-enomoto",
+      "name": "Kazushige Enomoto",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-shogo-yamamori",
+      "name": "Shogo Yamamori",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-sembero",
+      "name": "Sembero",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-passaro",
+      "name": "Passaro",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-ruggeri",
+      "name": "Ruggeri",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-geites",
+      "name": "Geites",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-palus",
+      "name": "Palus",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-brown",
+      "name": "Brown",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-shimada-shutetsu-es",
+      "name": "Shimada",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-nakamoto-shutetsu-es",
+      "name": "Nakamoto",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-xu-guangzhi",
+      "name": "Xu Guangzhi",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-gao-fengde",
+      "name": "Gao Fengde",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-cao-jingjiang",
+      "name": "Cao Jingjiang",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-fan-yueyong",
+      "name": "Fan Yueyong",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-xie-xuedong",
+      "name": "Xie Xuedong",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-peng-fuyi",
+      "name": "Peng Fuyi",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-jiang-shouren",
+      "name": "Jiang Shouren",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-hu-jianliang",
+      "name": "Hu Jianliang",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-mayer-hamburg-jr-youth",
+      "name": "Mayer",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-hannes",
+      "name": "Hannes",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-briegel",
+      "name": "Briegel",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-jara",
+      "name": "Jara",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-lindt",
+      "name": "Lindt",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-immel",
+      "name": "Immel",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-gongels",
+      "name": "Gongels",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-klaus",
+      "name": "Klaus",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-kimio-yoshikura",
+      "name": "Kimio Yoshikura",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-ken-koda",
+      "name": "Ken Koda",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-yuta-takeda",
+      "name": "Yuta Takeda",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-norio-nakamura",
+      "name": "Norio Nakamura",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-yasuaki-murasawa",
+      "name": "Yasuaki Murasawa",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-takayuki-shiota",
+      "name": "Takayuki Shiota",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-hiroshi-tamai",
+      "name": "Hiroshi Tamai",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-yuichiro-daimaru",
+      "name": "Yuichiro Daimaru",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-tatsuya-tazawa",
+      "name": "Tatsuya Tazawa",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-seiji-kanda",
+      "name": "Seiji Kanda",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-daisuke-yamamoto",
+      "name": "Daisuke Yamamoto",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-ryoichi-sano",
+      "name": "Ryoichi Sano",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-osamu-kido",
+      "name": "Osamu Kido",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-kazuya-nakajima",
+      "name": "Kazuya Nakajima",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-hiroshi-mukai",
+      "name": "Hiroshi Mukai",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-ryota-kojima",
+      "name": "Ryota Kojima",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-diayea",
+      "name": "Diayea",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-fatia",
+      "name": "Fatia",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-amudin",
+      "name": "Amudin",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-jahar",
+      "name": "Jahar",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-rashid",
+      "name": "Rashid",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-ibn",
+      "name": "Ibn",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-fatalah",
+      "name": "Fatalah",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-nassar",
+      "name": "Nassar",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-luay",
+      "name": "Luay",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-halal",
+      "name": "Halal",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-rodriguez",
+      "name": "Rodriguez",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-conzales",
+      "name": "Conzales",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-olivares",
+      "name": "Olivares",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-amerigo",
+      "name": "Amerigo",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-filippo",
+      "name": "Filippo",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-pedro",
+      "name": "Pedro",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-dionisi",
+      "name": "Dionisi",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-fengas",
+      "name": "Fengas",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-enrico",
+      "name": "Enrico",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-garella",
+      "name": "Garella",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-daigo-sasaki",
+      "name": "Daigo Sasaki",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-koji-yoshida",
+      "name": "Koji Yoshida",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-shohei-mihashi",
+      "name": "Shohei Mihashi",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-junji-yamada",
+      "name": "Junji Yamada",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-yohei-kuramochi",
+      "name": "Yohei Kuramochi",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-toru-nakai",
+      "name": "Toru Nakai",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-tatsuya-hayashi",
+      "name": "Tatsuya Hayashi",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-kazuyasu-onodera",
+      "name": "Kazuyasu Onodera",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-kentaro-kamata",
+      "name": "Kentaro Kamata",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-tsuyoshi-kondo",
+      "name": "Tsuyoshi Kondo",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-susumu-honda",
+      "name": "Susumu Honda",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-masatsugu-nakagawa",
+      "name": "Masatsugu Nakagawa",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-kiyoshi-sase",
+      "name": "Kiyoshi Sase",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-ippei-kobayashi",
+      "name": "Ippei Kobayashi",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-kazutaka-kimura",
+      "name": "Kazutaka Kimura",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-masanori-kitagawa",
+      "name": "Masanori Kitagawa",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-takuya-fukutani",
+      "name": "Takuya Fukutani",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-kotaro-sugawara",
+      "name": "Kotaro Sugawara",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-sho-oizumi",
+      "name": "Sho Oizumi",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-masashi-matsumoto",
+      "name": "Masashi Matsumoto",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-kota-aizawa",
+      "name": "Kota Aizawa",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-hajime-noguchi",
+      "name": "Hajime Noguchi",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-akira-hatakeyama",
+      "name": "Akira Hatakeyama",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-toshio-akisawa",
+      "name": "Toshio Akisawa",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-shinji-noda",
+      "name": "Shinji Noda",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-kazuo-takeno",
+      "name": "Kazuo Takeno",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-tsutomu-nagaoka",
+      "name": "Tsutomu Nagaoka",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-shinji-morisue",
+      "name": "Shinji Morisue",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-kazuaki-soda",
+      "name": "Kazuaki Soda",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-koji-nakajo",
+      "name": "Koji Nakajo",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-katsumi-himeji",
+      "name": "Katsumi Himeji",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-dimos-marinio",
+      "name": "Dimos Marinio",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-bassarello",
+      "name": "Bassarello",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-marco-torino",
+      "name": "Marco Torino",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-federico",
+      "name": "Federico",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-francesco",
+      "name": "Francesco",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-mateo",
+      "name": "Mateo",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-andrea",
+      "name": "Andrea",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-tetsuji-murasawa",
+      "name": "Tetsuji Murasawa",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-yuichi-suenaga",
+      "name": "Yuichi Suenaga",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-medina",
+      "name": "Medina",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-gomez-mexico-youth",
+      "name": "Gomez",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-carvajal",
+      "name": "Carvajal",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-rivera",
+      "name": "Rivera",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-espino",
+      "name": "Espino",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-moriyama",
+      "name": "Moriyama",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-yoshida-musashi-ms",
+      "name": "Yoshida",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-inoue-musashi-ms",
+      "name": "Inoue",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-nishiyama",
+      "name": "Nishiyama",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-yohei-maeda",
+      "name": "Yohei Maeda",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-yamashiro",
+      "name": "Yamashiro",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-tonoike",
+      "name": "Tonoike",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-yamashita-naniwa-fc",
+      "name": "Yamashita",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-tanaka-naniwa-fc",
+      "name": "Tanaka",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-ryo-shirai",
+      "name": "Ryo Shirai",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-yuta-ogami",
+      "name": "Yuta Ogami",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-kohei-takayanagi",
+      "name": "Kohei Takayanagi",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-uchida",
+      "name": "Uchida",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-tetsuya-marui",
+      "name": "Tetsuya Marui",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-masaki-yoshikawa",
+      "name": "Masaki Yoshikawa",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-kozo-kawada",
+      "name": "Kozo Kawada",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-toru-hiraoka",
+      "name": "Toru Hiraoka",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-shingo-tadami",
+      "name": "Shingo Tadami",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-akio-nakao",
+      "name": "Akio Nakao",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-sao-paulo-fc-number-1",
+      "name": "Alfredo Leoradore",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-sao-paulo-fc-number-2",
+      "name": "Bruno Marcel",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-sao-paulo-fc-player-unknown-number",
+      "name": "Donaldo Sauber",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-sao-paulo-fc-number-3",
+      "name": "Gerardo Luci",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-antoni",
+      "name": "Gabriel Antoni",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-sergio-sao-paulo",
+      "name": "Franco Sergio",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-sao-paulo-fc-number-8",
+      "name": "Ricardo Tafrel",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-jorginho",
+      "name": "Samueli Jorginho",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-leandro-sao-paulo",
+      "name": "Valeria Leandro",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-sandro",
+      "name": "Leao Sandro",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-etsuo-nagai",
+      "name": "Etsuo Nagai",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-ito-shimada-es",
+      "name": "Ito",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-koichi-fujisawa",
+      "name": "Koichi Fujisawa",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-takahashi-shimada-es",
+      "name": "Takahashi",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-kimura-shimada-es",
+      "name": "Kimura",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-koji-ishikawa",
+      "name": "Koji Ishikawa",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-takashi-nakamura",
+      "name": "Takashi Nakamura",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-masayuki-jinbo",
+      "name": "Masayuki Jinbo",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-mitsuo-hashimoto",
+      "name": "Mitsuo Hashimoto",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-naoki-uesugi",
+      "name": "Naoki Uesugi",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-garelli",
+      "name": "Garelli",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-mild",
+      "name": "Mild",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-thoma",
+      "name": "Thoma",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-nilsson",
+      "name": "Nilsson",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-rehn",
+      "name": "Rehn",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-ljung",
+      "name": "Ljung",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-ravelli",
+      "name": "Ravelli",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-wacharapong",
+      "name": "Wacharapong",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-chawatana",
+      "name": "Chawatana",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-chatchai",
+      "name": "Chatchai",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-napa",
+      "name": "Napa",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-somrit",
+      "name": "Somrit",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-chalermsri",
+      "name": "Chalermsri",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-tawan",
+      "name": "Tawan",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-khlestov",
+      "name": "Khlestov",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-nazarov",
+      "name": "Nazarov",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-radchenko",
+      "name": "Radchenko",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-jekin",
+      "name": "Jekin",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-ruzimov",
+      "name": "Ruzimov",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-tetradze",
+      "name": "Tetradze",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-gaalin",
+      "name": "Gaalin",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-salenko",
+      "name": "Salenko",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-popov",
+      "name": "Popov",
+      "reason": "Error: No page image"
+    },
+    {
+      "characterKey": "captain-tsubasa-halin",
+      "name": "Halin",
+      "reason": "Error: No page image"
+    }
+  ],
+  "attribution": [
+    {
+      "characterKey": "blue-lock-yoichi-isagi",
+      "name": "Yoichi Isagi",
+      "wiki": "https://bluelock.fandom.com/wiki/Yoichi_Isagi",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/3/39/Yoichi_Isagi.png/revision/latest/scale-to-width-down/556?cb=20260404103354"
+    },
+    {
+      "characterKey": "blue-lock-meguru-bachira",
+      "name": "Meguru Bachira",
+      "wiki": "https://bluelock.fandom.com/wiki/Meguru_Bachira",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/f/f5/Meguru_Bachira.png/revision/latest/scale-to-width-down/556?cb=20221203161437"
+    },
+    {
+      "characterKey": "blue-lock-rensuke-kunigami",
+      "name": "Rensuke Kunigami",
+      "wiki": "https://bluelock.fandom.com/wiki/Rensuke_Kunigami",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/8/87/Rensuke_Kunigami.png/revision/latest?cb=20230624221938"
+    },
+    {
+      "characterKey": "blue-lock-hyoma-chigiri",
+      "name": "Hyoma Chigiri",
+      "wiki": "https://bluelock.fandom.com/wiki/Hyoma_Chigiri",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/f/f5/Hyoma_Chigiri.png/revision/latest/scale-to-width-down/556?cb=20221203160214"
+    },
+    {
+      "characterKey": "blue-lock-gin-gagamaru",
+      "name": "Gin Gagamaru",
+      "wiki": "https://bluelock.fandom.com/wiki/Gin_Gagamaru",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/7/79/Gin_Gagamaru.png/revision/latest/scale-to-width-down/554?cb=20251221133926"
+    },
+    {
+      "characterKey": "blue-lock-jingo-raichi",
+      "name": "Jingo Raichi",
+      "wiki": "https://bluelock.fandom.com/wiki/Jingo_Raichi",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/5/5c/Jingo_Raichi.png/revision/latest?cb=20191027105206"
+    },
+    {
+      "characterKey": "blue-lock-gurimu-igarashi",
+      "name": "Gurimu Igarashi",
+      "wiki": "https://bluelock.fandom.com/wiki/Gurimu_Igarashi",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/a/aa/Gurimu_Igarashi.png/revision/latest?cb=20191027123656"
+    },
+    {
+      "characterKey": "blue-lock-wataru-kuon",
+      "name": "Wataru Kuon",
+      "wiki": "https://bluelock.fandom.com/wiki/Wataru_Kuon",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/e/ed/Wataru_Kuon.png/revision/latest?cb=20191027123530"
+    },
+    {
+      "characterKey": "blue-lock-asahi-naruhaya",
+      "name": "Asahi Naruhaya",
+      "wiki": "https://bluelock.fandom.com/wiki/Asahi_Naruhaya",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/8/89/Asahi_Naruhaya.png/revision/latest?cb=20191027141712"
+    },
+    {
+      "characterKey": "blue-lock-yudai-imamura",
+      "name": "Yudai Imamura",
+      "wiki": "https://bluelock.fandom.com/wiki/Yudai_Imamura",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/2/2e/Yudai_Imamura.png/revision/latest?cb=20191027114353"
+    },
+    {
+      "characterKey": "blue-lock-okuhito-iemon",
+      "name": "Okuhito Iemon",
+      "wiki": "https://bluelock.fandom.com/wiki/Okuhito_Iemon",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/8/83/Okuhito_Iemon.png/revision/latest?cb=20191027104730"
+    },
+    {
+      "characterKey": "blue-lock-shoei-baro",
+      "name": "Shoei Baro",
+      "wiki": "https://bluelock.fandom.com/wiki/Shoei_Baro",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/f/f0/Shoei_Baro.png/revision/latest/scale-to-width-down/556?cb=20221204031547"
+    },
+    {
+      "characterKey": "blue-lock-yuza-dokomo",
+      "name": "Yuza Dokomo",
+      "wiki": "https://bluelock.fandom.com/wiki/Yuza_Dokomo",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/e/e8/Yuza_Dokomo.png/revision/latest?cb=20230606135040"
+    },
+    {
+      "characterKey": "blue-lock-burai-daido",
+      "name": "Burai Daido",
+      "wiki": "https://bluelock.fandom.com/wiki/Burai_Daido",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/9/9f/Burai_Daido.png/revision/latest?cb=20230606135258"
+    },
+    {
+      "characterKey": "blue-lock-rian-sanga",
+      "name": "Rian Sanga",
+      "wiki": "https://bluelock.fandom.com/wiki/Rian_Sanga",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/7/7e/Rian_Sanga.png/revision/latest?cb=20230606135455"
+    },
+    {
+      "characterKey": "blue-lock-kosei-otsuka",
+      "name": "Kosei Otsuka",
+      "wiki": "https://bluelock.fandom.com/wiki/Kosei_Otsuka",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/7/76/Kosei_Otsuka.png/revision/latest?cb=20230606135639"
+    },
+    {
+      "characterKey": "blue-lock-ruto-kora",
+      "name": "Ruto Kora",
+      "wiki": "https://bluelock.fandom.com/wiki/Ruto_Kora",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/9/9e/Ruto_Kora.png/revision/latest?cb=20230606135819"
+    },
+    {
+      "characterKey": "blue-lock-daiya-morinaga",
+      "name": "Daiya Morinaga",
+      "wiki": "https://bluelock.fandom.com/wiki/Daiya_Morinaga",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/1/16/Daiya_Morinaga.png/revision/latest?cb=20230606135949"
+    },
+    {
+      "characterKey": "blue-lock-chihiro-ezaki",
+      "name": "Chihiro Ezaki",
+      "wiki": "https://bluelock.fandom.com/wiki/Chihiro_Ezaki",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/f/f8/Chihiro_Ezaki.png/revision/latest?cb=20230606140118"
+    },
+    {
+      "characterKey": "blue-lock-tsukoteru-eiyu",
+      "name": "Tsukoteru Eiyu",
+      "wiki": "https://bluelock.fandom.com/wiki/Tsukoteru_Eiyu",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/9/9c/Tsukoteru_Eiyu.png/revision/latest?cb=20230606140315"
+    },
+    {
+      "characterKey": "blue-lock-haato-meiji",
+      "name": "Haato Meiji",
+      "wiki": "https://bluelock.fandom.com/wiki/Haato_Meiji",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/d/d2/Haato_Meiji.png/revision/latest/scale-to-width-down/640?cb=20230606140646"
+    },
+    {
+      "characterKey": "blue-lock-yawara-banku",
+      "name": "Yawara Banku",
+      "wiki": "https://bluelock.fandom.com/wiki/Yawara_Banku",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/5/5c/Yawara_Banku.png/revision/latest?cb=20230606140857"
+    },
+    {
+      "characterKey": "blue-lock-hibiki-okawa",
+      "name": "Hibiki Okawa",
+      "wiki": "https://bluelock.fandom.com/wiki/Hibiki_Okawa",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/b/bc/Hibiki_Okawa.png/revision/latest?cb=20191027105955"
+    },
+    {
+      "characterKey": "blue-lock-ikki-niko",
+      "name": "Ikki Niko",
+      "wiki": "https://bluelock.fandom.com/wiki/Ikki_Niko",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/a/a4/Ikki_Niko.png/revision/latest/scale-to-width-down/556?cb=20221203161601"
+    },
+    {
+      "characterKey": "blue-lock-ashime-suzuki",
+      "name": "Ashime Suzuki",
+      "wiki": "https://bluelock.fandom.com/wiki/Ashime_Suzuki",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/9/9c/Ashime_Suzuki.png/revision/latest?cb=20230605171754"
+    },
+    {
+      "characterKey": "blue-lock-hyuga-koshiba",
+      "name": "Hyuga Koshiba",
+      "wiki": "https://bluelock.fandom.com/wiki/Hyuga_Koshiba",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/9/93/Hyuga_Koshiba.png/revision/latest/scale-to-width-down/640?cb=20230605172014"
+    },
+    {
+      "characterKey": "blue-lock-mareto-takeyama",
+      "name": "Mareto Takeyama",
+      "wiki": "https://bluelock.fandom.com/wiki/Mareto_Takeyama",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/3/30/Mareto_Takeyama.png/revision/latest?cb=20230605172147"
+    },
+    {
+      "characterKey": "blue-lock-soshi-kagura",
+      "name": "Soshi Kagura",
+      "wiki": "https://bluelock.fandom.com/wiki/Soshi_Kagura",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/e/e6/Soshi_Kagura.png/revision/latest/scale-to-width-down/640?cb=20230605172329"
+    },
+    {
+      "characterKey": "blue-lock-juraki-ito",
+      "name": "Juraki Ito",
+      "wiki": "https://bluelock.fandom.com/wiki/Juraki_Ito",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/2/2a/Juraki_Ito.png/revision/latest?cb=20230605172531"
+    },
+    {
+      "characterKey": "blue-lock-fuma-rokkaku",
+      "name": "Fuma Rokkaku",
+      "wiki": "https://bluelock.fandom.com/wiki/Fuma_Rokkaku",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/f/f1/Fuma_Rokkaku.png/revision/latest?cb=20230605172702"
+    },
+    {
+      "characterKey": "blue-lock-shinichi-konan",
+      "name": "Shinichi Konan",
+      "wiki": "https://bluelock.fandom.com/wiki/Shinichi_Konan",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/a/af/Shinichi_Konan.png/revision/latest?cb=20230605172844"
+    },
+    {
+      "characterKey": "blue-lock-iori-sato",
+      "name": "Iori Sato",
+      "wiki": "https://bluelock.fandom.com/wiki/Iori_Sato",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/0/05/Iori_Sato.png/revision/latest?cb=20230605173016"
+    },
+    {
+      "characterKey": "blue-lock-tobio-madoka",
+      "name": "Tobio Madoka",
+      "wiki": "https://bluelock.fandom.com/wiki/Tobio_Madoka",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/1/1f/Tobio_Madoka.png/revision/latest?cb=20230605173131"
+    },
+    {
+      "characterKey": "blue-lock-keisuke-wanima",
+      "name": "Keisuke Wanima",
+      "wiki": "https://bluelock.fandom.com/wiki/Keisuke_Wanima",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/a/a6/Keisuke_Wanima.png/revision/latest?cb=20191027122038"
+    },
+    {
+      "characterKey": "blue-lock-junichi-wanima",
+      "name": "Junichi Wanima",
+      "wiki": "https://bluelock.fandom.com/wiki/Junichi_Wanima",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/2/2b/Junichi_Wanima.png/revision/latest?cb=20191027122057"
+    },
+    {
+      "characterKey": "blue-lock-kei-shishiya",
+      "name": "Kei Shishiya",
+      "wiki": "https://bluelock.fandom.com/wiki/Kei_Shishiya",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/c/c4/Kei_Shishiya.png/revision/latest?cb=20230605222111"
+    },
+    {
+      "characterKey": "blue-lock-hiromu-munakata",
+      "name": "Hiromu Munakata",
+      "wiki": "https://bluelock.fandom.com/wiki/Hiromu_Munakata",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/8/85/Hiromu_Munakata.png/revision/latest?cb=20230605222247"
+    },
+    {
+      "characterKey": "blue-lock-yusei-amazora",
+      "name": "Yusei Amazora",
+      "wiki": "https://bluelock.fandom.com/wiki/Yusei_Amazora",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/4/4c/Yusei_Amazora.png/revision/latest/scale-to-width-down/640?cb=20230605222457"
+    },
+    {
+      "characterKey": "blue-lock-takuma-isezaki",
+      "name": "Takuma Isezaki",
+      "wiki": "https://bluelock.fandom.com/wiki/Takuma_Isezaki",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/e/ea/Takuma_Isezaki.png/revision/latest?cb=20230605222631"
+    },
+    {
+      "characterKey": "blue-lock-raito-fuwa",
+      "name": "Raito Fuwa",
+      "wiki": "https://bluelock.fandom.com/wiki/Raito_Fuwa",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/6/65/Raito_Fuwa.png/revision/latest/scale-to-width-down/640?cb=20230605222759"
+    },
+    {
+      "characterKey": "blue-lock-noboru-jigen",
+      "name": "Noboru Jigen",
+      "wiki": "https://bluelock.fandom.com/wiki/Noboru_Jigen",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/3/35/Noboru_Jigen.png/revision/latest?cb=20230605222942"
+    },
+    {
+      "characterKey": "blue-lock-koki-mera",
+      "name": "Koki Mera",
+      "wiki": "https://bluelock.fandom.com/wiki/Koki_Mera",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/8/8f/Koki_Mera.png/revision/latest/scale-to-width-down/640?cb=20230605223114"
+    },
+    {
+      "characterKey": "blue-lock-kai-tokita",
+      "name": "Kai Tokita",
+      "wiki": "https://bluelock.fandom.com/wiki/Kai_Tokita",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/3/34/Kai_Tokita.png/revision/latest/scale-to-width-down/640?cb=20230605223244"
+    },
+    {
+      "characterKey": "blue-lock-yujin-koshinaka",
+      "name": "Yujin Koshinaka",
+      "wiki": "https://bluelock.fandom.com/wiki/Yujin_Koshinaka",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/0/0f/Yujin_Koshinaka.png/revision/latest?cb=20230605223430"
+    },
+    {
+      "characterKey": "blue-lock-zantetsu-tsurugi",
+      "name": "Zantetsu Tsurugi",
+      "wiki": "https://bluelock.fandom.com/wiki/Zantetsu_Tsurugi",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/3/39/Zantetsu_Tsurugi.png/revision/latest?cb=20200404091724"
+    },
+    {
+      "characterKey": "blue-lock-reo-mikage",
+      "name": "Reo Mikage",
+      "wiki": "https://bluelock.fandom.com/wiki/Reo_Mikage",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/4/40/Reo_Mikage.png/revision/latest/scale-to-width-down/556?cb=20221204031346"
+    },
+    {
+      "characterKey": "blue-lock-seishiro-nagi",
+      "name": "Seishiro Nagi",
+      "wiki": "https://bluelock.fandom.com/wiki/Seishiro_Nagi",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/c/c9/Seishiro_Nagi.png/revision/latest/scale-to-width-down/556?cb=20221203160116"
+    },
+    {
+      "characterKey": "blue-lock-sota-nemoto",
+      "name": "Sota Nemoto",
+      "wiki": "https://bluelock.fandom.com/wiki/Sota_Nemoto",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/e/e7/Sota_Nemoto.png/revision/latest/scale-to-width-down/640?cb=20230605154800"
+    },
+    {
+      "characterKey": "blue-lock-shuhei-ebina",
+      "name": "Shuhei Ebina",
+      "wiki": "https://bluelock.fandom.com/wiki/Shuhei_Ebina",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/f/f9/Shuhei_Ebina.png/revision/latest?cb=20230605155228"
+    },
+    {
+      "characterKey": "blue-lock-masumi-atatame",
+      "name": "Masumi Atatame",
+      "wiki": "https://bluelock.fandom.com/wiki/Masumi_Atatame",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/f/ff/Masumi_Atatame.png/revision/latest?cb=20230605155406"
+    },
+    {
+      "characterKey": "blue-lock-kisaburo-hijikata",
+      "name": "Kisaburo Hijikata",
+      "wiki": "https://bluelock.fandom.com/wiki/Kisaburo_Hijikata",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/c/cc/Kisaburo_Hijikata.png/revision/latest/scale-to-width-down/640?cb=20230605155628"
+    },
+    {
+      "characterKey": "blue-lock-kanji-torikai",
+      "name": "Kanji Torikai",
+      "wiki": "https://bluelock.fandom.com/wiki/Kanji_Torikai",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/d/de/Kanji_Torikai.png/revision/latest?cb=20230605155818"
+    },
+    {
+      "characterKey": "blue-lock-hirakazu-midorikawa",
+      "name": "Hirakazu Midorikawa",
+      "wiki": "https://bluelock.fandom.com/wiki/Hirakazu_Midorikawa",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/a/a9/Hirakazu_Midorikawa.png/revision/latest/scale-to-width-down/640?cb=20230605160030"
+    },
+    {
+      "characterKey": "blue-lock-retsu-nerima",
+      "name": "Retsu Nerima",
+      "wiki": "https://bluelock.fandom.com/wiki/Retsu_Nerima",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/f/fe/Retsu_Nerima.png/revision/latest/scale-to-width-down/639?cb=20230605160207"
+    },
+    {
+      "characterKey": "blue-lock-rikiya-hohai",
+      "name": "Rikiya Hohai",
+      "wiki": "https://bluelock.fandom.com/wiki/Rikiya_Hohai",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/b/bc/Rikiya_Hohai.png/revision/latest?cb=20230605160327"
+    },
+    {
+      "characterKey": "blue-lock-akira-endoji",
+      "name": "Akira Endoji",
+      "wiki": "https://bluelock.fandom.com/wiki/Akira_Endoji",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/1/19/Akira_Endoji.png/revision/latest?cb=20230528191446"
+    },
+    {
+      "characterKey": "blue-lock-jin-kiyora",
+      "name": "Jin Kiyora",
+      "wiki": "https://bluelock.fandom.com/wiki/Jin_Kiyora",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/a/a9/Jin_Kiyora.png/revision/latest?cb=20250829055313"
+    },
+    {
+      "characterKey": "blue-lock-nijiro-nanase",
+      "name": "Nijiro Nanase",
+      "wiki": "https://bluelock.fandom.com/wiki/Nijiro_Nanase",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/8/86/Nijiro_Nanase.png/revision/latest?cb=20260211012159"
+    },
+    {
+      "characterKey": "blue-lock-ranze-kurona",
+      "name": "Ranze Kurona",
+      "wiki": "https://bluelock.fandom.com/wiki/Ranze_Kurona",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/a/ae/Ranze_Kurona.png/revision/latest?cb=20251120161649"
+    },
+    {
+      "characterKey": "blue-lock-reiji-hiiragi",
+      "name": "Reiji Hiiragi",
+      "wiki": "https://bluelock.fandom.com/wiki/Reiji_Hiiragi",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/d/dd/Reiji_Hiiragi.png/revision/latest/scale-to-width-down/607?cb=20260322094923"
+    },
+    {
+      "characterKey": "blue-lock-ryusei-shido",
+      "name": "Ryusei Shido",
+      "wiki": "https://bluelock.fandom.com/wiki/Ryusei_Shido",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/b/b3/Ryusei_Shido.png/revision/latest/scale-to-width-down/556?cb=20221203161232"
+    },
+    {
+      "characterKey": "blue-lock-shizuka-haiji",
+      "name": "Shizuka Haiji",
+      "wiki": "https://bluelock.fandom.com/wiki/Shizuka_Haiji",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/9/9d/Shizuka_Haiji.png/revision/latest?cb=20230528185433"
+    },
+    {
+      "characterKey": "blue-lock-taiga-tsunzaki",
+      "name": "Taiga Tsunzaki",
+      "wiki": "https://bluelock.fandom.com/wiki/Taiga_Tsunzaki",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/a/a1/Taiga_Tsunzaki.png/revision/latest?cb=20220315153509"
+    },
+    {
+      "characterKey": "blue-lock-tetsu-sokura",
+      "name": "Tetsu Sokura",
+      "wiki": "https://bluelock.fandom.com/wiki/Tetsu_Sokura",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/d/d8/Tetsu_Sokura.png/revision/latest?cb=20230528185228"
+    },
+    {
+      "characterKey": "blue-lock-aiki-himizu",
+      "name": "Aiki Himizu",
+      "wiki": "https://bluelock.fandom.com/wiki/Aiki_Himizu",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/7/74/Aiki_Himizu.png/revision/latest/scale-to-width-down/528?cb=20240608112744"
+    },
+    {
+      "characterKey": "blue-lock-aoshi-tokimitsu",
+      "name": "Aoshi Tokimitsu",
+      "wiki": "https://bluelock.fandom.com/wiki/Aoshi_Tokimitsu",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/b/b4/Aoshi_Tokimitsu.png/revision/latest?cb=20191027140942"
+    },
+    {
+      "characterKey": "blue-lock-eita-otoya",
+      "name": "Eita Otoya",
+      "wiki": "https://bluelock.fandom.com/wiki/Eita_Otoya",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/2/23/Eita_Otoya.png/revision/latest/scale-to-width-down/556?cb=20221204031858"
+    },
+    {
+      "characterKey": "blue-lock-hajime-nishioka",
+      "name": "Hajime Nishioka",
+      "wiki": "https://bluelock.fandom.com/wiki/Hajime_Nishioka",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/8/83/Hajime_Nishioka_02.png/revision/latest?cb=20250730021843"
+    },
+    {
+      "characterKey": "blue-lock-haruhiko-yuzu",
+      "name": "Haruhiko Yuzu",
+      "wiki": "https://bluelock.fandom.com/wiki/Haruhiko_Yuzu",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/b/bc/Haruhiko_Yuzu.png/revision/latest?cb=20250829062030"
+    },
+    {
+      "characterKey": "blue-lock-jyubei-aryu",
+      "name": "Jyubei Aryu",
+      "wiki": "https://bluelock.fandom.com/wiki/Jyubei_Aryu",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/4/40/Jyubei_Aryu.png/revision/latest/scale-to-width-down/556?cb=20221203161356"
+    },
+    {
+      "characterKey": "blue-lock-kairu-saramadara",
+      "name": "Kairu Saramadara",
+      "wiki": "https://bluelock.fandom.com/wiki/Kairu_Saramadara",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/a/ac/Kairu_Saramadara.png/revision/latest?cb=20240608113723"
+    },
+    {
+      "characterKey": "blue-lock-kenyu-yukimiya",
+      "name": "Kenyu Yukimiya",
+      "wiki": "https://bluelock.fandom.com/wiki/Kenyu_Yukimiya",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/7/73/Kenyu_Yukimiya.png/revision/latest?cb=20200913141502"
+    },
+    {
+      "characterKey": "blue-lock-kyohei-shiguma",
+      "name": "Kyohei Shiguma",
+      "wiki": "https://bluelock.fandom.com/wiki/Kyohei_Shiguma",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/4/46/Kyohei_Shiguma.png/revision/latest?cb=20240608113513"
+    },
+    {
+      "characterKey": "blue-lock-rin-itoshi",
+      "name": "Rin Itoshi",
+      "wiki": "https://bluelock.fandom.com/wiki/Rin_Itoshi",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/1/12/Rin_Itoshi.png/revision/latest/scale-to-width-down/556?cb=20221204031448"
+    },
+    {
+      "characterKey": "blue-lock-shingen-tanaka",
+      "name": "Shingen Tanaka",
+      "wiki": "https://bluelock.fandom.com/wiki/Shingen_Tanaka",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/e/e4/Shingen_Tanaka.png/revision/latest?cb=20210627095339"
+    },
+    {
+      "characterKey": "blue-lock-tabito-karasu",
+      "name": "Tabito Karasu",
+      "wiki": "https://bluelock.fandom.com/wiki/Tabito_Karasu",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/4/4b/Tabito_Karasu.png/revision/latest?cb=20200913141409"
+    },
+    {
+      "characterKey": "blue-lock-yo-hiori",
+      "name": "Yo Hiori",
+      "wiki": "https://bluelock.fandom.com/wiki/Yo_Hiori",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/6/65/Yo_Hiori.png/revision/latest/scale-to-width-down/640?cb=20251123132659"
+    },
+    {
+      "characterKey": "blue-lock-yukio-ishikari",
+      "name": "Yukio Ishikari",
+      "wiki": "https://bluelock.fandom.com/wiki/Yukio_Ishikari",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/0/01/Yukio_Ishikari.png/revision/latest?cb=20240608111847"
+    },
+    {
+      "characterKey": "blue-lock-oliver-aiku",
+      "name": "Oliver Aiku",
+      "wiki": "https://bluelock.fandom.com/wiki/Oliver_Aiku",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/f/fc/Oliver_Aiku.png/revision/latest?cb=20210221131507"
+    },
+    {
+      "characterKey": "blue-lock-shuto-sendo",
+      "name": "Shuto Sendo",
+      "wiki": "https://bluelock.fandom.com/wiki/Shuto_Sendo",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/1/19/Shuto_Sendo.png/revision/latest/scale-to-width-down/640?cb=20251214115522"
+    },
+    {
+      "characterKey": "blue-lock-gen-fukaku",
+      "name": "Gen Fukaku",
+      "wiki": "https://bluelock.fandom.com/wiki/Gen_Fukaku",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/4/44/Gen_Fukaku.png/revision/latest?cb=20240608110756"
+    },
+    {
+      "characterKey": "blue-lock-sae-itoshi",
+      "name": "Sae Itoshi",
+      "wiki": "https://bluelock.fandom.com/wiki/Sae_Itoshi",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/f/f3/Sae_Itoshi.png/revision/latest/scale-to-width-down/556?cb=20221204031235"
+    },
+    {
+      "characterKey": "blue-lock-ryosuke-kira",
+      "name": "Ryosuke Kira",
+      "wiki": "https://bluelock.fandom.com/wiki/Ryosuke_Kira",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/b/b1/Ryosuke_Kira.png/revision/latest?cb=20191027101038"
+    },
+    {
+      "characterKey": "blue-lock-haneru-shindo",
+      "name": "Haneru Shindo",
+      "wiki": "https://bluelock.fandom.com/wiki/Haneru_Shindo",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/1/13/ShindoPortrait.png/revision/latest?cb=20251125190531"
+    },
+    {
+      "characterKey": "blue-lock-anri-teieri",
+      "name": "Anri Teieri",
+      "wiki": "https://bluelock.fandom.com/wiki/Anri_Teieri",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/1/15/Anri_Teieri.png/revision/latest?cb=20191027131709"
+    },
+    {
+      "characterKey": "blue-lock-hirotoshi-buratsuta",
+      "name": "Hirotoshi Buratsuta",
+      "wiki": "https://bluelock.fandom.com/wiki/Hirotoshi_Buratsuta",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/9/9e/Hirotoshi_Buratsuta.png/revision/latest?cb=20191027131843"
+    },
+    {
+      "characterKey": "blue-lock-haru-hayate",
+      "name": "Haru Hayate",
+      "wiki": "https://bluelock.fandom.com/wiki/Haru_Hayate",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/4/49/Haru_Hayate.png/revision/latest?cb=20240608105821"
+    },
+    {
+      "characterKey": "blue-lock-itsuki-wakatsuki",
+      "name": "Itsuki Wakatsuki",
+      "wiki": "https://bluelock.fandom.com/wiki/Itsuki_Wakatsuki",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/a/af/Itsuki_Wakatsuki.png/revision/latest?cb=20240309105808"
+    },
+    {
+      "characterKey": "blue-lock-kazuma-nio",
+      "name": "Kazuma Nio",
+      "wiki": "https://bluelock.fandom.com/wiki/Kazuma_Nio",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/0/0b/Kazuma_Nio.png/revision/latest?cb=20210221143918"
+    },
+    {
+      "characterKey": "blue-lock-kento-cho",
+      "name": "Kento Cho",
+      "wiki": "https://bluelock.fandom.com/wiki/Kento_Cho",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/1/1d/Kento_Cho.png/revision/latest?cb=20240608103133"
+    },
+    {
+      "characterKey": "blue-lock-miroku-darai",
+      "name": "Miroku Darai",
+      "wiki": "https://bluelock.fandom.com/wiki/Miroku_Darai",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/4/45/Miroku_Darai.png/revision/latest?cb=20240608102911"
+    },
+    {
+      "characterKey": "blue-lock-teppei-neru",
+      "name": "Teppei Neru",
+      "wiki": "https://bluelock.fandom.com/wiki/Teppei_Neru",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/2/28/Teppei_Neru.png/revision/latest?cb=20240608102540"
+    },
+    {
+      "characterKey": "blue-lock-teru-kitsunezato",
+      "name": "Teru Kitsunezato",
+      "wiki": "https://bluelock.fandom.com/wiki/Teru_Kitsunezato",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/2/26/Teru_Kitsunezato.png/revision/latest?cb=20240608102700"
+    },
+    {
+      "characterKey": "blue-lock-takeshi-bito",
+      "name": "Takeshi Bito",
+      "wiki": "https://bluelock.fandom.com/wiki/Takeshi_Bito",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/e/e1/Takeshi_Bito.png/revision/latest?cb=20250702225008"
+    },
+    {
+      "characterKey": "blue-lock-ryuhei-osuna",
+      "name": "Ryuhei Osuna",
+      "wiki": "https://bluelock.fandom.com/wiki/Ryuhei_Osuna",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/8/88/Ryuhei_Osuna.png/revision/latest?cb=20250702225931"
+    },
+    {
+      "characterKey": "blue-lock-iito-morita",
+      "name": "Iito Morita",
+      "wiki": "https://bluelock.fandom.com/wiki/Iito_Morita",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/c/c9/Iito_Morita.png/revision/latest?cb=20250702225153"
+    },
+    {
+      "characterKey": "blue-lock-takayuki-tokorojoji",
+      "name": "Takayuki Tokorojoji",
+      "wiki": "https://bluelock.fandom.com/wiki/Takayuki_Tokorojoji",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/f/f7/Takayuki_Tokorojoji.png/revision/latest?cb=20250702225527"
+    },
+    {
+      "characterKey": "blue-lock-ryu-kamioka",
+      "name": "Ryu Kamioka",
+      "wiki": "https://bluelock.fandom.com/wiki/Ryu_Kamioka",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/f/fc/Ryu_Kamioka.png/revision/latest?cb=20250702225632"
+    },
+    {
+      "characterKey": "blue-lock-imaru-akashi",
+      "name": "Imaru Akashi",
+      "wiki": "https://bluelock.fandom.com/wiki/Imaru_Akashi",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/1/1b/Imaru_Akashi.png/revision/latest?cb=20250702225707"
+    },
+    {
+      "characterKey": "blue-lock-beita-tsuru",
+      "name": "Beita Tsuru",
+      "wiki": "https://bluelock.fandom.com/wiki/Beita_Tsuru",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/b/b6/Beita_Tsuru.png/revision/latest?cb=20250702225755"
+    },
+    {
+      "characterKey": "blue-lock-kiyoshi-yasushi",
+      "name": "Kiyoshi Yasushi",
+      "wiki": "https://bluelock.fandom.com/wiki/Kiyoshi_Yasushi",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/d/d8/Kiyoshi_Yasushi.png/revision/latest?cb=20250702225854"
+    },
+    {
+      "characterKey": "blue-lock-ken-andatte-shimura",
+      "name": "Ken Andatte Shimura",
+      "wiki": "https://bluelock.fandom.com/wiki/Ken_Andatte_Shimura",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/8/8d/Andatte_Ken_Shimura.png/revision/latest?cb=20250702230050"
+    },
+    {
+      "characterKey": "blue-lock-taisho-hagimoto",
+      "name": "Taisho Hagimoto",
+      "wiki": "https://bluelock.fandom.com/wiki/Taisho_Hagimoto",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/b/bd/Taisho_Hagimoto.png/revision/latest?cb=20250702230148"
+    },
+    {
+      "characterKey": "blue-lock-yasumori-hoichi",
+      "name": "Yasumori Hoichi",
+      "wiki": "https://bluelock.fandom.com/wiki/Yasumori_Hoichi",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/4/46/Yasumori_Hoichi.png/revision/latest?cb=20210221130535"
+    },
+    {
+      "characterKey": "blue-lock-noel-noa",
+      "name": "Noel Noa",
+      "wiki": "https://bluelock.fandom.com/wiki/Noel_Noa",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/1/1d/Noel_Noa.png/revision/latest/scale-to-width-down/556?cb=20221204055810"
+    },
+    {
+      "characterKey": "blue-lock-michael-kaiser",
+      "name": "Michael Kaiser",
+      "wiki": "https://bluelock.fandom.com/wiki/Michael_Kaiser",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/f/f0/Michael_Kaiser.png/revision/latest/scale-to-width-down/556?cb=20221203160355"
+    },
+    {
+      "characterKey": "blue-lock-alexis-ness",
+      "name": "Alexis Ness",
+      "wiki": "https://bluelock.fandom.com/wiki/Alexis_Ness",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/1/18/Alexis_Ness.png/revision/latest?cb=20220315172442"
+    },
+    {
+      "characterKey": "blue-lock-erik-gesner",
+      "name": "Erik Gesner",
+      "wiki": "https://bluelock.fandom.com/wiki/Erik_Gesner",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/0/04/Erik_Gesner.png/revision/latest?cb=20220315174823"
+    },
+    {
+      "characterKey": "blue-lock-birkenstock",
+      "name": "Birkenstock",
+      "wiki": "https://bluelock.fandom.com/wiki/Birkenstock",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/c/c3/Birkenstock.png/revision/latest?cb=20260108102456"
+    },
+    {
+      "characterKey": "blue-lock-ali",
+      "name": "Ali",
+      "wiki": "https://bluelock.fandom.com/wiki/Ali",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/0/02/Ali.png/revision/latest?cb=20230331095523"
+    },
+    {
+      "characterKey": "blue-lock-mensah",
+      "name": "Mensah",
+      "wiki": "https://bluelock.fandom.com/wiki/Mensah",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/d/de/Mensah.png/revision/latest?cb=20260402203746"
+    },
+    {
+      "characterKey": "blue-lock-igor-schneider",
+      "name": "Igor Schneider",
+      "wiki": "https://bluelock.fandom.com/wiki/Igor_Schneider",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/d/d7/Igor_Schneider.png/revision/latest?cb=20230527101127"
+    },
+    {
+      "characterKey": "blue-lock-theo-sachs",
+      "name": "Theo Sachs",
+      "wiki": "https://bluelock.fandom.com/wiki/Theo_Sachs",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/6/66/Theo_Sachs.png/revision/latest?cb=20230527103447"
+    },
+    {
+      "characterKey": "blue-lock-bachman",
+      "name": "Bachman",
+      "wiki": "https://bluelock.fandom.com/wiki/Bachman",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/d/d8/Bachman.png/revision/latest?cb=20230917172537"
+    },
+    {
+      "characterKey": "blue-lock-ndiaye",
+      "name": "Ndiaye",
+      "wiki": "https://bluelock.fandom.com/wiki/Ndiaye",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/c/c1/Ndiaye.png/revision/latest?cb=20230528173459"
+    },
+    {
+      "characterKey": "blue-lock-lavinho",
+      "name": "Lavinho",
+      "wiki": "https://bluelock.fandom.com/wiki/Lavinho",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/b/ba/Lavinho.png/revision/latest/scale-to-width-down/556?cb=20221204055604"
+    },
+    {
+      "characterKey": "blue-lock-bunny-iglesias",
+      "name": "Bunny Iglesias",
+      "wiki": "https://bluelock.fandom.com/wiki/Bunny_Iglesias",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/8/81/Bunny_Iglesias.png/revision/latest/scale-to-width-down/640?cb=20251122133505"
+    },
+    {
+      "characterKey": "blue-lock-ignacio-lara",
+      "name": "Ignacio Lara",
+      "wiki": "https://bluelock.fandom.com/wiki/Ignacio_Lara",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/f/f7/Ignacio_Lara.png/revision/latest?cb=20260501105314"
+    },
+    {
+      "characterKey": "blue-lock-picasso",
+      "name": "Picasso",
+      "wiki": "https://bluelock.fandom.com/wiki/Picasso",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/5/5b/Picasso.png/revision/latest?cb=20230529162452"
+    },
+    {
+      "characterKey": "blue-lock-gomez",
+      "name": "Gomez",
+      "wiki": "https://bluelock.fandom.com/wiki/Gomez",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/0/03/Gomez.png/revision/latest?cb=20260108103815"
+    },
+    {
+      "characterKey": "blue-lock-espesso",
+      "name": "Espesso",
+      "wiki": "https://bluelock.fandom.com/wiki/Espesso",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/a/a2/Espesso.png/revision/latest?cb=20230529162538"
+    },
+    {
+      "characterKey": "blue-lock-bos",
+      "name": "Bos",
+      "wiki": "https://bluelock.fandom.com/wiki/Bos",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/8/82/Bos.png/revision/latest?cb=20230529162720"
+    },
+    {
+      "characterKey": "blue-lock-urzaiz",
+      "name": "Urzaiz",
+      "wiki": "https://bluelock.fandom.com/wiki/Urzaiz",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/3/38/Uraziz.png/revision/latest?cb=20230529162522"
+    },
+    {
+      "characterKey": "blue-lock-ruiz",
+      "name": "Ruiz",
+      "wiki": "https://bluelock.fandom.com/wiki/Ruiz",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/d/d4/Ruiz.png/revision/latest?cb=20230529162702"
+    },
+    {
+      "characterKey": "blue-lock-so",
+      "name": "So",
+      "wiki": "https://bluelock.fandom.com/wiki/So",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/f/f5/So.png/revision/latest?cb=20260108104632"
+    },
+    {
+      "characterKey": "blue-lock-moro",
+      "name": "Moro",
+      "wiki": "https://bluelock.fandom.com/wiki/Moro",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/2/22/Moro_Portrait.png/revision/latest/scale-to-width-down/640?cb=20251129094228"
+    },
+    {
+      "characterKey": "blue-lock-chris-prince",
+      "name": "Chris Prince",
+      "wiki": "https://bluelock.fandom.com/wiki/Chris_Prince",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/f/f1/Chris_Prince.png/revision/latest/scale-to-width-down/507?cb=20250624032843"
+    },
+    {
+      "characterKey": "blue-lock-agi",
+      "name": "Agi",
+      "wiki": "https://bluelock.fandom.com/wiki/Agi",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/5/5c/Agi.png/revision/latest/scale-to-width-down/556?cb=20221208003015"
+    },
+    {
+      "characterKey": "blue-lock-driver",
+      "name": "Driver",
+      "wiki": "https://bluelock.fandom.com/wiki/Driver",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/d/d1/Driver.png/revision/latest?cb=20230521131404"
+    },
+    {
+      "characterKey": "blue-lock-swift",
+      "name": "Swift",
+      "wiki": "https://bluelock.fandom.com/wiki/Swift",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/0/00/Swift.png/revision/latest?cb=20251230181426"
+    },
+    {
+      "characterKey": "blue-lock-busby",
+      "name": "Busby",
+      "wiki": "https://bluelock.fandom.com/wiki/Busby",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/a/a7/Busby.png/revision/latest?cb=20230521135108"
+    },
+    {
+      "characterKey": "blue-lock-rook",
+      "name": "Rook",
+      "wiki": "https://bluelock.fandom.com/wiki/Rook",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/1/1b/Rook.png/revision/latest?cb=20251230181331"
+    },
+    {
+      "characterKey": "blue-lock-young",
+      "name": "Young",
+      "wiki": "https://bluelock.fandom.com/wiki/Young",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/d/d2/Young.png/revision/latest?cb=20230521135057"
+    },
+    {
+      "characterKey": "blue-lock-arthur",
+      "name": "Arthur",
+      "wiki": "https://bluelock.fandom.com/wiki/Arthur",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/5/50/Arthur.png/revision/latest/scale-to-width-down/549?cb=20251224162143"
+    },
+    {
+      "characterKey": "blue-lock-damon",
+      "name": "Damon",
+      "wiki": "https://bluelock.fandom.com/wiki/Damon",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/8/82/Damon.png/revision/latest?cb=20251230181230"
+    },
+    {
+      "characterKey": "blue-lock-marc-snuffy",
+      "name": "Marc Snuffy",
+      "wiki": "https://bluelock.fandom.com/wiki/Marc_Snuffy",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/e/e7/Marc_Snuffy.png/revision/latest/scale-to-width-down/556?cb=20221208004418"
+    },
+    {
+      "characterKey": "blue-lock-don-lorenzo",
+      "name": "Don Lorenzo",
+      "wiki": "https://bluelock.fandom.com/wiki/Don_Lorenzo",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/3/38/Lorenzo_Teeth.png/revision/latest?cb=20250729191631"
+    },
+    {
+      "characterKey": "blue-lock-drago",
+      "name": "Drago",
+      "wiki": "https://bluelock.fandom.com/wiki/Drago",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/d/dd/DRAGO.png/revision/latest?cb=20260108105011"
+    },
+    {
+      "characterKey": "blue-lock-peron",
+      "name": "Peron",
+      "wiki": "https://bluelock.fandom.com/wiki/Peron",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/9/99/PERON.png/revision/latest?cb=20260108105946"
+    },
+    {
+      "characterKey": "blue-lock-abdi",
+      "name": "Abdi",
+      "wiki": "https://bluelock.fandom.com/wiki/Abdi",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/2/2a/ABDI.png/revision/latest?cb=20260108110003"
+    },
+    {
+      "characterKey": "blue-lock-rico",
+      "name": "Rico",
+      "wiki": "https://bluelock.fandom.com/wiki/Rico",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/1/1c/RICO.png/revision/latest?cb=20260108110020"
+    },
+    {
+      "characterKey": "blue-lock-canali",
+      "name": "Canali",
+      "wiki": "https://bluelock.fandom.com/wiki/Canali",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/f/fc/Canali.png/revision/latest?cb=20251207184157"
+    },
+    {
+      "characterKey": "blue-lock-julian-loki",
+      "name": "Julian Loki",
+      "wiki": "https://bluelock.fandom.com/wiki/Julian_Loki",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/2/21/Julian_Loki.png/revision/latest?cb=20240309104655"
+    },
+    {
+      "characterKey": "blue-lock-charles-chevalier",
+      "name": "Charles Chevalier",
+      "wiki": "https://bluelock.fandom.com/wiki/Charles_Chevalier",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/6/6d/Charles.png/revision/latest/scale-to-width-down/640?cb=20250731185927"
+    },
+    {
+      "characterKey": "blue-lock-chapa",
+      "name": "Chapa",
+      "wiki": "https://bluelock.fandom.com/wiki/Chapa",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/a/a8/Chapa_PXG.png/revision/latest/scale-to-width-down/637?cb=20251122033454"
+    },
+    {
+      "characterKey": "blue-lock-renoir",
+      "name": "Renoir",
+      "wiki": "https://bluelock.fandom.com/wiki/Renoir",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/b/b5/Renoir.png/revision/latest?cb=20260601213412"
+    },
+    {
+      "characterKey": "blue-lock-gabon",
+      "name": "Gabon",
+      "wiki": "https://bluelock.fandom.com/wiki/Gabon",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/e/e7/Gabon.png/revision/latest?cb=20251208183720"
+    },
+    {
+      "characterKey": "blue-lock-michelin",
+      "name": "Michelin",
+      "wiki": "https://bluelock.fandom.com/wiki/Michelin",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/1/1a/Michelin.png/revision/latest?cb=20240609144957"
+    },
+    {
+      "characterKey": "blue-lock-paris-x-gen",
+      "name": "Paris X Gen",
+      "wiki": "https://bluelock.fandom.com/wiki/Paris_X_Gen",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/c/cf/Paris_X_Gen_Official_Logo.png/revision/latest/scale-to-width-down/361?cb=20240514221437"
+    },
+    {
+      "characterKey": "blue-lock-onazi",
+      "name": "Onazi",
+      "wiki": "https://bluelock.fandom.com/wiki/Onazi",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/5/52/Onazi_Headshot.png/revision/latest?cb=20250919193328"
+    },
+    {
+      "characterKey": "blue-lock-kuso",
+      "name": "Kuso",
+      "wiki": "https://bluelock.fandom.com/wiki/Kuso",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/2/27/KusoPortrait.png/revision/latest?cb=20250919194849"
+    },
+    {
+      "characterKey": "blue-lock-oboabona",
+      "name": "Oboabona",
+      "wiki": "https://bluelock.fandom.com/wiki/Oboabona",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/8/8a/OboabonaHeadshot.png/revision/latest?cb=20250919194241"
+    },
+    {
+      "characterKey": "blue-lock-bello",
+      "name": "Bello",
+      "wiki": "https://bluelock.fandom.com/wiki/Bello",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/0/0b/Bello.png/revision/latest?cb=20250919200236"
+    },
+    {
+      "characterKey": "blue-lock-agbim",
+      "name": "Agbim",
+      "wiki": "https://bluelock.fandom.com/wiki/Agbim",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/e/e0/AgbimPortrait.png/revision/latest?cb=20250801171055"
+    },
+    {
+      "characterKey": "blue-lock-ekpo",
+      "name": "Ekpo",
+      "wiki": "https://bluelock.fandom.com/wiki/Ekpo",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/2/2e/Epko_Headshot.png/revision/latest?cb=20250919204023"
+    },
+    {
+      "characterKey": "blue-lock-umaru",
+      "name": "Umaru",
+      "wiki": "https://bluelock.fandom.com/wiki/Umaru",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/c/c5/UmaruPortrait.png/revision/latest?cb=20250919203628"
+    },
+    {
+      "characterKey": "blue-lock-ezekiel",
+      "name": "Ezekiel",
+      "wiki": "https://bluelock.fandom.com/wiki/Ezekiel",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/c/c7/EzekielPortrait.png/revision/latest?cb=20250919203416"
+    },
+    {
+      "characterKey": "blue-lock-kaita",
+      "name": "Kaita",
+      "wiki": "https://bluelock.fandom.com/wiki/Kaita",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/d/d7/KaitaPortrait.png/revision/latest?cb=20250919205822"
+    },
+    {
+      "characterKey": "blue-lock-sadiq",
+      "name": "Sadiq",
+      "wiki": "https://bluelock.fandom.com/wiki/Sadiq",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/1/16/Sadiq_Portrait.png/revision/latest?cb=20250919205012"
+    },
+    {
+      "characterKey": "blue-lock-momodu",
+      "name": "Momodu",
+      "wiki": "https://bluelock.fandom.com/wiki/Momodu",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/d/df/Momodu_Portrait.png/revision/latest?cb=20251123153415"
+    },
+    {
+      "characterKey": "blue-lock-gambari",
+      "name": "Gambari",
+      "wiki": "https://bluelock.fandom.com/wiki/Gambari",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/c/ce/Gambari.png/revision/latest?cb=20250919202744"
+    },
+    {
+      "characterKey": "blue-lock-julien-loki",
+      "name": "Julien Loki",
+      "wiki": "https://bluelock.fandom.com/wiki/Julien_Loki",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/2/21/Julian_Loki.png/revision/latest?cb=20240309104655"
+    },
+    {
+      "characterKey": "blue-lock-vivian-hugo",
+      "name": "Vivian Hugo",
+      "wiki": "https://bluelock.fandom.com/wiki/Vivian_Hugo",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/0/02/Hugo.png/revision/latest?cb=20251119155220"
+    },
+    {
+      "characterKey": "blue-lock-gabin",
+      "name": "Gabin",
+      "wiki": "https://bluelock.fandom.com/wiki/Gabin",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/e/e7/Gabon.png/revision/latest?cb=20251208183720"
+    },
+    {
+      "characterKey": "blue-lock-bats",
+      "name": "Bats",
+      "wiki": "https://bluelock.fandom.com/wiki/Bats",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/1/11/Bats.png/revision/latest?cb=20260114152825"
+    },
+    {
+      "characterKey": "blue-lock-camus",
+      "name": "Camus",
+      "wiki": "https://bluelock.fandom.com/wiki/Camus",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/a/ad/Camus.png/revision/latest?cb=20260121002245"
+    },
+    {
+      "characterKey": "blue-lock-delon",
+      "name": "Delon",
+      "wiki": "https://bluelock.fandom.com/wiki/Delon",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/f/f2/Delon.png/revision/latest?cb=20260107091233"
+    },
+    {
+      "characterKey": "blue-lock-hermes",
+      "name": "Hermes",
+      "wiki": "https://bluelock.fandom.com/wiki/Hermes",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/0/0d/Hermes.png/revision/latest?cb=20260107091327"
+    },
+    {
+      "characterKey": "blue-lock-leyden",
+      "name": "Leyden",
+      "wiki": "https://bluelock.fandom.com/wiki/Leyden",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/3/3c/Leyden.png/revision/latest?cb=20260324160614"
+    },
+    {
+      "characterKey": "blue-lock-rodin",
+      "name": "Rodin",
+      "wiki": "https://bluelock.fandom.com/wiki/Rodin",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/5/51/Rodin.png/revision/latest?cb=20260310153121"
+    },
+    {
+      "characterKey": "blue-lock-teddy-knight",
+      "name": "Teddy Knight",
+      "wiki": "https://bluelock.fandom.com/wiki/Teddy_Knight",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/1/1d/Teddy_Knight.png/revision/latest?cb=20260630152431"
+    },
+    {
+      "characterKey": "blue-lock-achanpong",
+      "name": "Achanpong",
+      "wiki": "https://bluelock.fandom.com/wiki/Achanpong",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/e/e1/Achanpong.png/revision/latest?cb=20260804161505"
+    },
+    {
+      "characterKey": "blue-lock-niang",
+      "name": "Niang",
+      "wiki": "https://bluelock.fandom.com/wiki/Niang",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/d/d9/NyanGuy.png/revision/latest?cb=20260805042333"
+    },
+    {
+      "characterKey": "blue-lock-goodman",
+      "name": "Goodman",
+      "wiki": "https://bluelock.fandom.com/wiki/Goodman",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/0/0f/GoodmanPortrait.png/revision/latest?cb=20260728154551"
+    },
+    {
+      "characterKey": "blue-lock-childs",
+      "name": "Childs",
+      "wiki": "https://bluelock.fandom.com/wiki/Childs",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/7/76/Childs.png/revision/latest?cb=20260730165800"
+    },
+    {
+      "characterKey": "blue-lock-skelton",
+      "name": "Skelton",
+      "wiki": "https://bluelock.fandom.com/wiki/Skelton",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/0/0f/Skelton.png/revision/latest?cb=20260804152733"
+    },
+    {
+      "characterKey": "blue-lock-rooke",
+      "name": "Rooke",
+      "wiki": "https://bluelock.fandom.com/wiki/Rooke",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/1/1b/Rook.png/revision/latest?cb=20251230181331"
+    },
+    {
+      "characterKey": "blue-lock-fox",
+      "name": "Fox",
+      "wiki": "https://bluelock.fandom.com/wiki/Fox",
+      "source": "https://static.wikia.nocookie.net/bluelock/images/e/e0/FoxPortrait.png/revision/latest?cb=20260728155517"
+    },
+    {
+      "characterKey": "captain-tsubasa-ken-wakashimazu",
+      "name": "Ken Wakashimazu",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Ken_Wakashimazu",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/3/3f/Wakashimazu_ep43_%282018%29_1.jpg/revision/latest/scale-to-width-down/640?cb=20200506225548"
+    },
+    {
+      "characterKey": "captain-tsubasa-yuzo-morisaki",
+      "name": "Yuzo Morisaki",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Yuzo_Morisaki",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/3/3e/Morisaki_S2_%282018%29_1.jpg/revision/latest?cb=20181102174007"
+    },
+    {
+      "characterKey": "captain-tsubasa-genzo-wakabayashi",
+      "name": "Genzo Wakabayashi",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Genzo_Wakabayashi",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/e/eb/Genzo_S2_%282018%29_0.jpg/revision/latest/scale-to-width-down/640?cb=20191014203710"
+    },
+    {
+      "characterKey": "captain-tsubasa-taichi-nakanishi",
+      "name": "Taichi Nakanishi",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Taichi_Nakanishi",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/5/51/Nakanishi_S2_%282018%29_1.jpg/revision/latest/scale-to-width-down/640?cb=20200227025542"
+    },
+    {
+      "characterKey": "captain-tsubasa-ryo-ishizaki",
+      "name": "Ryo Ishizaki",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Ryo_Ishizaki",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/7/7e/Ishizaki_%282018%29.jpg/revision/latest/scale-to-width-down/640?cb=20190529171133"
+    },
+    {
+      "characterKey": "captain-tsubasa-hiroshi-jito",
+      "name": "Hiroshi Jito",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Hiroshi_Jito",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/1/19/Jito_ep49_%282018%29_1.jpg/revision/latest/scale-to-width-down/640?cb=20190523090928"
+    },
+    {
+      "characterKey": "captain-tsubasa-makoto-soda",
+      "name": "Makoto Soda",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Makoto_Soda",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/c/c2/Soda_ep49_%282018%29_1.jpg/revision/latest/scale-to-width-down/640?cb=20190523091536"
+    },
+    {
+      "characterKey": "captain-tsubasa-mamoru-izawa",
+      "name": "Mamoru Izawa",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Mamoru_Izawa",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/4/42/Izawa_ep29_%282018%29_1.jpg/revision/latest?cb=20181019031332"
+    },
+    {
+      "characterKey": "captain-tsubasa-hanji-urabe",
+      "name": "Hanji Urabe",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Hanji_Urabe",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/a/aa/Urabe_Japan_%28DT%29_1.png/revision/latest/scale-to-width-down/640?cb=20190508030309"
+    },
+    {
+      "characterKey": "captain-tsubasa-gakuto-igawa",
+      "name": "Gakuto Igawa",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Gakuto_Igawa",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/e/e7/Gakuto_Igawa_Japan_%28DT%29_1.png/revision/latest?cb=20200109062403"
+    },
+    {
+      "characterKey": "captain-tsubasa-shingo-takasugi",
+      "name": "Shingo Takasugi",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Shingo_Takasugi",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/c/c6/Takasugi_S2_%282018%29_1.jpg/revision/latest?cb=20191028171753"
+    },
+    {
+      "characterKey": "captain-tsubasa-takeshi-kishida",
+      "name": "Takeshi Kishida",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Takeshi_Kishida",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/2/21/Kishida_Japan_Youth_%28DT%29.png/revision/latest?cb=20180620011454"
+    },
+    {
+      "characterKey": "captain-tsubasa-masao-tachibana",
+      "name": "Masao Tachibana",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Masao_Tachibana",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/1/14/Tachibanas_ep49_%282018%29_1.jpg/revision/latest?cb=20191022021044"
+    },
+    {
+      "characterKey": "captain-tsubasa-kazuo-tachibana",
+      "name": "Kazuo Tachibana",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Kazuo_Tachibana",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/1/14/Tachibanas_ep49_%282018%29_1.jpg/revision/latest?cb=20191022021044"
+    },
+    {
+      "characterKey": "captain-tsubasa-jun-misugi",
+      "name": "Jun Misugi",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Jun_Misugi",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/f/f7/Jun_Misugi.png/revision/latest/scale-to-width-down/640?cb=20200423202433"
+    },
+    {
+      "characterKey": "captain-tsubasa-taro-misaki",
+      "name": "Taro Misaki",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Taro_Misaki",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/b/b0/Misaki_S2_%282018%29_1.jpg/revision/latest/scale-to-width-down/640?cb=20190502041122"
+    },
+    {
+      "characterKey": "captain-tsubasa-hikaru-matsuyama",
+      "name": "Hikaru Matsuyama",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Hikaru_Matsuyama",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/7/75/Matsuyama_S2_%282018%29_1.jpg/revision/latest?cb=20191031194432"
+    },
+    {
+      "characterKey": "captain-tsubasa-mitsuru-sano",
+      "name": "Mitsuru Sano",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Mitsuru_Sano",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/d/da/Sano_HS_%28DT%29_1.png/revision/latest?cb=20190218000120"
+    },
+    {
+      "characterKey": "captain-tsubasa-nobuyuki-yumikura",
+      "name": "Nobuyuki Yumikura",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Nobuyuki_Yumikura",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/e/e5/Yukimura_RJ7_%28PSX%29.jpg/revision/latest/scale-to-width-down/640?cb=20181210053630"
+    },
+    {
+      "characterKey": "captain-tsubasa-shinnosuke-kazami",
+      "name": "Shinnosuke Kazami",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Shinnosuke_Kazami",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/6/66/Kazami.PNG/revision/latest?cb=20190804132306"
+    },
+    {
+      "characterKey": "captain-tsubasa-kotaro-furukawa",
+      "name": "Kotaro Furukawa",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Kotaro_Furukawa",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/c/c3/Furukawa.PNG/revision/latest?cb=20190804132050"
+    },
+    {
+      "characterKey": "captain-tsubasa-kazuki-sorimachi",
+      "name": "Kazuki Sorimachi",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Kazuki_Sorimachi",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/e/e1/Sorimachi_S2_%282018%29_0.jpg/revision/latest?cb=20191119013502"
+    },
+    {
+      "characterKey": "captain-tsubasa-shun-nitta",
+      "name": "Shun Nitta",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Shun_Nitta",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/2/24/Nitta_Japan_%28DT%29_1.png/revision/latest?cb=20190329025639"
+    },
+    {
+      "characterKey": "captain-tsubasa-teppei-kisugi",
+      "name": "Teppei Kisugi",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Teppei_Kisugi",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/1/1f/Kisugi_Nankatsu_HS_%28DT%29.png/revision/latest?cb=20180606183858"
+    },
+    {
+      "characterKey": "captain-tsubasa-hajime-taki",
+      "name": "Hajime Taki",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Hajime_Taki",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/e/e7/Player_71199.png/revision/latest?cb=20170718234337"
+    },
+    {
+      "characterKey": "captain-tsubasa-takeshi-sawada",
+      "name": "Takeshi Sawada",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Takeshi_Sawada",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/e/ee/Takeshi_S2_%282018%29_1.jpg/revision/latest?cb=20190312195438"
+    },
+    {
+      "characterKey": "captain-tsubasa-michel-yamada",
+      "name": "Michel Yamada",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Michel_Yamada",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/5/56/Yamada_%28DT%29_1.png/revision/latest?cb=20190525060617"
+    },
+    {
+      "characterKey": "captain-tsubasa-yuji-sakaki",
+      "name": "Yuji Sakaki",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Yuji_Sakaki",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/a/a5/Sakaki.png/revision/latest?cb=20120106053440"
+    },
+    {
+      "characterKey": "captain-tsubasa-masao-nakayama",
+      "name": "Masao Nakayama",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Masao_Nakayama",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/6/63/Nakayama_Nankatsu_HS_%28DT%29.png/revision/latest?cb=20180606183859"
+    },
+    {
+      "characterKey": "captain-tsubasa-motoharu-nagano",
+      "name": "Motoharu Nagano",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Motoharu_Nagano",
+      "source": "https://captaintsubasastats.robla.es/wp-content/uploads/2018/02/Nagano2-128x109.png"
+    },
+    {
+      "characterKey": "captain-tsubasa-takashi-sugimoto",
+      "name": "Takashi Sugimoto",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Takashi_Sugimoto",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/0/06/Sugimoto.png/revision/latest?cb=20200117021121"
+    },
+    {
+      "characterKey": "captain-tsubasa-toshiya-okano",
+      "name": "Toshiya Okano",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Toshiya_Okano",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/5/55/Okano_ep39_%28J%29_1.jpg/revision/latest?cb=20191205050022"
+    },
+    {
+      "characterKey": "captain-tsubasa-kazumasa-oda",
+      "name": "Kazumasa Oda",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Kazumasa_Oda",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/a/a2/Player_71387.png/revision/latest?cb=20170719003607"
+    },
+    {
+      "characterKey": "captain-tsubasa-shinichi-sakamoto",
+      "name": "Shinichi Sakamoto",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Shinichi_Sakamoto",
+      "source": "https://captaintsubasastats.robla.es/wp-content/uploads/2021/02/shinichi_sakamoto-128x109.jpg"
+    },
+    {
+      "characterKey": "captain-tsubasa-minoru-honma",
+      "name": "Minoru Honma",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Minoru_Honma",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/d/d4/Honma.png/revision/latest?cb=20111201051603"
+    },
+    {
+      "characterKey": "captain-tsubasa-shuichi-yamamuro",
+      "name": "Shuichi Yamamuro",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Shuichi_Yamamuro",
+      "source": "https://captaintsubasastats.robla.es/wp-content/uploads/2021/02/Yamamuro-128x109.jpg"
+    },
+    {
+      "characterKey": "captain-tsubasa-tsubasa-ozora",
+      "name": "Tsubasa Ozora",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Tsubasa_Ozora",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/9/98/Tsubasa_%28RS%29_0.png/revision/latest?cb=20220824043549"
+    },
+    {
+      "characterKey": "captain-tsubasa-kojiro-hyuga",
+      "name": "Kojiro Hyuga",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Kojiro_Hyuga",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/3/3a/Kojiro_S2_%282018%29_1.jpg/revision/latest/scale-to-width-down/640?cb=20200207172447"
+    },
+    {
+      "characterKey": "captain-tsubasa-shingo-aoi",
+      "name": "Shingo Aoi",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Shingo_Aoi",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/0/03/Aoi_Japan_%28DT%29_1.png/revision/latest/scale-to-width-down/609?cb=20190508024036"
+    },
+    {
+      "characterKey": "captain-tsubasa-tomeya-akai",
+      "name": "Tomeya Akai",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Tomeya_Akai",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/c/cb/Akai_Japan_WY_%28DT%29.png/revision/latest?cb=20191027222747"
+    },
+    {
+      "characterKey": "captain-tsubasa-masanori-kato",
+      "name": "Masanori Kato",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Masanori_Kato",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/0/06/Kato_Furano_%28DT%29.png/revision/latest?cb=20190112025750"
+    },
+    {
+      "characterKey": "captain-tsubasa-hideto-koike",
+      "name": "Hideto Koike",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Hideto_Koike",
+      "source": "https://captaintsubasastats.robla.es/wp-content/uploads/2018/01/hideto_koike-128x109.jpg"
+    },
+    {
+      "characterKey": "captain-tsubasa-hiromichi-hori",
+      "name": "Hiromichi Hori",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Hiromichi_Hori",
+      "source": "https://captaintsubasastats.robla.es/wp-content/uploads/2018/01/Hori2-128x109.png"
+    },
+    {
+      "characterKey": "captain-tsubasa-noboru-sawaki",
+      "name": "Noboru Sawaki",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Noboru_Sawaki",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/9/92/Sawaki_%28DT%29_1.png/revision/latest?cb=20190911175837"
+    },
+    {
+      "characterKey": "captain-tsubasa-hiroshi-imai",
+      "name": "Hiroshi Imai",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Hiroshi_Imai",
+      "source": "https://captaintsubasastats.robla.es/wp-content/uploads/2021/02/Imai-128x109.jpg"
+    },
+    {
+      "characterKey": "captain-tsubasa-tsuneo-takashima",
+      "name": "Tsuneo Takashima",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Tsuneo_Takashima",
+      "source": "https://captaintsubasastats.robla.es/wp-content/uploads/2021/02/Takashima-128x109.jpg"
+    },
+    {
+      "characterKey": "captain-tsubasa-tachibana-twins",
+      "name": "Kazuo Tachibana",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Tachibana_twins",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/1/14/Tachibanas_ep49_%282018%29_1.jpg/revision/latest?cb=20191022021044"
+    },
+    {
+      "characterKey": "captain-tsubasa-yuji-soga",
+      "name": "Yuji Soga",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Yuji_Soga",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/e/e1/Soga.png/revision/latest?cb=20121130155924"
+    },
+    {
+      "characterKey": "captain-tsubasa-natureza",
+      "name": "Natureza",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Natureza",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/c/c0/Natureza_16.PNG/revision/latest?cb=20191230034642"
+    },
+    {
+      "characterKey": "captain-tsubasa-deuter-muller",
+      "name": "Deuter Muller",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Deuter_Muller",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/a/ae/Newgen-Muller.png/revision/latest/scale-to-width-down/640?cb=20240503170130"
+    },
+    {
+      "characterKey": "captain-tsubasa-zangiev",
+      "name": "Zangiev",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Zangiev",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/d/df/Zangiev_%28DT%29.png/revision/latest?cb=20181103231142"
+    },
+    {
+      "characterKey": "captain-tsubasa-radunga",
+      "name": "Radunga",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Radunga",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/c/c1/Radunga_%28DT%29_1.png/revision/latest?cb=20200408161214"
+    },
+    {
+      "characterKey": "captain-tsubasa-hermann-kaltz",
+      "name": "Hermann Kaltz",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Hermann_Kaltz",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/e/e5/Hermann_kaltz_by_mikaoul_dd0tsr0-pre.png/revision/latest/scale-to-width-down/640?cb=20200516113113"
+    },
+    {
+      "characterKey": "captain-tsubasa-salvatore-gentile",
+      "name": "Salvatore Gentile",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Salvatore_Gentile",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/9/96/Gentile_JUV_%28DT%29_1.png/revision/latest?cb=20191121203946"
+    },
+    {
+      "characterKey": "captain-tsubasa-elle-sid-pierre",
+      "name": "Elle Sid Pierre",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Elle_Sid_Pierre",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/8/8b/Pierre_France_%28DT%29_1.png/revision/latest?cb=20190327032437"
+    },
+    {
+      "characterKey": "captain-tsubasa-juan-diaz",
+      "name": "Juan Diaz",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Juan_Diaz",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/8/8f/Diaz_%28RONC%29_10.png/revision/latest/scale-to-width-down/640?cb=20200903043751"
+    },
+    {
+      "characterKey": "captain-tsubasa-carlos-santana",
+      "name": "Carlos Santana",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Carlos_Santana",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/e/e8/Dd0ts68-b0b169e7-dc9b-4dce-93f8-a7d88ed7a8b1.png/revision/latest/scale-to-width-down/640?cb=20200419175618"
+    },
+    {
+      "characterKey": "captain-tsubasa-rivaul",
+      "name": "Rivaul",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Rivaul",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/3/37/Rivaul_BAR_%28DT%29_1.png/revision/latest?cb=20191120162704"
+    },
+    {
+      "characterKey": "captain-tsubasa-karl-heinz-schneider",
+      "name": "Karl Heinz Schneider",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Karl_Heinz_Schneider",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/9/9a/Schneider_%28RONC%29_10.png/revision/latest/scale-to-width-down/640?cb=20200903032532"
+    },
+    {
+      "characterKey": "captain-tsubasa-stefan-levin",
+      "name": "Stefan Levin",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Stefan_Levin",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/1/11/Levin_Sweden_%28DT%29_2.png/revision/latest?cb=20191121025940"
+    },
+    {
+      "characterKey": "captain-tsubasa-xiao-junguang",
+      "name": "Xiao Junguang",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Xiao_Junguang",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/0/05/Xiao_Junguang_%28DT%29.png/revision/latest/scale-to-width-down/640?cb=20200220030408"
+    },
+    {
+      "characterKey": "captain-tsubasa-ramon-victorino",
+      "name": "Ramon Victorino",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Ramon_Victorino",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/e/e0/Victorino_Uruguay_%28DT%29_1.png/revision/latest/scale-to-width-down/640?cb=20200718035430"
+    },
+    {
+      "characterKey": "captain-tsubasa-franz-schester",
+      "name": "Franz Schester",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Franz_Schester",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/3/33/Schester_%28CTZ%29.png/revision/latest?cb=20191029222550"
+    },
+    {
+      "characterKey": "captain-tsubasa-louis-napoleon",
+      "name": "Louis Napoleon",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Louis_Napoleon",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/f/fc/Napoleon_France_%28DT%29.png/revision/latest?cb=20181102175809"
+    },
+    {
+      "characterKey": "captain-tsubasa-manfred-margus",
+      "name": "Manfred Margus",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Manfred_Margus",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/3/30/Margus_%28CTZ%29.png/revision/latest?cb=20191029215428"
+    },
+    {
+      "characterKey": "captain-tsubasa-zedane",
+      "name": "Zedane",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Zedane",
+      "source": "https://captaintsubasastats.robla.es/wp-content/uploads/2020/02/Zedane-128x109.jpg"
+    },
+    {
+      "characterKey": "captain-tsubasa-gino-hernandez",
+      "name": "Gino Hernandez",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Gino_Hernandez",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/1/13/Hernandez_%28RONC%29_10.png/revision/latest/scale-to-width-down/640?cb=20200903032513"
+    },
+    {
+      "characterKey": "captain-tsubasa-davi",
+      "name": "Davi",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Davi",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/8/81/Davi_%28RS%29_1.jpg/revision/latest?cb=20191104162728"
+    },
+    {
+      "characterKey": "captain-tsubasa-mark-owairan",
+      "name": "Mark Owairan",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Mark_Owairan",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/1/11/Mark_Owairan_%28DT%29_1.png/revision/latest?cb=20190519162401"
+    },
+    {
+      "characterKey": "captain-tsubasa-brian-cruyfford",
+      "name": "Brian Cruyfford",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Brian_Cruyfford",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/f/f3/Cruyfford_%28RONC%29_10.png/revision/latest/scale-to-width-down/640?cb=20200903032459"
+    },
+    {
+      "characterKey": "captain-tsubasa-alan-pascal",
+      "name": "Alan Pascal",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Alan_Pascal",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/4/4c/Pascal_%28RONC%29_10.png/revision/latest/scale-to-width-down/640?cb=20200903043750"
+    },
+    {
+      "characterKey": "captain-tsubasa-ryoma-hino",
+      "name": "Ryoma Hino",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Ryoma_Hino",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/0/01/Hino_Uruguay_%28DT%29_1.png/revision/latest?cb=20191123021131"
+    },
+    {
+      "characterKey": "captain-tsubasa-kouman",
+      "name": "Kouman",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Kouman",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/b/b1/Kouman.png/revision/latest?cb=20140815162437"
+    },
+    {
+      "characterKey": "captain-tsubasa-pedro-fonseca",
+      "name": "Pedro Fonseca",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Pedro_Fonseca",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/6/69/Pedro_Fonseca.PNG/revision/latest?cb=20190731204524"
+    },
+    {
+      "characterKey": "captain-tsubasa-marcos-almieja",
+      "name": "Marcos Almieja",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Marcos_Almieja",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/b/b8/Marcos_Almieja.PNG/revision/latest?cb=20191024010808"
+    },
+    {
+      "characterKey": "captain-tsubasa-josep-grandios",
+      "name": "Josep Grandios",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Josep_Grandios",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/5/54/Grandios_Barcelona.png/revision/latest?cb=20181214223635"
+    },
+    {
+      "characterKey": "captain-tsubasa-luis-fago",
+      "name": "Luis Fago",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Luis_Fago",
+      "source": "https://captaintsubasastats.robla.es/wp-content/uploads/2020/03/Fago-128x109.jpg"
+    },
+    {
+      "characterKey": "captain-tsubasa-alaberdo",
+      "name": "Alaberdo",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Alaberdo",
+      "source": "https://captaintsubasastats.robla.es/wp-content/uploads/2020/02/Alaberdo-128x109.png"
+    },
+    {
+      "characterKey": "captain-tsubasa-luikal",
+      "name": "Luikal",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Luikal",
+      "source": "https://captaintsubasastats.robla.es/wp-content/uploads/2020/02/Luikal-128x109.png"
+    },
+    {
+      "characterKey": "captain-tsubasa-rechard",
+      "name": "Rechard",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Rechard",
+      "source": "https://captaintsubasastats.robla.es/wp-content/uploads/2020/02/Rechard-128x109.jpg"
+    },
+    {
+      "characterKey": "captain-tsubasa-overus",
+      "name": "Overus",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Overus",
+      "source": "https://captaintsubasastats.robla.es/wp-content/uploads/2020/02/Overus-128x109.jpg"
+    },
+    {
+      "characterKey": "captain-tsubasa-xavii",
+      "name": "Xavii",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Xavii",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/5/59/Xavii_ND_%28DT%29.png/revision/latest?cb=20221015180334"
+    },
+    {
+      "characterKey": "captain-tsubasa-savishe",
+      "name": "Savishe",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Savishe",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/6/66/Savishe.png/revision/latest?cb=20191028082324"
+    },
+    {
+      "characterKey": "captain-tsubasa-luis-enpoli",
+      "name": "Luis Enpoli",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Luis_Enpoli",
+      "source": "https://captaintsubasastats.robla.es/wp-content/uploads/2020/03/LuisEnpoli-128x109.jpg"
+    },
+    {
+      "characterKey": "captain-tsubasa-payol",
+      "name": "Payol",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Payol",
+      "source": "https://captaintsubasastats.robla.es/wp-content/uploads/2020/02/payol-128x109.jpg"
+    },
+    {
+      "characterKey": "captain-tsubasa-valtes",
+      "name": "Valtes",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Valtes",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/5/57/Valtes.jpg/revision/latest?cb=20130706033947"
+    },
+    {
+      "characterKey": "captain-tsubasa-neto-o",
+      "name": "Neto'o",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Neto'o",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/1/1b/Neto%27o.png/revision/latest?cb=20240929170646"
+    },
+    {
+      "characterKey": "captain-tsubasa-ienista",
+      "name": "Ienista",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Ienista",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/8/8f/Ienista_ND_%28DT%29.png/revision/latest?cb=20221015165723"
+    },
+    {
+      "characterKey": "captain-tsubasa-pinto",
+      "name": "Pinto",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Pinto",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-inter-juniores-number-2",
+      "name": "Giovanni Panun",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Inter_Juniores_number_2",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-gomes",
+      "name": "Renardo Gomes",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Gomes",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-inter-juniores-number-9",
+      "name": "Gesto Bobasti",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Inter_Juniores_number_9",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-inter-juniores-player-unknown-number-2",
+      "name": "Otello Caruanno",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Inter_Juniores_player_-_unknown_number_(2)",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-inter-juniores-number-5-2",
+      "name": "Samuele Caricone",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Inter_Juniores_number_5_(2)",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-inter-juniores-number-5-1",
+      "name": "Nicola Olmetzuer",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Inter_Juniores_number_5_(1)",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-inter-juniores-number-10",
+      "name": "Wittore Lensi",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Inter_Juniores_number_10",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-matteo",
+      "name": "Carlo Matteo",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Matteo",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/6/6e/Matteo_Inter_%28DT%29.png/revision/latest?cb=20191027214620"
+    },
+    {
+      "characterKey": "captain-tsubasa-franco",
+      "name": "Paolo Framenco",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Franco",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-inter-juniores-number-7",
+      "name": "Michela Lauracci",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Inter_Juniores_number_7",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-vulcan",
+      "name": "Vulcan",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Vulcan",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/d/df/Vulcan.png/revision/latest?cb=20111210091541"
+    },
+    {
+      "characterKey": "captain-tsubasa-michael",
+      "name": "Michael",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Michael",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/c/c2/Michael_ch130_%28RS%29_0.png/revision/latest?cb=20211229022928"
+    },
+    {
+      "characterKey": "captain-tsubasa-salinas",
+      "name": "Salinas",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Salinas",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/e/e4/Salinas_%28DT%29_1.png/revision/latest?cb=20190215201943"
+    },
+    {
+      "characterKey": "captain-tsubasa-pepe",
+      "name": "Pepe",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Pepe",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/3/30/Pepe_Brazil_%28DT%29_1.png/revision/latest?cb=20190216201233"
+    },
+    {
+      "characterKey": "captain-tsubasa-wikipedia-michel-platini",
+      "name": "Michel Platini",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Wikipedia%3AMichel_Platini",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-wikipedia-roberto-baggio",
+      "name": "Roberto Baggio",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Wikipedia%3ARoberto_Baggio",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-vaalen-voort",
+      "name": "Vaalen Voort",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Vaalen_Voort",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-captain-tsubasa-road-to-2002-2001",
+      "name": "Road to 2002 (2001)",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Captain_Tsubasa%3A_Road_to_2002_(2001)",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/5/5c/Road_to_2002_vol_01.png/revision/latest/scale-to-width-down/640?cb=20200420175623"
+    },
+    {
+      "characterKey": "captain-tsubasa-filippo-inzars",
+      "name": "Filippo Inzars",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Filippo_Inzars",
+      "source": "https://captaintsubasastats.robla.es/wp-content/uploads/2020/02/Inzars-128x109.jpg"
+    },
+    {
+      "characterKey": "captain-tsubasa-alessandro-delpi",
+      "name": "Alessandro Delpi",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Alessandro_Delpi",
+      "source": "https://captaintsubasastats.robla.es/wp-content/uploads/2020/03/Delpi-128x109.jpg"
+    },
+    {
+      "characterKey": "captain-tsubasa-esnander",
+      "name": "Esnander",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Esnander",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-tresaga",
+      "name": "Tresaga",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Tresaga",
+      "source": "https://captaintsubasastats.robla.es/wp-content/uploads/2020/02/Tresaga-128x109.png"
+    },
+    {
+      "characterKey": "captain-tsubasa-daniel-costa",
+      "name": "Daniel Costa",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Daniel_Costa",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-tacchinardini",
+      "name": "Tacchinardini",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Tacchinardini",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-pessota",
+      "name": "Pessota",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Pessota",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-dotor",
+      "name": "Dotor",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Dotor",
+      "source": "https://captaintsubasastats.robla.es/wp-content/uploads/2020/03/Dotor-128x109.png"
+    },
+    {
+      "characterKey": "captain-tsubasa-komasevic",
+      "name": "Komasevic",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Komasevic",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-marco-banchi",
+      "name": "Marco Banchi",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Marco_Banchi",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-koji-nishio",
+      "name": "Koji Nishio",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Koji_Nishio",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/a/a8/NishioOtomo%282018%29.jpg/revision/latest/scale-to-width-down/640?cb=20181025053001"
+    },
+    {
+      "characterKey": "captain-tsubasa-isamu-ichijo",
+      "name": "Isamu Ichijo",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Isamu_Ichijo",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/6/61/Ichijo_ep30_%282018%29_1.jpg/revision/latest/scale-to-width-down/640?cb=20181023073702"
+    },
+    {
+      "characterKey": "captain-tsubasa-daichi-ozora",
+      "name": "Daichi Ozora",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Daichi_Ozora",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/c/cb/Daichi.jpg/revision/latest?cb=20200129123105"
+    },
+    {
+      "characterKey": "captain-tsubasa-alberto",
+      "name": "Alberto",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Alberto",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/8/8a/Alberto_%28DT%29_0.png/revision/latest?cb=20200617194959"
+    },
+    {
+      "characterKey": "captain-tsubasa-roberto-carolus",
+      "name": "Roberto Carolus",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Roberto_Carolus",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/a/a3/Carolus.jpg/revision/latest?cb=20191024024906"
+    },
+    {
+      "characterKey": "captain-tsubasa-casa-grande",
+      "name": "Casa Grande",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Casa_Grande",
+      "source": "https://captaintsubasastats.robla.es/wp-content/uploads/2019/03/Grande-128x109.png"
+    },
+    {
+      "characterKey": "captain-tsubasa-senardo",
+      "name": "Senardo",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Senardo",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-jorgi",
+      "name": "Jorgi",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Jorgi",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-silva",
+      "name": "Silva",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Silva",
+      "source": "https://captaintsubasastats.robla.es/wp-content/uploads/2019/03/Silva-128x109.png"
+    },
+    {
+      "characterKey": "captain-tsubasa-branca",
+      "name": "Branca",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Branca",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-luciano-leo",
+      "name": "Luciano Leo",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Luciano_Leo",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/e/ed/Leo_Brazil_%28DT%29.png/revision/latest?cb=20191030170443"
+    },
+    {
+      "characterKey": "captain-tsubasa-marcio",
+      "name": "Marcio",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Marcio",
+      "source": "https://captaintsubasastats.robla.es/wp-content/uploads/2019/03/Marcio-128x109.png"
+    },
+    {
+      "characterKey": "captain-tsubasa-dugo",
+      "name": "Dugo",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Dugo",
+      "source": "https://captaintsubasastats.robla.es/wp-content/uploads/2019/03/Dugo-128x109.png"
+    },
+    {
+      "characterKey": "captain-tsubasa-stein",
+      "name": "Stein",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Stein",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-hardwig",
+      "name": "Hardwig",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Hardwig",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-meyer",
+      "name": "Meyer",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Meyer",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-magath",
+      "name": "Magath",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Magath",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-milews",
+      "name": "Milews",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Milews",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-kevin-schmidt",
+      "name": "Kevin Schmidt",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Kevin_Schmidt",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/f/fa/Schmidt_Brothers_%28RS%29.jpg/revision/latest?cb=20180712005820"
+    },
+    {
+      "characterKey": "captain-tsubasa-eric-schmidt",
+      "name": "Eric Schmidt",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Eric_Schmidt",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/f/fa/Schmidt_Brothers_%28RS%29.jpg/revision/latest?cb=20180712005820"
+    },
+    {
+      "characterKey": "captain-tsubasa-max",
+      "name": "Max",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Max",
+      "source": "https://captaintsubasastats.robla.es/wp-content/uploads/2020/11/Max-128x109.jpg"
+    },
+    {
+      "characterKey": "captain-tsubasa-hain",
+      "name": "Hain",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Hain",
+      "source": "https://captaintsubasastats.robla.es/wp-content/uploads/2020/11/Hain-128x109.jpg"
+    },
+    {
+      "characterKey": "captain-tsubasa-schweil-teigerbran",
+      "name": "Schweil Teigerbran",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Schweil_Teigerbran",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/e/eb/Teigerbran.PNG/revision/latest?cb=20191028063831"
+    },
+    {
+      "characterKey": "captain-tsubasa-mario-goethe",
+      "name": "Mario Goethe",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Mario_Goethe",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/c/ca/Mario_Goethe_1.PNG/revision/latest?cb=20200725142837"
+    },
+    {
+      "characterKey": "captain-tsubasa-hefner",
+      "name": "Hefner",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Hefner",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/4/4b/Hefner_%281983%29_1.png/revision/latest/scale-to-width-down/640?cb=20200226004441"
+    },
+    {
+      "characterKey": "captain-tsubasa-moelders",
+      "name": "Moelders",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Moelders",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/d/d5/England_ep100_%281983%29_6.jpg/revision/latest/scale-to-width-down/640?cb=20181104201445"
+    },
+    {
+      "characterKey": "captain-tsubasa-hans",
+      "name": "Hans",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Hans",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-schmidt-1983",
+      "name": "Schmidt",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Schmidt_(1983)",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/d/d5/England_ep100_%281983%29_6.jpg/revision/latest/scale-to-width-down/640?cb=20181104201445"
+    },
+    {
+      "characterKey": "captain-tsubasa-giuliano",
+      "name": "Giuliano",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Giuliano",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/d/d5/England_ep100_%281983%29_6.jpg/revision/latest/scale-to-width-down/640?cb=20181104201445"
+    },
+    {
+      "characterKey": "captain-tsubasa-claude",
+      "name": "Claude",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Claude",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/d/d5/England_ep100_%281983%29_6.jpg/revision/latest/scale-to-width-down/640?cb=20181104201445"
+    },
+    {
+      "characterKey": "captain-tsubasa-richard",
+      "name": "Richard",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Richard",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/d/d5/England_ep100_%281983%29_6.jpg/revision/latest/scale-to-width-down/640?cb=20181104201445"
+    },
+    {
+      "characterKey": "captain-tsubasa-nicol",
+      "name": "Nicol",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Nicol",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/d/d5/England_ep100_%281983%29_6.jpg/revision/latest/scale-to-width-down/640?cb=20181104201445"
+    },
+    {
+      "characterKey": "captain-tsubasa-elle-sid-pierre-1983",
+      "name": "Elle Sid Pierre",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Elle_Sid_Pierre_(1983)",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/8/8e/Pierre_%281983%29.jpg/revision/latest?cb=20180326003619"
+    },
+    {
+      "characterKey": "captain-tsubasa-karl-heinz-schneider-1983-anime",
+      "name": "Karl Heinz Schneider",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Karl_Heinz_Schneider_(1983_anime)",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/a/a1/Schneider_%28Film_3%29_1.jpg/revision/latest/scale-to-width-down/640?cb=20200224232421"
+    },
+    {
+      "characterKey": "captain-tsubasa-steve",
+      "name": "Steve",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Steve",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/2/2b/Steve_%28Film_1%29_1.jpg/revision/latest?cb=20200126041618"
+    },
+    {
+      "characterKey": "captain-tsubasa-bernard",
+      "name": "Bernard",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Bernard",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/d/d5/England_ep100_%281983%29_6.jpg/revision/latest/scale-to-width-down/640?cb=20181104201445"
+    },
+    {
+      "characterKey": "captain-tsubasa-mario-1983",
+      "name": "Mario",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Mario_(1983)",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/d/d5/England_ep100_%281983%29_6.jpg/revision/latest/scale-to-width-down/640?cb=20181104201445"
+    },
+    {
+      "characterKey": "captain-tsubasa-carlos-1983",
+      "name": "Carlos",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Carlos_(1983)",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/d/d5/England_ep100_%281983%29_6.jpg/revision/latest/scale-to-width-down/640?cb=20181104201445"
+    },
+    {
+      "characterKey": "captain-tsubasa-lopez-1983",
+      "name": "Lopez",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Lopez_(1983)",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/d/d5/England_ep100_%281983%29_6.jpg/revision/latest/scale-to-width-down/640?cb=20181104201445"
+    },
+    {
+      "characterKey": "captain-tsubasa-carlos-bara",
+      "name": "Carlos Bara",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Carlos_Bara",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/e/e8/Dd0ts68-b0b169e7-dc9b-4dce-93f8-a7d88ed7a8b1.png/revision/latest/scale-to-width-down/640?cb=20200419175618"
+    },
+    {
+      "characterKey": "captain-tsubasa-hiroshi-nagano",
+      "name": "Hiroshi Nagano",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Hiroshi_Nagano",
+      "source": "https://captaintsubasastats.robla.es/wp-content/uploads/2021/01/H_Nagano-128x109.jpg"
+    },
+    {
+      "characterKey": "captain-tsubasa-manabu-okawa",
+      "name": "Manabu Okawa",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Manabu_Okawa",
+      "source": "https://captaintsubasastats.robla.es/wp-content/uploads/2021/01/Manabu-128x109.jpg"
+    },
+    {
+      "characterKey": "captain-tsubasa-masato-nakazato",
+      "name": "Masato Nakazato",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Masato_Nakazato",
+      "source": "https://captaintsubasastats.robla.es/wp-content/uploads/2021/01/Masato_Nakazato-128x109.jpg"
+    },
+    {
+      "characterKey": "captain-tsubasa-kenichi-iwami",
+      "name": "Kenichi Iwami",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Kenichi_Iwami",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-tsuyoshi-oda",
+      "name": "Tsuyoshi Oda",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Tsuyoshi_Oda",
+      "source": "https://captaintsubasastats.robla.es/wp-content/uploads/2021/01/Tsuyoshi_Oda-128x109.jpg"
+    },
+    {
+      "characterKey": "captain-tsubasa-amoro",
+      "name": "Amoro",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Amoro",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/7/79/Amoro_%28CTZ%29_0.png/revision/latest?cb=20220318214828"
+    },
+    {
+      "characterKey": "captain-tsubasa-de-gaulle",
+      "name": "De Gaulle",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/De_Gaulle",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-jean-rust",
+      "name": "Jean Rust",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Jean_Rust",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-bergerus",
+      "name": "Bergerus",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Bergerus",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-marcel",
+      "name": "Marcel",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Marcel",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-bravo",
+      "name": "Bravo",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Bravo",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-michel-ferreri",
+      "name": "Michel Ferreri",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Michel_Ferreri",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-georges",
+      "name": "Georges",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Georges",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-bossi",
+      "name": "Bossi",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Bossi",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/1/10/Bossi_France_JY_%28DT%29.png/revision/latest?cb=20181202065951"
+    },
+    {
+      "characterKey": "captain-tsubasa-montana",
+      "name": "Montana",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Montana",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-belmondo",
+      "name": "Belmondo",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Belmondo",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-borghi",
+      "name": "Borghi",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Borghi",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-yuji-kawaguchi",
+      "name": "Yuji Kawaguchi",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Yuji_Kawaguchi",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-toshiyuki-takagi",
+      "name": "Toshiyuki Takagi",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Toshiyuki_Takagi",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-hiroshi-ishii",
+      "name": "Hiroshi Ishii",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Hiroshi_Ishii",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-keiji-kawagoe",
+      "name": "Keiji Kawagoe",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Keiji_Kawagoe",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-kazushige-enomoto",
+      "name": "Kazushige Enomoto",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Kazushige_Enomoto",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-shogo-yamamori",
+      "name": "Shogo Yamamori",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Shogo_Yamamori",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-galtoni",
+      "name": "Galtoni",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Galtoni",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/6/64/Galtoni.png/revision/latest?cb=20161217070100"
+    },
+    {
+      "characterKey": "captain-tsubasa-sembero",
+      "name": "Sembero",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Sembero",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-varon",
+      "name": "Varon",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Varon",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/9/9b/Varon.png/revision/latest?cb=20161217082528"
+    },
+    {
+      "characterKey": "captain-tsubasa-passaro",
+      "name": "Passaro",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Passaro",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-simeore",
+      "name": "Simeore",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Simeore",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/6/67/Simeore.png/revision/latest?cb=20161217083103"
+    },
+    {
+      "characterKey": "captain-tsubasa-galvan",
+      "name": "Galvan",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Galvan",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/c/c9/Galvan_Argentina_%28DT%29_1.png/revision/latest?cb=20190411122611"
+    },
+    {
+      "characterKey": "captain-tsubasa-ruggeri",
+      "name": "Ruggeri",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Ruggeri",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-geites",
+      "name": "Geites",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Geites",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-palus",
+      "name": "Palus",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Palus",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-aguin",
+      "name": "Aguin",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Aguin",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/8/81/Aguin_Argentina_%28RS%29_1.jpg/revision/latest?cb=20181115164950"
+    },
+    {
+      "characterKey": "captain-tsubasa-brown",
+      "name": "Brown",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Brown",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-shimada-shutetsu-es",
+      "name": "Shimada",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Shimada_(Shutetsu_ES)",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-nakamoto-shutetsu-es",
+      "name": "Nakamoto",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Nakamoto_(Shutetsu_ES)",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-xu-guangzhi",
+      "name": "Xu Guangzhi",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Xu_Guangzhi",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-gao-fengde",
+      "name": "Gao Fengde",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Gao_Fengde",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-cao-jingjiang",
+      "name": "Cao Jingjiang",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Cao_Jingjiang",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-fan-yueyong",
+      "name": "Fan Yueyong",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Fan_Yueyong",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-xie-xuedong",
+      "name": "Xie Xuedong",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Xie_Xuedong",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-peng-fuyi",
+      "name": "Peng Fuyi",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Peng_Fuyi",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-jiang-shouren",
+      "name": "Jiang Shouren",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Jiang_Shouren",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-hu-jianliang",
+      "name": "Hu Jianliang",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Hu_Jianliang",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-wu-junren",
+      "name": "Wu Junren",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Wu_Junren",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/0/08/Wu_Junren_%28DT%29_1.png/revision/latest?cb=20190204212433"
+    },
+    {
+      "characterKey": "captain-tsubasa-fei-xiang",
+      "name": "Fei Xiang",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Fei_Xiang",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/7/72/Fei_China_%28CTZ%29_1.png/revision/latest/scale-to-width-down/347?cb=20251127185440"
+    },
+    {
+      "characterKey": "captain-tsubasa-wang-zhongming",
+      "name": "Wang Zhongming",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Wang_Zhongming",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/b/b8/Wang_China_%28CTZ%29_1.png/revision/latest/scale-to-width-down/528?cb=20251127182832"
+    },
+    {
+      "characterKey": "captain-tsubasa-mayer-hamburg-jr-youth",
+      "name": "Mayer",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Mayer_(Hamburg_Jr._Youth)",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-hannes",
+      "name": "Hannes",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Hannes",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-briegel",
+      "name": "Briegel",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Briegel",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-jara",
+      "name": "Jara",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Jara",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-lindt",
+      "name": "Lindt",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Lindt",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-immel",
+      "name": "Immel",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Immel",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-gongels",
+      "name": "Gongels",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Gongels",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-klaus",
+      "name": "Klaus",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Klaus",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-kimio-yoshikura",
+      "name": "Kimio Yoshikura",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Kimio_Yoshikura",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-ken-koda",
+      "name": "Ken Koda",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Ken_Koda",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-yuta-takeda",
+      "name": "Yuta Takeda",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Yuta_Takeda",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-nobuo-aimoto",
+      "name": "Nobuo Aimoto",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Nobuo_Aimoto",
+      "source": "https://captaintsubasastats.robla.es/wp-content/uploads/2021/06/Nobuo_Aimoto-128x109.jpg"
+    },
+    {
+      "characterKey": "captain-tsubasa-norio-nakamura",
+      "name": "Norio Nakamura",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Norio_Nakamura",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-yasuaki-murasawa",
+      "name": "Yasuaki Murasawa",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Yasuaki_Murasawa",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-takayuki-shiota",
+      "name": "Takayuki Shiota",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Takayuki_Shiota",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-hiroshi-tamai",
+      "name": "Hiroshi Tamai",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Hiroshi_Tamai",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-yoshiharu-ono",
+      "name": "Yoshiharu Ono",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Yoshiharu_Ono",
+      "source": "https://captaintsubasastats.robla.es/wp-content/uploads/2018/01/Yoshiharu_Ono-1-128x109.jpg"
+    },
+    {
+      "characterKey": "captain-tsubasa-yuichiro-daimaru",
+      "name": "Yuichiro Daimaru",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Yuichiro_Daimaru",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-tatsuya-tazawa",
+      "name": "Tatsuya Tazawa",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Tatsuya_Tazawa",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-seiji-kanda",
+      "name": "Seiji Kanda",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Seiji_Kanda",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-daisuke-yamamoto",
+      "name": "Daisuke Yamamoto",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Daisuke_Yamamoto",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-ryoichi-sano",
+      "name": "Ryoichi Sano",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Ryoichi_Sano",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-osamu-kido",
+      "name": "Osamu Kido",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Osamu_Kido",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-kazuya-nakajima",
+      "name": "Kazuya Nakajima",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Kazuya_Nakajima",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-hiroshi-mukai",
+      "name": "Hiroshi Mukai",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Hiroshi_Mukai",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-akira-ichinose",
+      "name": "Akira Ichinose",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Akira_Ichinose",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/2/2f/Ichinose.png/revision/latest?cb=20130421060620"
+    },
+    {
+      "characterKey": "captain-tsubasa-shinji-sanada",
+      "name": "Shinji Sanada",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Shinji_Sanada",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/0/05/Sanada.png/revision/latest?cb=20130421055838"
+    },
+    {
+      "characterKey": "captain-tsubasa-ryota-kojima",
+      "name": "Ryota Kojima",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Ryota_Kojima",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-diayea",
+      "name": "Diayea",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Diayea",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-fatia",
+      "name": "Fatia",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Fatia",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-amudin",
+      "name": "Amudin",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Amudin",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-jahar",
+      "name": "Jahar",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Jahar",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-rashid",
+      "name": "Rashid",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Rashid",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-ibn",
+      "name": "Ibn",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Ibn",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-fatalah",
+      "name": "Fatalah",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Fatalah",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-nassar",
+      "name": "Nassar",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Nassar",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-luay",
+      "name": "Luay",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Luay",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-halal",
+      "name": "Halal",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Halal",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-rodriguez",
+      "name": "Rodriguez",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Rodriguez",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-conzales",
+      "name": "Conzales",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Conzales",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-pazu",
+      "name": "Pazu",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Pazu",
+      "source": "https://captaintsubasastats.robla.es/wp-content/uploads/2019/03/Pazu-128x109.png"
+    },
+    {
+      "characterKey": "captain-tsubasa-olivares",
+      "name": "Olivares",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Olivares",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-amerigo",
+      "name": "Amerigo",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Amerigo",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-filippo",
+      "name": "Filippo",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Filippo",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-pedro",
+      "name": "Pedro",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Pedro",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-dionisi",
+      "name": "Dionisi",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Dionisi",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-fengas",
+      "name": "Fengas",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Fengas",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-enrico",
+      "name": "Enrico",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Enrico",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-garella",
+      "name": "Garella",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Garella",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-ryota-tsuji",
+      "name": "Ryota Tsuji",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Ryota_Tsuji",
+      "source": "https://captaintsubasastats.robla.es/wp-content/uploads/2024/01/Ryota_Tsuji-128x109.jpg"
+    },
+    {
+      "characterKey": "captain-tsubasa-daigo-sasaki",
+      "name": "Daigo Sasaki",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Daigo_Sasaki",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-koji-yoshida",
+      "name": "Koji Yoshida",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Koji_Yoshida",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-shohei-mihashi",
+      "name": "Shohei Mihashi",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Shohei_Mihashi",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-junji-yamada",
+      "name": "Junji Yamada",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Junji_Yamada",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-yohei-kuramochi",
+      "name": "Yohei Kuramochi",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Yohei_Kuramochi",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-toru-nakai",
+      "name": "Toru Nakai",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Toru_Nakai",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-mitsuru-ide",
+      "name": "Mitsuru Ide",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Mitsuru_Ide",
+      "source": "https://captaintsubasastats.robla.es/wp-content/uploads/2018/01/Mitsuru_Ide-128x109.jpg"
+    },
+    {
+      "characterKey": "captain-tsubasa-tatsuya-hayashi",
+      "name": "Tatsuya Hayashi",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Tatsuya_Hayashi",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-kazuyasu-onodera",
+      "name": "Kazuyasu Onodera",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Kazuyasu_Onodera",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-kentaro-kamata",
+      "name": "Kentaro Kamata",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Kentaro_Kamata",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-hisashi-matsuda",
+      "name": "Hisashi Matsuda",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Hisashi_Matsuda",
+      "source": "https://captaintsubasastats.robla.es/wp-content/uploads/2021/02/Matsuda-128x109.jpg"
+    },
+    {
+      "characterKey": "captain-tsubasa-tsuyoshi-kondo",
+      "name": "Tsuyoshi Kondo",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Tsuyoshi_Kondo",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-haruo-kaneda",
+      "name": "Haruo Kaneda",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Haruo_Kaneda",
+      "source": "https://captaintsubasastats.robla.es/wp-content/uploads/2018/01/kaneda-128x109.jpg"
+    },
+    {
+      "characterKey": "captain-tsubasa-susumu-honda",
+      "name": "Susumu Honda",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Susumu_Honda",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-masatsugu-nakagawa",
+      "name": "Masatsugu Nakagawa",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Masatsugu_Nakagawa",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-koichi-wakamatsu",
+      "name": "Koichi Wakamatsu",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Koichi_Wakamatsu",
+      "source": "https://captaintsubasastats.robla.es/wp-content/uploads/2021/02/Wakamatsu-128x109.jpg"
+    },
+    {
+      "characterKey": "captain-tsubasa-kiyoshi-sase",
+      "name": "Kiyoshi Sase",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Kiyoshi_Sase",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-ippei-kobayashi",
+      "name": "Ippei Kobayashi",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Ippei_Kobayashi",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-kazutaka-kimura",
+      "name": "Kazutaka Kimura",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Kazutaka_Kimura",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-masanori-kitagawa",
+      "name": "Masanori Kitagawa",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Masanori_Kitagawa",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-takuya-fukutani",
+      "name": "Takuya Fukutani",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Takuya_Fukutani",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-kotaro-sugawara",
+      "name": "Kotaro Sugawara",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Kotaro_Sugawara",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-sho-oizumi",
+      "name": "Sho Oizumi",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Sho_Oizumi",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-masashi-matsumoto",
+      "name": "Masashi Matsumoto",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Masashi_Matsumoto",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-kota-aizawa",
+      "name": "Kota Aizawa",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Kota_Aizawa",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-hajime-noguchi",
+      "name": "Hajime Noguchi",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Hajime_Noguchi",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-akira-hatakeyama",
+      "name": "Akira Hatakeyama",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Akira_Hatakeyama",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-toshio-akisawa",
+      "name": "Toshio Akisawa",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Toshio_Akisawa",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-shinji-noda",
+      "name": "Shinji Noda",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Shinji_Noda",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-kazuo-takeno",
+      "name": "Kazuo Takeno",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Kazuo_Takeno",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-tsutomu-nagaoka",
+      "name": "Tsutomu Nagaoka",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Tsutomu_Nagaoka",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-shinji-morisue",
+      "name": "Shinji Morisue",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Shinji_Morisue",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-kazuaki-soda",
+      "name": "Kazuaki Soda",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Kazuaki_Soda",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-koji-nakajo",
+      "name": "Koji Nakajo",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Koji_Nakajo",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-katsumi-himeji",
+      "name": "Katsumi Himeji",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Katsumi_Himeji",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-dimos-marinio",
+      "name": "Dimos Marinio",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Dimos_Marinio",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-bassarello",
+      "name": "Bassarello",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Bassarello",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-gentile-golluvate",
+      "name": "Gentile/Golluvate",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Gentile%2FGolluvate",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/b/b1/Gentile_in_Shin_Captain_Tsubasa_05.jpg/revision/latest/scale-to-width-down/640?cb=20180927163907"
+    },
+    {
+      "characterKey": "captain-tsubasa-marco-torino",
+      "name": "Marco Torino",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Marco_Torino",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-federico",
+      "name": "Federico",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Federico",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-francesco",
+      "name": "Francesco",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Francesco",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-conti",
+      "name": "Conti",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Conti",
+      "source": "https://captaintsubasastats.robla.es/wp-content/uploads/2018/02/Conti-128x109.jpg"
+    },
+    {
+      "characterKey": "captain-tsubasa-mateo",
+      "name": "Mateo",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Mateo",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-tardelli",
+      "name": "Tardelli",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Tardelli",
+      "source": "https://captaintsubasastats.robla.es/wp-content/uploads/2021/01/Tardelli-128x109.jpg"
+    },
+    {
+      "characterKey": "captain-tsubasa-andrea",
+      "name": "Andrea",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Andrea",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-captain-tsubasa-3109-nichi-zenkiroku",
+      "name": "Captain Tsubasa 3109 Nichi Zenkiroku",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Captain_Tsubasa_3109_Nichi_Zenkiroku",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/3/37/3109_Nichi_Zenkiroku.png/revision/latest/scale-to-width-down/462?cb=20140908020407"
+    },
+    {
+      "characterKey": "captain-tsubasa-tetsuji-murasawa",
+      "name": "Tetsuji Murasawa",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Tetsuji_Murasawa",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-kuniaki-narita",
+      "name": "Kuniaki Narita",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Kuniaki_Narita",
+      "source": "https://captaintsubasastats.robla.es/wp-content/uploads/2018/01/Narita-128x109.png"
+    },
+    {
+      "characterKey": "captain-tsubasa-yuichi-suenaga",
+      "name": "Yuichi Suenaga",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Yuichi_Suenaga",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-ricardo-espadas",
+      "name": "Ricardo Espadas",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Ricardo_Espadas",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/2/25/Espadas.png/revision/latest?cb=20190519191035"
+    },
+    {
+      "characterKey": "captain-tsubasa-medina",
+      "name": "Medina",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Medina",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-gomez-mexico-youth",
+      "name": "Gomez",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Gomez_(Mexico_Youth)",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-carvajal",
+      "name": "Carvajal",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Carvajal",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-rivera",
+      "name": "Rivera",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Rivera",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-espino",
+      "name": "Espino",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Espino",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-zaragoza",
+      "name": "Zaragoza",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Zaragoza",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/2/2c/Saragosa_Mexico_WY_%28DT%29.png/revision/latest?cb=20181220222044"
+    },
+    {
+      "characterKey": "captain-tsubasa-garcia",
+      "name": "Garcia",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Garcia",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/0/05/Garcia_Mexico_WY_%28DT%29.png/revision/latest?cb=20181220222044"
+    },
+    {
+      "characterKey": "captain-tsubasa-suarez",
+      "name": "Suarez",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Suarez",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/9/9c/Suarez_Mexico_WY_%28DT%29.png/revision/latest?cb=20181220222044"
+    },
+    {
+      "characterKey": "captain-tsubasa-alvez",
+      "name": "Alvez",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Alvez",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/b/b4/Alvez_Mexico_WY_%28DT%29.png/revision/latest?cb=20181220222044"
+    },
+    {
+      "characterKey": "captain-tsubasa-lopez",
+      "name": "Lopez",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Lopez",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/c/cf/Lopez_Mexico_WY_%28DT%29.png/revision/latest?cb=20181220222044"
+    },
+    {
+      "characterKey": "captain-tsubasa-moriyama",
+      "name": "Moriyama",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Moriyama",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-yoshida-musashi-ms",
+      "name": "Yoshida",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Yoshida_(Musashi_MS)",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-inoue-musashi-ms",
+      "name": "Inoue",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Inoue_(Musashi_MS)",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-nishiyama",
+      "name": "Nishiyama",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Nishiyama",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-yohei-maeda",
+      "name": "Yohei Maeda",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Yohei_Maeda",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-yamashiro",
+      "name": "Yamashiro",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Yamashiro",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-tonoike",
+      "name": "Tonoike",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Tonoike",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-yamashita-naniwa-fc",
+      "name": "Yamashita",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Yamashita_(Naniwa_FC)",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-tanaka-naniwa-fc",
+      "name": "Tanaka",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Tanaka_(Naniwa_FC)",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-ryo-shirai",
+      "name": "Ryo Shirai",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Ryo_Shirai",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-yuta-ogami",
+      "name": "Yuta Ogami",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Yuta_Ogami",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-kohei-takayanagi",
+      "name": "Kohei Takayanagi",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Kohei_Takayanagi",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-uchida",
+      "name": "Uchida",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Uchida",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-tetsuya-marui",
+      "name": "Tetsuya Marui",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Tetsuya_Marui",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-callusias",
+      "name": "Callusias",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Callusias",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/2/21/Callusias.png/revision/latest?cb=20130223070158"
+    },
+    {
+      "characterKey": "captain-tsubasa-fernando-ruiz-blueno",
+      "name": "Fernando Ruiz Blueno",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Fernando_Ruiz_Blueno",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/c/c8/Blueno.PNG/revision/latest?cb=20190731183746"
+    },
+    {
+      "characterKey": "captain-tsubasa-raphael",
+      "name": "Raphael",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Raphael",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/5/5a/Raphael.png/revision/latest?cb=20180623054030"
+    },
+    {
+      "characterKey": "captain-tsubasa-rail",
+      "name": "Rail",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Rail",
+      "source": "https://captaintsubasastats.robla.es/wp-content/uploads/2020/03/Rail-128x109.jpg"
+    },
+    {
+      "characterKey": "captain-tsubasa-fersio-torres",
+      "name": "Fersio Torres",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Fersio_Torres",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/0/0b/Fersio_Torres.png/revision/latest?cb=20240924180440"
+    },
+    {
+      "characterKey": "captain-tsubasa-masaki-yoshikawa",
+      "name": "Masaki Yoshikawa",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Masaki_Yoshikawa",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-kozo-kawada",
+      "name": "Kozo Kawada",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Kozo_Kawada",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-toru-hiraoka",
+      "name": "Toru Hiraoka",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Toru_Hiraoka",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-shingo-tadami",
+      "name": "Shingo Tadami",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Shingo_Tadami",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-akio-nakao",
+      "name": "Akio Nakao",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Akio_Nakao",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-sao-paulo-fc-number-1",
+      "name": "Alfredo Leoradore",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Sao_Paulo_FC_number_1",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-sao-paulo-fc-number-2",
+      "name": "Bruno Marcel",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Sao_Paulo_FC_number_2",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-sao-paulo-fc-player-unknown-number",
+      "name": "Donaldo Sauber",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Sao_Paulo_FC_player_-_unknown_number",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-sao-paulo-fc-number-3",
+      "name": "Gerardo Luci",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Sao_Paulo_FC_number_3",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-antoni",
+      "name": "Gabriel Antoni",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Antoni",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-sergio-sao-paulo",
+      "name": "Franco Sergio",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Sergio_(Sao_Paulo)",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-sao-paulo-fc-number-8",
+      "name": "Ricardo Tafrel",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Sao_Paulo_FC_number_8",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-jorginho",
+      "name": "Samueli Jorginho",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Jorginho",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-leandro-sao-paulo",
+      "name": "Valeria Leandro",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Leandro_(Sao_Paulo)",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-sandro",
+      "name": "Leao Sandro",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Sandro",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-etsuo-nagai",
+      "name": "Etsuo Nagai",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Etsuo_Nagai",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-ito-shimada-es",
+      "name": "Ito",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Ito_(Shimada_ES)",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-koichi-fujisawa",
+      "name": "Koichi Fujisawa",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Koichi_Fujisawa",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-takahashi-shimada-es",
+      "name": "Takahashi",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Takahashi_(Shimada_ES)",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-kimura-shimada-es",
+      "name": "Kimura",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Kimura_(Shimada_ES)",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-koji-ishikawa",
+      "name": "Koji Ishikawa",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Koji_Ishikawa",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-takashi-nakamura",
+      "name": "Takashi Nakamura",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Takashi_Nakamura",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-masayuki-jinbo",
+      "name": "Masayuki Jinbo",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Masayuki_Jinbo",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-mitsuo-hashimoto",
+      "name": "Mitsuo Hashimoto",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Mitsuo_Hashimoto",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-junichi-nagasaki",
+      "name": "Junichi Nagasaki",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Junichi_Nagasaki",
+      "source": "https://captaintsubasastats.robla.es/wp-content/uploads/2021/02/junichi_nagasaki-128x109.png"
+    },
+    {
+      "characterKey": "captain-tsubasa-naoki-uesugi",
+      "name": "Naoki Uesugi",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Naoki_Uesugi",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-garelli",
+      "name": "Garelli",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Garelli",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-mild",
+      "name": "Mild",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Mild",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-thoma",
+      "name": "Thoma",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Thoma",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-brolin",
+      "name": "Brolin",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Brolin",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/d/d1/Brolin_Sweden_%28DT%29_1.png/revision/latest?cb=20191126083854"
+    },
+    {
+      "characterKey": "captain-tsubasa-nilsson",
+      "name": "Nilsson",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Nilsson",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-rehn",
+      "name": "Rehn",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Rehn",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-larson",
+      "name": "Larson",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Larson",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/6/60/Larsson_Sweden_WY_%28DT%29.png/revision/latest?cb=20181127213743"
+    },
+    {
+      "characterKey": "captain-tsubasa-fredericks",
+      "name": "Fredericks",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Fredericks",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/a/ab/Frederiks_Sweden_WY_%28DT%29.png/revision/latest?cb=20181127213743"
+    },
+    {
+      "characterKey": "captain-tsubasa-ljung",
+      "name": "Ljung",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Ljung",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-ravelli",
+      "name": "Ravelli",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Ravelli",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-wacharapong",
+      "name": "Wacharapong",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Wacharapong",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-chawatana",
+      "name": "Chawatana",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Chawatana",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-chatchai",
+      "name": "Chatchai",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Chatchai",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-singprasert-bunnag",
+      "name": "Singprasert Bunnag",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Singprasert_Bunnag",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/1/18/Singprasert_Bunnag_%28DT%29_1.png/revision/latest?cb=20191022185133"
+    },
+    {
+      "characterKey": "captain-tsubasa-napa",
+      "name": "Napa",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Napa",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-somrit",
+      "name": "Somrit",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Somrit",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-chalermsri",
+      "name": "Chalermsri",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Chalermsri",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-tawan",
+      "name": "Tawan",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Tawan",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-falan-khongsawat",
+      "name": "Falan Khongsawat",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Falan_Khongsawat",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/3/39/Falan_Thailand_%28DT%29_1.png/revision/latest?cb=20240129171056"
+    },
+    {
+      "characterKey": "captain-tsubasa-sakun-khongsawat",
+      "name": "Sakun Khongsawat",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Sakun_Khongsawat",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/9/9c/Sakun_Thailand_%28DT%29_1.png/revision/latest?cb=20220324140253"
+    },
+    {
+      "characterKey": "captain-tsubasa-chana-khongsawat",
+      "name": "Chana Khongsawat",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Chana_Khongsawat",
+      "source": "https://static.wikia.nocookie.net/captaintsubasa/images/e/e3/Chana_Thailand_%28DT%29_1.png/revision/latest/scale-to-width-down/640?cb=20240129164402"
+    },
+    {
+      "characterKey": "captain-tsubasa-kiyoshi-furuta",
+      "name": "Kiyoshi Furuta",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Kiyoshi_Furuta",
+      "source": "https://captaintsubasastats.robla.es/wp-content/uploads/2021/02/Furuta-128x109.jpg"
+    },
+    {
+      "characterKey": "captain-tsubasa-katsuji-kawabe",
+      "name": "Katsuji Kawabe",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Katsuji_Kawabe",
+      "source": "https://captaintsubasastats.robla.es/wp-content/uploads/2021/02/Kawabe-128x109.jpg"
+    },
+    {
+      "characterKey": "captain-tsubasa-yutaka-matsuki",
+      "name": "Yutaka Matsuki",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Yutaka_Matsuki",
+      "source": "https://captaintsubasastats.robla.es/wp-content/uploads/2021/02/Matsuki-128x109.jpg"
+    },
+    {
+      "characterKey": "captain-tsubasa-tadashi-shimano",
+      "name": "Tadashi Shimano",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Tadashi_Shimano",
+      "source": "https://captaintsubasastats.robla.es/wp-content/uploads/2021/02/tadashi_shimano-128x109.jpg"
+    },
+    {
+      "characterKey": "captain-tsubasa-khlestov",
+      "name": "Khlestov",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Khlestov",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-nazarov",
+      "name": "Nazarov",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Nazarov",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-radchenko",
+      "name": "Radchenko",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Radchenko",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-jekin",
+      "name": "Jekin",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Jekin",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-ruzimov",
+      "name": "Ruzimov",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Ruzimov",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-tetradze",
+      "name": "Tetradze",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Tetradze",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-gaalin",
+      "name": "Gaalin",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Gaalin",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-salenko",
+      "name": "Salenko",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Salenko",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-popov",
+      "name": "Popov",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Popov",
+      "source": ""
+    },
+    {
+      "characterKey": "captain-tsubasa-halin",
+      "name": "Halin",
+      "wiki": "https://captaintsubasa.fandom.com/wiki/Halin",
+      "source": ""
+    }
+  ]
+}

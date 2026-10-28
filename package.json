@@ -1,0 +1,53 @@
+{
+  "name": "eleven-force",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently -k \"vite\" \"tsx watch server/index.ts\"",
+    "build": "vite build && tsup server/index.ts --format esm --platform node --target node20 --out-dir dist-server --clean",
+    "start": "node dist-server/index.js",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:e2e": "node tests/e2e.mjs",
+    "audit:prod": "npm audit --omit=dev",
+    "ratings:rebalance": "node scripts/rebalance-ratings.mjs",
+    "sync:portraits": "node scripts/sync-portraits.mjs",
+    "hash:admin": "node scripts/hash-admin-password.mjs"
+  },
+  "dependencies": {
+    "@fontsource-variable/nunito-sans": "^5.2.8",
+    "@fontsource/press-start-2p": "^5.2.8",
+    "better-sqlite3": "^12.4.1",
+    "cookie-parser": "^1.4.7",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.2.1",
+    "helmet": "^8.1.0",
+    "lucide-react": "^0.468.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "zod": "^4.1.13"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/cookie-parser": "^1.4.10",
+    "@types/express": "^5.0.5",
+    "@types/node": "^24.10.1",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "@types/supertest": "^7.2.1",
+    "@vitejs/plugin-react": "^5.1.1",
+    "concurrently": "^9.2.1",
+    "playwright-core": "^1.62.0",
+    "sharp": "^0.35.3",
+    "supertest": "^7.1.4",
+    "tsup": "^8.5.1",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.6",
+    "vitest": "^4.1.10"
+  },
+  "overrides": {
+    "esbuild": "0.28.1"
+  }
+}

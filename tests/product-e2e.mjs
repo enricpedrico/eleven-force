@@ -1,0 +1,100 @@
+import assert from "node:assert/strict";
+import { readFile, mkdir, writeFile } from "node:fs/promises";
+const playwright = await import(process.env.PLAYWRIGHT_MODULE ?? "playwright-core");
+const engine = process.env.E2E_ENGINE ?? "chromium";
+const browser = await playwright[engine].launch({ ...(engine === "chromium" ? { executablePath: "/usr/bin/google-chrome" } : {}), headless: true });
+const baseUrl = process.env.BASE_URL ?? "http://127.0.0.1:3011";
+const output = new URL("../test-results/product/", import.meta.url).pathname;
+await mkdir(output, { recursive: true });
+const catalog = JSON.parse(await readFile(new URL("../shared/catalog.json", import.meta.url), "utf8"));
+const squad = catalog.find((s) => s.id === (process.env.E2E_PORTRAIT_SEASON === "orion" ? "orion-inazuma-national" : "ares-alia-academy"));
+const xavierName = squad.players.find((p) => p.characterKey === "xavier-schiller").name;
+const snapshot = { version: 1, phase: "draft", seed: "portrait-product-review", seasons: [squad.season], formation: "4-3-3", tactic: "balanced", showRatings: false, uniqueCharacters: true, lineup: [], turn: 0, roll: { season: squad.season, squadId: squad.id, rerollsLeft: 1 }, rollHistory: [squad.id, squad.id] };
+const context = await browser.newContext({ viewport: { width: 390, height: 844 }, hasTouch: true, reducedMotion: "reduce" });
+const page = await context.newPage();
+const errors = [];
+page.on("pageerror", (error) => errors.push(error.message));
+page.on("requestfailed", (request) => console.log("Request failure", request.url(), request.failure()?.errorText));
+const shot = (name) => page.screenshot({ path: `${output}${engine}-${name}.png`, fullPage: true });
+async function noOverflow(label) {
+  assert.ok(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1), `${label}: horizontal overflow`);
+}
+try {
+  // A failed settings request must never silently restore baseline ratings.
+  await page.route("**/api/catalog-config", (route) => route.fulfill({ status: 503, contentType: "application/json", body: '{"error":"test"}' }));
+  await page.goto(baseUrl);
+  await page.getByText(/No se han podido cargar los ajustes actuales/).waitFor();
+  assert.equal(await page.getByRole("button", { name: /Draft individual/ }).count(), 0);
+  await page.unroute("**/api/catalog-config");
+  await page.getByRole("button", { name: "Reintentar", exact: true }).click();
+  await page.getByRole("button", { name: /Draft individual/ }).waitFor();
+  await noOverflow("home");
+  await shot("home");
+  await page.evaluate((save) => localStorage.setItem("eleven-force-solo-v1", JSON.stringify(save)), snapshot);
+  await page.reload();
+  await page.getByRole("button", { name: /Continuar draft/ }).click();
+  await page.locator(".cards-grid").waitFor();
+  assert.equal(await page.locator(".roster-toggle").getAttribute("aria-expanded"), "false");
+  assert.equal(await page.locator(".formation-pitch").isVisible(), false);
+  assert.ok((await page.locator(".cards-grid").boundingBox()).y < 760, "first cards should not be buried below the full pitch");
+  await page.getByLabel("Buscar jugador").fill(xavierName);
+  const card = page.locator(".player-card");
+  assert.equal(await card.count(), 1);
+  assert.equal(await card.locator("img").getAttribute("src"), "/portraits/xavier-schiller-ares.webp");
+  await page.waitForFunction(() => [...document.querySelectorAll(".player-card img")].every((img) => img.complete && img.naturalWidth > 0));
+  assert.equal(await card.locator(".player-card__rating > span").textContent(), "??");
+  await noOverflow("filtered draft");
+  await shot("xavier");
+  await page.getByLabel("Buscar jugador").fill("not-a-real-name");
+  await page.getByRole("button", { name: "Restablecer filtros" }).click();
+  assert.ok(await page.locator(".player-card").count() > 1);
+  await page.getByLabel("Buscar jugador").fill(xavierName);
+  await card.click();
+  await page.locator(".roster-toggle").click();
+  assert.equal(await page.locator(".pitch-slot.is-filled > span").textContent(), "??");
+  await shot("memory-lineup");
+  await page.reload();
+  await page.getByRole("button", { name: /Continuar draft/ }).click();
+  assert.match(await page.locator(".draft-counter").textContent(), /1\/11/);
+  await page.getByRole("button", { name: "Nuevo draft", exact: true }).click();
+  await page.getByRole("dialog").waitFor();
+  assert.ok(await page.evaluate(() => document.querySelector("dialog").contains(document.activeElement)));
+  await page.keyboard.press("Escape");
+  assert.equal(await page.getByRole("dialog").count(), 0);
+  assert.ok(await page.getByRole("button", { name: "Nuevo draft", exact: true }).evaluate((el) => el === document.activeElement));
+  assert.match(await page.locator(".draft-counter").textContent(), /1\/11/);
+  await page.getByRole("button", { name: "Nuevo draft", exact: true }).click();
+  await page.getByRole("dialog").getByRole("button", { name: "Nuevo draft", exact: true }).click();
+  await page.getByRole("button", { name: /Iniciar draft/ }).waitFor();
+  await page.setViewportSize({ width: 320, height: 740 });
+  await noOverflow("320px setup");
+  await shot("small-setup");
+  await page.getByRole("button", { name: "Información y privacidad" }).click();
+  await page.getByRole("dialog").waitFor();
+  await noOverflow("small dialog");
+  const bounds = await page.getByRole("dialog").boundingBox();
+  assert.ok(bounds.x >= 0 && bounds.y >= 0 && bounds.width <= 320 && bounds.height <= 740);
+  await shot("dialog");
+  await page.keyboard.press("Escape");
+  if (process.env.AXE_MODULE) {
+    const { default: AxeBuilder } = await import(process.env.AXE_MODULE);
+    const report = await new AxeBuilder({ page }).withTags(["wcag2a", "wcag2aa", "wcag21aa"]).analyze();
+    await writeFile(`${output}${engine}-axe.json`, JSON.stringify(report.violations, null, 2));
+    assert.equal(report.violations.filter((v) => ["critical", "serious"].includes(v.impact)).length, 0, "Serious accessibility violations; inspect axe report");
+  }
+  // Private/restricted storage must not crash language selection or gameplay.
+  const privatePage = await context.newPage();
+  await privatePage.addInitScript(() => { Storage.prototype.getItem = Storage.prototype.setItem = () => { throw new DOMException("Blocked", "SecurityError"); }; });
+  await privatePage.goto(baseUrl);
+  await privatePage.getByRole("button", { name: /Draft individual/ }).click();
+  await privatePage.getByRole("button", { name: /Iniciar draft/ }).click();
+  await privatePage.getByText(/No se puede guardar/).waitFor();
+  await privatePage.getByRole("button", { name: /Lanzar el dado/ }).click();
+  await privatePage.locator(".player-card").first().waitFor();
+  assert.deepEqual(errors, []);
+  console.log(`Product E2E passed (${engine}): recovery, settings retry, filters, portrait, memory, dialogs, 320px, restricted storage.`);
+} catch (error) {
+  console.error("Browser errors", errors);
+  await shot("failure").catch(() => {});
+  throw error;
+} finally { await browser.close(); }

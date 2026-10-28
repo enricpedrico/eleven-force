@@ -1,0 +1,1521 @@
+{
+  "generatedAt": "2026-08-11T15:33:58.198Z",
+  "scale": {
+    "elite": "94-97",
+    "star": "90-93",
+    "good": "88-89",
+    "caps": {
+      "84": 75,
+      "85": 55,
+      "86": 40,
+      "87": 30,
+      "88": 22,
+      "89": 16,
+      "90": 12,
+      "91": 9,
+      "92": 7,
+      "93": 5,
+      "94": 4,
+      "95": 3,
+      "96": 2,
+      "97": 2
+    }
+  },
+  "seasons": {
+    "original": {
+      "squads": 33,
+      "cards": 491,
+      "identities": 439,
+      "cardAverage": 77.65,
+      "identityPeakAverage": 77.15,
+      "identityDistribution": {
+        "64": 3,
+        "65": 1,
+        "66": 5,
+        "67": 12,
+        "68": 14,
+        "69": 18,
+        "70": 23,
+        "71": 12,
+        "72": 14,
+        "73": 26,
+        "74": 24,
+        "75": 26,
+        "76": 32,
+        "77": 37,
+        "78": 34,
+        "79": 22,
+        "80": 20,
+        "81": 17,
+        "82": 13,
+        "83": 16,
+        "84": 10,
+        "85": 13,
+        "86": 9,
+        "87": 7,
+        "88": 6,
+        "89": 7,
+        "90": 3,
+        "91": 3,
+        "92": 3,
+        "93": 2,
+        "94": 4,
+        "95": 1,
+        "96": 1,
+        "97": 1
+      },
+      "topIdentities": [
+        {
+          "name": "Mark Evans",
+          "rating": 97
+        },
+        {
+          "name": "Hector Helio",
+          "rating": 96
+        },
+        {
+          "name": "Axel Blaze",
+          "rating": 95
+        },
+        {
+          "name": "Jude Sharp",
+          "rating": 94
+        },
+        {
+          "name": "Shawn Froste",
+          "rating": 94
+        },
+        {
+          "name": "Xavier Foster",
+          "rating": 94
+        },
+        {
+          "name": "Bash Lancer",
+          "rating": 94
+        },
+        {
+          "name": "Byron Love",
+          "rating": 93
+        },
+        {
+          "name": "Paolo Bianchi",
+          "rating": 93
+        },
+        {
+          "name": "Caleb Stonewall",
+          "rating": 92
+        },
+        {
+          "name": "Mac Robingo",
+          "rating": 92
+        },
+        {
+          "name": "Thiago Torres",
+          "rating": 92
+        },
+        {
+          "name": "Claude Beacons",
+          "rating": 91
+        },
+        {
+          "name": "Bryce Whitingale",
+          "rating": 91
+        },
+        {
+          "name": "Edgar Partinus",
+          "rating": 91
+        },
+        {
+          "name": "Nathan Swift",
+          "rating": 90
+        },
+        {
+          "name": "Keenan DiFortune",
+          "rating": 90
+        },
+        {
+          "name": "Mark Krueger",
+          "rating": 90
+        },
+        {
+          "name": "Jack Wallside",
+          "rating": 89
+        },
+        {
+          "name": "Mystral Callous",
+          "rating": 89
+        },
+        {
+          "name": "Lars Luceafăr",
+          "rating": 89
+        },
+        {
+          "name": "Xene",
+          "rating": 89
+        },
+        {
+          "name": "Torch",
+          "rating": 89
+        },
+        {
+          "name": "Gazelle",
+          "rating": 89
+        },
+        {
+          "name": "Erik Eagle",
+          "rating": 89
+        },
+        {
+          "name": "David Samford",
+          "rating": 88
+        },
+        {
+          "name": "Drago Hill",
+          "rating": 88
+        },
+        {
+          "name": "Maximino Cruz",
+          "rating": 88
+        },
+        {
+          "name": "Darren LaChance",
+          "rating": 88
+        },
+        {
+          "name": "Dylan Keats",
+          "rating": 88
+        }
+      ],
+      "strongestSquads": [
+        {
+          "name": "Inazuma National",
+          "average": 89.28
+        },
+        {
+          "name": "Team Ogre",
+          "average": 86.18
+        },
+        {
+          "name": "Little Gigantes",
+          "average": 86.06
+        },
+        {
+          "name": "Dark Emperors",
+          "average": 83.45
+        },
+        {
+          "name": "Raimon",
+          "average": 83.35
+        },
+        {
+          "name": "Genesis",
+          "average": 83.18
+        },
+        {
+          "name": "Chaos",
+          "average": 83.09
+        },
+        {
+          "name": "The Kingdom",
+          "average": 82.69
+        }
+      ],
+      "weakestSquads": [
+        {
+          "name": "Otaku",
+          "average": 66.5
+        },
+        {
+          "name": "Wild",
+          "average": 68.38
+        },
+        {
+          "name": "Occult",
+          "average": 68.5
+        },
+        {
+          "name": "Secret Service",
+          "average": 71.25
+        },
+        {
+          "name": "Shuriken",
+          "average": 71.63
+        }
+      ]
+    },
+    "go": {
+      "squads": 19,
+      "cards": 286,
+      "identities": 258,
+      "cardAverage": 82.27,
+      "identityPeakAverage": 81.92,
+      "identityDistribution": {
+        "73": 4,
+        "74": 2,
+        "75": 16,
+        "76": 9,
+        "77": 12,
+        "78": 16,
+        "79": 23,
+        "80": 22,
+        "81": 14,
+        "82": 25,
+        "83": 27,
+        "84": 34,
+        "85": 14,
+        "86": 11,
+        "88": 8,
+        "89": 5,
+        "90": 3,
+        "92": 1,
+        "93": 3,
+        "94": 3,
+        "95": 3,
+        "96": 2,
+        "97": 1
+      },
+      "topIdentities": [
+        {
+          "name": "Arion Sherwind",
+          "rating": 97
+        },
+        {
+          "name": "Ozrock Boldar",
+          "rating": 96
+        },
+        {
+          "name": "Simeon Ayp",
+          "rating": 96
+        },
+        {
+          "name": "Victor Blade",
+          "rating": 95
+        },
+        {
+          "name": "Riccardo Di Rigo",
+          "rating": 95
+        },
+        {
+          "name": "Bailong",
+          "rating": 95
+        },
+        {
+          "name": "Zanark Avalonic",
+          "rating": 94
+        },
+        {
+          "name": "Tezcat",
+          "rating": 94
+        },
+        {
+          "name": "Jude Sharp",
+          "rating": 94
+        },
+        {
+          "name": "Sol Daystar",
+          "rating": 93
+        },
+        {
+          "name": "Fei Rune",
+          "rating": 93
+        },
+        {
+          "name": "Falco Flashman",
+          "rating": 93
+        },
+        {
+          "name": "Goldie Lemmon",
+          "rating": 92
+        },
+        {
+          "name": "Phobos Quasar",
+          "rating": 90
+        },
+        {
+          "name": "Terry Archibald",
+          "rating": 90
+        },
+        {
+          "name": "Quentin Cinquedea",
+          "rating": 90
+        },
+        {
+          "name": "Ryoma Nishiki",
+          "rating": 89
+        },
+        {
+          "name": "Gabriel Garcia",
+          "rating": 89
+        },
+        {
+          "name": "Sor",
+          "rating": 89
+        },
+        {
+          "name": "Gandares Baran",
+          "rating": 89
+        },
+        {
+          "name": "Ruger Baran",
+          "rating": 89
+        },
+        {
+          "name": "Jean-Pierre Lapin",
+          "rating": 88
+        },
+        {
+          "name": "Mehr",
+          "rating": 88
+        },
+        {
+          "name": "Ghiris",
+          "rating": 88
+        },
+        {
+          "name": "Rondula Flehl",
+          "rating": 88
+        },
+        {
+          "name": "Circulus Corona",
+          "rating": 88
+        },
+        {
+          "name": "Arculus Orbes",
+          "rating": 88
+        },
+        {
+          "name": "Beta",
+          "rating": 88
+        },
+        {
+          "name": "Cronus Fourseasons",
+          "rating": 88
+        },
+        {
+          "name": "Djung Hamstah",
+          "rating": 86
+        }
+      ],
+      "strongestSquads": [
+        {
+          "name": "Chrono Storm",
+          "average": 92.25
+        },
+        {
+          "name": "Earth Eleven",
+          "average": 87.08
+        },
+        {
+          "name": "Ragnah",
+          "average": 85.56
+        },
+        {
+          "name": "Ixar Fleet",
+          "average": 85.55
+        },
+        {
+          "name": "Falam Medius",
+          "average": 84.73
+        },
+        {
+          "name": "Team Zero",
+          "average": 84.65
+        },
+        {
+          "name": "Perfect Cascade",
+          "average": 84.06
+        },
+        {
+          "name": "Gahl",
+          "average": 83.56
+        }
+      ],
+      "weakestSquads": [
+        {
+          "name": "Fire Dragon",
+          "average": 74.64
+        },
+        {
+          "name": "Universal",
+          "average": 77.56
+        },
+        {
+          "name": "Mount Olympus",
+          "average": 77.81
+        },
+        {
+          "name": "Protocol Omega",
+          "average": 78.31
+        },
+        {
+          "name": "Royal Academy",
+          "average": 78.47
+        }
+      ]
+    },
+    "ares": {
+      "squads": 12,
+      "cards": 173,
+      "identities": 160,
+      "cardAverage": 80.42,
+      "identityPeakAverage": 79.97,
+      "identityDistribution": {
+        "71": 2,
+        "72": 1,
+        "73": 4,
+        "74": 14,
+        "75": 9,
+        "76": 11,
+        "77": 9,
+        "78": 19,
+        "79": 17,
+        "80": 14,
+        "81": 14,
+        "82": 12,
+        "83": 8,
+        "84": 1,
+        "85": 3,
+        "86": 3,
+        "87": 1,
+        "88": 4,
+        "89": 3,
+        "90": 3,
+        "91": 1,
+        "92": 1,
+        "93": 1,
+        "94": 3,
+        "95": 1,
+        "96": 1
+      },
+      "topIdentities": [
+        {
+          "name": "Mark Evans",
+          "rating": 96
+        },
+        {
+          "name": "Axel Blaze",
+          "rating": 95
+        },
+        {
+          "name": "Heath Moore",
+          "rating": 94
+        },
+        {
+          "name": "Jude Sharp",
+          "rating": 94
+        },
+        {
+          "name": "Xavier Schiller",
+          "rating": 94
+        },
+        {
+          "name": "Elliot Ember",
+          "rating": 93
+        },
+        {
+          "name": "Sonny Wright",
+          "rating": 92
+        },
+        {
+          "name": "Sergi Hernández",
+          "rating": 91
+        },
+        {
+          "name": "Nathan Swift",
+          "rating": 90
+        },
+        {
+          "name": "Shawn Froste",
+          "rating": 90
+        },
+        {
+          "name": "Aiden Froste",
+          "rating": 90
+        },
+        {
+          "name": "Basile Hardy",
+          "rating": 89
+        },
+        {
+          "name": "Kevin Dragonfly",
+          "rating": 89
+        },
+        {
+          "name": "Caleb Stonewall",
+          "rating": 89
+        },
+        {
+          "name": "Claude Beacons",
+          "rating": 88
+        },
+        {
+          "name": "Hunter Foster",
+          "rating": 88
+        },
+        {
+          "name": "Bryce Whitingale",
+          "rating": 88
+        },
+        {
+          "name": "Byron Love",
+          "rating": 88
+        },
+        {
+          "name": "Percy Hurst",
+          "rating": 87
+        },
+        {
+          "name": "Duske Grayling",
+          "rating": 86
+        },
+        {
+          "name": "Acker Reese",
+          "rating": 86
+        },
+        {
+          "name": "Jack Wallside",
+          "rating": 86
+        },
+        {
+          "name": "Isabelle Trick",
+          "rating": 85
+        },
+        {
+          "name": "David Samford",
+          "rating": 85
+        },
+        {
+          "name": "Billy Miller",
+          "rating": 85
+        },
+        {
+          "name": "Jordan Greenway",
+          "rating": 84
+        },
+        {
+          "name": "Lucian Skye",
+          "rating": 83
+        },
+        {
+          "name": "Raylon Highmoor",
+          "rating": 83
+        },
+        {
+          "name": "Piers Thornton",
+          "rating": 83
+        },
+        {
+          "name": "Bud Bloome",
+          "rating": 83
+        }
+      ],
+      "strongestSquads": [
+        {
+          "name": "Raimon",
+          "average": 86.06
+        },
+        {
+          "name": "Alia Academy",
+          "average": 83.5
+        },
+        {
+          "name": "Lunar Prime Academy",
+          "average": 82.38
+        },
+        {
+          "name": "Polestar Academy",
+          "average": 81.88
+        },
+        {
+          "name": "Zeus",
+          "average": 80.82
+        },
+        {
+          "name": "Alpine",
+          "average": 80.79
+        },
+        {
+          "name": "Barcelona Orb",
+          "average": 80.69
+        },
+        {
+          "name": "Royal Academy",
+          "average": 80.31
+        }
+      ],
+      "weakestSquads": [
+        {
+          "name": "Rampart Junior High",
+          "average": 74.19
+        },
+        {
+          "name": "Kirkwood",
+          "average": 77.21
+        },
+        {
+          "name": "Everytown",
+          "average": 77.81
+        },
+        {
+          "name": "Backwater Island",
+          "average": 78.33
+        },
+        {
+          "name": "Royal Academy",
+          "average": 80.31
+        }
+      ]
+    },
+    "orion": {
+      "squads": 13,
+      "cards": 184,
+      "identities": 184,
+      "cardAverage": 80.65,
+      "identityPeakAverage": 80.65,
+      "identityDistribution": {
+        "75": 13,
+        "76": 11,
+        "77": 15,
+        "78": 22,
+        "79": 24,
+        "80": 22,
+        "81": 23,
+        "82": 20,
+        "83": 8,
+        "84": 2,
+        "85": 1,
+        "86": 5,
+        "87": 2,
+        "88": 1,
+        "89": 1,
+        "90": 1,
+        "91": 3,
+        "92": 2,
+        "93": 2,
+        "94": 3,
+        "95": 2,
+        "96": 1
+      },
+      "topIdentities": [
+        {
+          "name": "Mark Evans",
+          "rating": 96
+        },
+        {
+          "name": "Elliot Ember",
+          "rating": 95
+        },
+        {
+          "name": "Axel Blaze",
+          "rating": 95
+        },
+        {
+          "name": "Jude Sharp",
+          "rating": 94
+        },
+        {
+          "name": "Heath Moore",
+          "rating": 94
+        },
+        {
+          "name": "Xavier Schiller",
+          "rating": 94
+        },
+        {
+          "name": "Shawn Froste",
+          "rating": 93
+        },
+        {
+          "name": "Byron Love",
+          "rating": 93
+        },
+        {
+          "name": "Sonny Wright",
+          "rating": 92
+        },
+        {
+          "name": "Lucas Star",
+          "rating": 92
+        },
+        {
+          "name": "Caleb Stonewall",
+          "rating": 91
+        },
+        {
+          "name": "Philip Star",
+          "rating": 91
+        },
+        {
+          "name": "Sergi Hernández",
+          "rating": 91
+        },
+        {
+          "name": "Nathan Swift",
+          "rating": 90
+        },
+        {
+          "name": "Basile Hardy",
+          "rating": 89
+        },
+        {
+          "name": "Seth Bael",
+          "rating": 88
+        },
+        {
+          "name": "Dave Quagmire",
+          "rating": 87
+        },
+        {
+          "name": "Adriano Donati",
+          "rating": 87
+        },
+        {
+          "name": "Trevor Cook",
+          "rating": 86
+        },
+        {
+          "name": "Sandra Fischer",
+          "rating": 86
+        },
+        {
+          "name": "Raúl Parejo",
+          "rating": 86
+        },
+        {
+          "name": "Salvador Castell",
+          "rating": 86
+        },
+        {
+          "name": "Jimmy Wongfu",
+          "rating": 86
+        },
+        {
+          "name": "Bobby Shearer",
+          "rating": 85
+        },
+        {
+          "name": "Sirius",
+          "rating": 84
+        },
+        {
+          "name": "Hatysa",
+          "rating": 84
+        },
+        {
+          "name": "Meissa",
+          "rating": 83
+        },
+        {
+          "name": "Marat Stakatov",
+          "rating": 83
+        },
+        {
+          "name": "Dani Ramos",
+          "rating": 83
+        },
+        {
+          "name": "Andrés Alonso",
+          "rating": 83
+        }
+      ],
+      "strongestSquads": [
+        {
+          "name": "Inazuma National",
+          "average": 91.39
+        },
+        {
+          "name": "Los Invencibles",
+          "average": 83.23
+        },
+        {
+          "name": "Orion Eclipse",
+          "average": 81.79
+        },
+        {
+          "name": "Pitch Perfectionists",
+          "average": 81
+        },
+        {
+          "name": "Star-Spangled Unicorns",
+          "average": 80.43
+        },
+        {
+          "name": "Guardians of the Queen",
+          "average": 80.31
+        },
+        {
+          "name": "The Sambassadors",
+          "average": 80.08
+        },
+        {
+          "name": "Ace Invaders",
+          "average": 79.07
+        }
+      ],
+      "weakestSquads": [
+        {
+          "name": "Raging Bulls",
+          "average": 76.43
+        },
+        {
+          "name": "Arabian Firebirds",
+          "average": 76.69
+        },
+        {
+          "name": "Eternal Dancers",
+          "average": 77
+        },
+        {
+          "name": "Fallen Angels",
+          "average": 78.54
+        },
+        {
+          "name": "Avenging Acrobats",
+          "average": 78.77
+        }
+      ]
+    },
+    "victory": {
+      "squads": 16,
+      "cards": 258,
+      "identities": 258,
+      "cardAverage": 78.65,
+      "identityPeakAverage": 78.65,
+      "identityDistribution": {
+        "73": 2,
+        "74": 9,
+        "75": 25,
+        "76": 31,
+        "77": 37,
+        "78": 32,
+        "79": 35,
+        "80": 29,
+        "81": 23,
+        "82": 8,
+        "83": 13,
+        "84": 7,
+        "87": 1,
+        "88": 1,
+        "89": 2,
+        "92": 1,
+        "93": 1,
+        "94": 1
+      },
+      "topIdentities": [
+        {
+          "name": "Harper Evans",
+          "rating": 94
+        },
+        {
+          "name": "Briar Bloomhurst",
+          "rating": 93
+        },
+        {
+          "name": "Cedric Freud",
+          "rating": 92
+        },
+        {
+          "name": "Alix La Fontaine",
+          "rating": 89
+        },
+        {
+          "name": "Raika Shinohara",
+          "rating": 89
+        },
+        {
+          "name": "Thaddeus Bellefax",
+          "rating": 88
+        },
+        {
+          "name": "Cade Shelby",
+          "rating": 87
+        },
+        {
+          "name": "Vector Vernam",
+          "rating": 84
+        },
+        {
+          "name": "Torin Sandels",
+          "rating": 84
+        },
+        {
+          "name": "Victorio Cryptix",
+          "rating": 84
+        },
+        {
+          "name": "Miles Euclid",
+          "rating": 84
+        },
+        {
+          "name": "Niana Cooke",
+          "rating": 84
+        },
+        {
+          "name": "Declan Jaxor",
+          "rating": 84
+        },
+        {
+          "name": "Denowar Krell",
+          "rating": 84
+        },
+        {
+          "name": "Xyron Madric",
+          "rating": 83
+        },
+        {
+          "name": "Zyphar Doar",
+          "rating": 83
+        },
+        {
+          "name": "Pharos Radris",
+          "rating": 83
+        },
+        {
+          "name": "Gilia Dandrel",
+          "rating": 83
+        },
+        {
+          "name": "Nebula Raime",
+          "rating": 83
+        },
+        {
+          "name": "Hugo Severian",
+          "rating": 83
+        },
+        {
+          "name": "Menox Kessler",
+          "rating": 83
+        },
+        {
+          "name": "Machina Dex",
+          "rating": 83
+        },
+        {
+          "name": "Orpheus Clayridge",
+          "rating": 83
+        },
+        {
+          "name": "Simen Thorne",
+          "rating": 83
+        },
+        {
+          "name": "Eon McKeane",
+          "rating": 83
+        },
+        {
+          "name": "Nettie Neuralyn",
+          "rating": 83
+        },
+        {
+          "name": "Synthian Volkel",
+          "rating": 83
+        },
+        {
+          "name": "Grenadier Deton",
+          "rating": 82
+        },
+        {
+          "name": "Crysis Murdok",
+          "rating": 82
+        },
+        {
+          "name": "Nikolaos Menandros",
+          "rating": 82
+        }
+      ],
+      "strongestSquads": [
+        {
+          "name": "Destroyers",
+          "average": 82.38
+        },
+        {
+          "name": "Platos",
+          "average": 82.38
+        },
+        {
+          "name": "South Cirrus Junior High",
+          "average": 82.06
+        },
+        {
+          "name": "AI Academy",
+          "average": 80.69
+        },
+        {
+          "name": "Raimon",
+          "average": 80.25
+        },
+        {
+          "name": "Solaria-Zeus",
+          "average": 80.06
+        },
+        {
+          "name": "Royal Academy",
+          "average": 79.31
+        },
+        {
+          "name": "Noble Insight",
+          "average": 78.38
+        }
+      ],
+      "weakestSquads": [
+        {
+          "name": "Northbright",
+          "average": 75.63
+        },
+        {
+          "name": "West Manor",
+          "average": 75.75
+        },
+        {
+          "name": "Eastwind",
+          "average": 76.19
+        },
+        {
+          "name": "Crosswind-Fauxshore",
+          "average": 76.31
+        },
+        {
+          "name": "Stormridge",
+          "average": 76.56
+        }
+      ]
+    },
+    "blue-lock": {
+      "squads": 41,
+      "cards": 661,
+      "identities": 178,
+      "cardAverage": 85.07,
+      "identityPeakAverage": 82.08,
+      "identityDistribution": {
+        "64": 1,
+        "65": 3,
+        "67": 6,
+        "68": 4,
+        "69": 3,
+        "72": 1,
+        "73": 1,
+        "74": 1,
+        "75": 5,
+        "76": 3,
+        "77": 3,
+        "78": 7,
+        "79": 6,
+        "80": 12,
+        "81": 10,
+        "82": 21,
+        "83": 26,
+        "84": 10,
+        "85": 13,
+        "86": 8,
+        "87": 4,
+        "88": 4,
+        "89": 4,
+        "90": 1,
+        "91": 3,
+        "92": 3,
+        "93": 4,
+        "94": 4,
+        "95": 3,
+        "96": 2,
+        "97": 2
+      },
+      "topIdentities": [
+        {
+          "name": "Noel Noa",
+          "rating": 97
+        },
+        {
+          "name": "Marc Snuffy",
+          "rating": 97
+        },
+        {
+          "name": "Julian Loki",
+          "rating": 96
+        },
+        {
+          "name": "Chris Prince",
+          "rating": 96
+        },
+        {
+          "name": "Lavinho",
+          "rating": 95
+        },
+        {
+          "name": "Michael Kaiser",
+          "rating": 95
+        },
+        {
+          "name": "Don Lorenzo",
+          "rating": 95
+        },
+        {
+          "name": "Yoichi Isagi",
+          "rating": 94
+        },
+        {
+          "name": "Ryusei Shido",
+          "rating": 94
+        },
+        {
+          "name": "Rin Itoshi",
+          "rating": 94
+        },
+        {
+          "name": "Sae Itoshi",
+          "rating": 94
+        },
+        {
+          "name": "Charles Chevalier",
+          "rating": 93
+        },
+        {
+          "name": "Seishiro Nagi",
+          "rating": 93
+        },
+        {
+          "name": "Meguru Bachira",
+          "rating": 93
+        },
+        {
+          "name": "Shoei Baro",
+          "rating": 93
+        },
+        {
+          "name": "Oliver Aiku",
+          "rating": 92
+        },
+        {
+          "name": "Rensuke Kunigami",
+          "rating": 92
+        },
+        {
+          "name": "Hyoma Chigiri",
+          "rating": 92
+        },
+        {
+          "name": "Yo Hiori",
+          "rating": 91
+        },
+        {
+          "name": "Tabito Karasu",
+          "rating": 91
+        },
+        {
+          "name": "Reo Mikage",
+          "rating": 91
+        },
+        {
+          "name": "Gin Gagamaru",
+          "rating": 90
+        },
+        {
+          "name": "Kyohei Shiguma",
+          "rating": 89
+        },
+        {
+          "name": "Kenyu Yukimiya",
+          "rating": 89
+        },
+        {
+          "name": "Ikki Niko",
+          "rating": 89
+        },
+        {
+          "name": "Eita Otoya",
+          "rating": 89
+        },
+        {
+          "name": "Igor Schneider",
+          "rating": 88
+        },
+        {
+          "name": "Michelin",
+          "rating": 88
+        },
+        {
+          "name": "Drago",
+          "rating": 88
+        },
+        {
+          "name": "Shingen Tanaka",
+          "rating": 88
+        }
+      ],
+      "strongestSquads": [
+        {
+          "name": "Japan U-20",
+          "average": 91.44
+        },
+        {
+          "name": "Blue Lock Eleven",
+          "average": 90.71
+        },
+        {
+          "name": "Neo Egoist League All-Stars",
+          "average": 90.5
+        },
+        {
+          "name": "Neo Egoist League Masters",
+          "average": 90.5
+        },
+        {
+          "name": "Team Red",
+          "average": 89.94
+        },
+        {
+          "name": "Neo Egoist League Rising Stars",
+          "average": 89.67
+        },
+        {
+          "name": "Blue Lock All-Stars",
+          "average": 89.56
+        },
+        {
+          "name": "Paris X Gen Draft XI",
+          "average": 88.61
+        }
+      ],
+      "weakestSquads": [
+        {
+          "name": "Team W",
+          "average": 68.55
+        },
+        {
+          "name": "Team X",
+          "average": 68.73
+        },
+        {
+          "name": "Team Y",
+          "average": 69
+        },
+        {
+          "name": "Team V",
+          "average": 77.27
+        },
+        {
+          "name": "Nigeria U-20",
+          "average": 78.17
+        }
+      ]
+    },
+    "captain-tsubasa": {
+      "squads": 52,
+      "cards": 703,
+      "identities": 390,
+      "cardAverage": 81.27,
+      "identityPeakAverage": 78.67,
+      "identityDistribution": {
+        "66": 4,
+        "67": 3,
+        "68": 5,
+        "69": 10,
+        "70": 12,
+        "71": 11,
+        "72": 19,
+        "73": 19,
+        "74": 16,
+        "75": 21,
+        "76": 25,
+        "77": 28,
+        "78": 28,
+        "79": 32,
+        "80": 25,
+        "81": 14,
+        "82": 25,
+        "83": 21,
+        "84": 14,
+        "85": 12,
+        "86": 8,
+        "87": 7,
+        "88": 2,
+        "89": 3,
+        "90": 3,
+        "91": 4,
+        "92": 4,
+        "93": 4,
+        "94": 4,
+        "95": 3,
+        "96": 2,
+        "97": 2
+      },
+      "topIdentities": [
+        {
+          "name": "Michael",
+          "rating": 97
+        },
+        {
+          "name": "Tsubasa Ozora",
+          "rating": 97
+        },
+        {
+          "name": "Rivaul",
+          "rating": 96
+        },
+        {
+          "name": "Natureza",
+          "rating": 96
+        },
+        {
+          "name": "Karl Heinz Schneider",
+          "rating": 95
+        },
+        {
+          "name": "Carlos Santana",
+          "rating": 95
+        },
+        {
+          "name": "Genzo Wakabayashi",
+          "rating": 95
+        },
+        {
+          "name": "Juan Diaz",
+          "rating": 94
+        },
+        {
+          "name": "Brian Cruyfford",
+          "rating": 94
+        },
+        {
+          "name": "Taro Misaki",
+          "rating": 94
+        },
+        {
+          "name": "Kojiro Hyuga",
+          "rating": 94
+        },
+        {
+          "name": "Elle Sid Pierre",
+          "rating": 93
+        },
+        {
+          "name": "Deuter Muller",
+          "rating": 93
+        },
+        {
+          "name": "Stefan Levin",
+          "rating": 93
+        },
+        {
+          "name": "Jun Misugi",
+          "rating": 93
+        },
+        {
+          "name": "Hikaru Matsuyama",
+          "rating": 92
+        },
+        {
+          "name": "Ken Wakashimazu",
+          "rating": 92
+        },
+        {
+          "name": "Shingo Aoi",
+          "rating": 92
+        },
+        {
+          "name": "Ricardo Espadas",
+          "rating": 92
+        },
+        {
+          "name": "Hermann Kaltz",
+          "rating": 91
+        },
+        {
+          "name": "Ryoma Hino",
+          "rating": 91
+        },
+        {
+          "name": "Salvatore Gentile",
+          "rating": 91
+        },
+        {
+          "name": "Hajime Taki",
+          "rating": 91
+        },
+        {
+          "name": "Ramon Victorino",
+          "rating": 90
+        },
+        {
+          "name": "Mamoru Izawa",
+          "rating": 90
+        },
+        {
+          "name": "Shun Nitta",
+          "rating": 90
+        },
+        {
+          "name": "Gino Hernandez",
+          "rating": 89
+        },
+        {
+          "name": "Hanji Urabe",
+          "rating": 89
+        },
+        {
+          "name": "Ryo Ishizaki",
+          "rating": 89
+        },
+        {
+          "name": "Radunga",
+          "rating": 88
+        }
+      ],
+      "strongestSquads": [
+        {
+          "name": "World Selection",
+          "average": 91.61
+        },
+        {
+          "name": "World Selection (Sansei)",
+          "average": 90.94
+        },
+        {
+          "name": "Olympic Japan",
+          "average": 90.61
+        },
+        {
+          "name": "Oozora Tsubasa Friends",
+          "average": 89.5
+        },
+        {
+          "name": "All Japan Youth",
+          "average": 89.33
+        },
+        {
+          "name": "Japan Selection",
+          "average": 88.22
+        },
+        {
+          "name": "U-22 Japan",
+          "average": 87.78
+        },
+        {
+          "name": "All Japan Jr. Youth",
+          "average": 87.28
+        }
+      ],
+      "weakestSquads": [
+        {
+          "name": "Shimada Elementary Soccer Club",
+          "average": 67.18
+        },
+        {
+          "name": "Naniwa FC",
+          "average": 69.82
+        },
+        {
+          "name": "Azumaichi Middle School",
+          "average": 70
+        },
+        {
+          "name": "Hanawa SS",
+          "average": 71
+        },
+        {
+          "name": "Hanawa Middle School",
+          "average": 71.64
+        }
+      ]
+    }
+  }
+}

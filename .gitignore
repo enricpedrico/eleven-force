@@ -1,0 +1,47 @@
+node_modules
+dist
+dist-server
+data
+.env
+test-results
+playwright-report
+
+# Publication excludes
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+*.pem
+*.key
+*credentials*
+secrets/
+# Runtime and user data
+/data/
+/cache/
+/run/
+/reports/
+/logs/
+/backups/
+/ops-backups/
+*.sqlite*
+*.db
+*.log
+# Dependencies and generated files
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+*.o
+*.so
+*.tsbuildinfo
+/target/
+/dist/
+/dist-server/
+/web-dist/
+/release/
+.openai/
+/test-results/
+/playwright-report/
+.DS_Store
