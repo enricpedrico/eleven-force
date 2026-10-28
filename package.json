@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "concurrently -k \"vite\" \"tsx watch server/index.ts\"",
-    "build": "vite build && tsup server/index.ts --format esm --platform node --target node20 --out-dir dist-server --clean",
+    "build": "vite build && tsup server/index.ts --format esm --platform node --target node24 --out-dir dist-server --clean",
     "start": "node dist-server/index.js",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
@@ -49,5 +49,8 @@
   },
   "overrides": {
     "esbuild": "0.28.1"
+  },
+  "engines": {
+    "node": ">=24 <25"
   }
 }

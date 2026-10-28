@@ -25,7 +25,8 @@ export function hashPassword(password: string): string {
 }
 
 export function verifyPassword(password: string, stored: string | null): boolean {
-  if (!stored) return true;
+  if (stored === null) return true;
+  if (!/^[a-f0-9]{32}:[a-f0-9]{64}$/i.test(stored)) return false;
   const [saltHex, hashHex] = stored.split(":");
   if (!saltHex || !hashHex) return false;
   const expected = Buffer.from(hashHex, "hex");
@@ -134,7 +135,7 @@ export class RoomStore {
   }
 
   roomExists(code: string): boolean {
-    return Boolean(this.database.prepare("SELECT 1 FROM rooms WHERE code = ? AND expires_at > ?").get(code, new Date().toISOString()));
+    return Boolean(this.database.prepare("SELECT 1 FROM rooms WHERE code = ?").get(code));
   }
 
   loadRoom(code: string): RoomState | undefined {
@@ -160,7 +161,7 @@ export class RoomStore {
   }
 
   verifyRoomPassword(code: string, password: string): boolean {
-    const row = this.database.prepare("SELECT password_hash FROM rooms WHERE code = ?").get(code) as
+    const row = this.database.prepare("SELECT password_hash FROM rooms WHERE code = ? AND expires_at > ?").get(code, new Date().toISOString()) as
       | { password_hash: string | null }
       | undefined;
     return Boolean(row && verifyPassword(password, row.password_hash));
@@ -175,8 +176,8 @@ export class RoomStore {
     return { token, csrfToken };
   }
 
-  loadSession(token: string | undefined): SessionRecord | undefined {
-    if (!token) return undefined;
+  loadSession(token: unknown): SessionRecord | undefined {
+    if (typeof token !== "string" || !/^[A-Za-z0-9_-]{43}$/.test(token)) return undefined;
     return this.database.prepare(`
       SELECT room_code AS roomCode, member_id AS memberId, csrf_token AS csrfToken
       FROM sessions WHERE token_hash = ? AND expires_at > ?
@@ -192,16 +193,16 @@ export class RoomStore {
     return { token, csrfToken };
   }
 
-  loadAdminSession(token: string | undefined): AdminSessionRecord | undefined {
-    if (!token) return undefined;
+  loadAdminSession(token: unknown): AdminSessionRecord | undefined {
+    if (typeof token !== "string" || !/^[A-Za-z0-9_-]{43}$/.test(token)) return undefined;
     return this.database.prepare(`
       SELECT csrf_token AS csrfToken
       FROM admin_sessions WHERE token_hash = ? AND expires_at > ?
     `).get(tokenHash(token), new Date().toISOString()) as AdminSessionRecord | undefined;
   }
 
-  deleteAdminSession(token: string | undefined): void {
-    if (token) this.database.prepare("DELETE FROM admin_sessions WHERE token_hash = ?").run(tokenHash(token));
+  deleteAdminSession(token: unknown): void {
+    if (typeof token === "string" && /^[A-Za-z0-9_-]{43}$/.test(token)) this.database.prepare("DELETE FROM admin_sessions WHERE token_hash = ?").run(tokenHash(token));
   }
 
   cardOverrides(): CardOverrides {

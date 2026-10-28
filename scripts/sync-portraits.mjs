@@ -1,3 +1,4 @@
+import { downloadTrusted } from "./safe-download.mjs";
 import { mkdir, readFile, readdir, writeFile } from "node:fs/promises";
 import { join } from "node:path";
 
@@ -22,9 +23,7 @@ async function fetchText(url, attempts = 3) {
   let lastError;
   for (let attempt = 1; attempt <= attempts; attempt += 1) {
     try {
-      const response = await fetch(url, { headers: { "User-Agent": "ElevenForceCatalogSync/1.0 (non-commercial fan project)" } });
-      if (!response.ok) throw new Error(`${response.status} ${response.statusText}`);
-      return await response.text();
+      return new TextDecoder().decode(await downloadTrusted(url, "zukan.inazuma.jp", 4_000_000));
     } catch (error) {
       lastError = error;
       await new Promise((resolve) => setTimeout(resolve, attempt * 500));
@@ -56,6 +55,7 @@ function collectPortraits(html, portraits) {
 const firstPage = await fetchText(codexUrl);
 const pageNumbers = [...firstPage.matchAll(/chara_param\/\?page=(\d+)/g)].map((match) => Number(match[1]));
 const pageCount = Math.max(1, ...pageNumbers);
+if (!Number.isSafeInteger(pageCount) || pageCount > 500) throw new Error("Unexpected catalog pagination");
 const portraitsByName = new Map();
 collectPortraits(firstPage, portraitsByName);
 
@@ -80,11 +80,8 @@ await mapLimit(matches, 8, async ({ characterKey, source }, index) => {
   if (parsed.protocol !== "https:" || parsed.hostname !== assetHost || !parsed.pathname.endsWith(".webp")) {
     throw new Error(`Rejected portrait URL: ${source}`);
   }
-  const response = await fetch(parsed, { headers: { "User-Agent": "ElevenForceCatalogSync/1.0 (non-commercial fan project)" } });
-  if (!response.ok) throw new Error(`Portrait ${characterKey}: ${response.status}`);
-  const contentType = response.headers.get("content-type")?.split(";")[0];
-  if (contentType !== "image/webp") throw new Error(`Portrait ${characterKey}: invalid content type ${contentType}`);
-  const bytes = new Uint8Array(await response.arrayBuffer());
+  if (!/^[a-z0-9-]+$/.test(characterKey)) throw new Error("Rejected portrait filename");
+  const bytes = await downloadTrusted(parsed, assetHost, 1_000_000, "image/webp");
   if (bytes.length < 100 || bytes.length > 1_000_000) throw new Error(`Portrait ${characterKey}: invalid size ${bytes.length}`);
   await writeFile(join(outputDirectory, `${characterKey}.webp`), bytes);
   if ((index + 1) % 100 === 0 || index + 1 === matches.length) console.log(`Downloaded ${index + 1}/${matches.length} portraits`);
@@ -94,9 +91,7 @@ await mapLimit(matches, 8, async ({ characterKey, source }, index) => {
 for (const { file, source } of new Map(Object.values(variants).map((variant) => [variant.file, variant])).values()) {
   const url = new URL(source);
   if (url.protocol !== "https:" || url.hostname !== assetHost || !/^[a-z0-9-]+$/.test(file)) throw new Error("Rejected curated portrait");
-  const response = await fetch(url);
-  if (!response.ok || !response.headers.get("content-type")?.startsWith("image/webp")) throw new Error(`Invalid curated portrait: ${file}`);
-  const bytes = new Uint8Array(await response.arrayBuffer());
+  const bytes = await downloadTrusted(url, assetHost, 1_000_000, "image/webp");
   if (bytes.length < 100 || bytes.length > 1_000_000 || String.fromCharCode(...bytes.slice(0, 4)) !== "RIFF" || String.fromCharCode(...bytes.slice(8, 12)) !== "WEBP") throw new Error(`Invalid WebP: ${file}`);
   await writeFile(join(outputDirectory, `${file}.webp`), bytes);
 }

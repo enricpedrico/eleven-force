@@ -1,5 +1,5 @@
 import cookieParser from "cookie-parser";
-import express, { type Request, type Response } from "express";
+import express, { type ErrorRequestHandler, type Request, type Response } from "express";
 import rateLimit from "express-rate-limit";
 import helmet from "helmet";
 import { createHash, randomUUID } from "node:crypto";
@@ -41,6 +41,11 @@ const app = express();
 const store = new RoomStore(databasePath);
 applyCatalogOverrides(store.cardOverrides());
 const streams = new Map<string, Set<Response>>();
+const memberStreams = new Map<string, number>();
+let streamCount = 0;
+const MAX_STREAMS = 256;
+const MAX_MEMBER_STREAMS = 4;
+const MAX_ACTIVE_ROOMS = 500;
 const allCards = SQUADS.flatMap((squad) => squad.players);
 const seasonIds = SEASONS.map((season) => season.id) as [SeasonId, ...SeasonId[]];
 const formationIds = Object.keys(FORMATIONS) as [FormationId, ...FormationId[]];
@@ -70,6 +75,11 @@ app.use(helmet({
 }));
 app.use(express.json({ limit: "32kb" }));
 app.use(cookieParser());
+app.use("/api", (_request, response, next) => {
+  // API responses can contain room data and CSRF tokens.
+  response.set("Cache-Control", "no-store");
+  next();
+});
 app.use("/api", rateLimit({
   windowMs: 15 * 60_000,
   limit: 1_500,
@@ -374,16 +384,37 @@ function completeCompetition(state: RoomState): void {
   state.rollHistory = undefined;
 }
 
+const publicRoomErrors = new Set([
+  "Confirma el cambio de posición antes de fichar.",
+  "El draft ya ha empezado.",
+  "Esa carta no pertenece a la plantilla actual.",
+  "Esa posición ya está completa.",
+  "Ese nombre ya está dentro de la sala.",
+  "La configuración ya está bloqueada.",
+  "La copa necesita al menos dos participantes preparados.",
+  "La final necesita exactamente dos participantes preparados.",
+  "La sala está completa.",
+  "Marca tu equipo como preparado.",
+  "Miembro no encontrado.",
+  "No es tu turno.",
+  "No hay una plaza libre para ese cambio de posición.",
+  "Otro participante ya eligió a ese personaje.",
+  "Primero debes sortear una plantilla.",
+  "Solo el anfitrión puede iniciar la partida.",
+  "Ya has usado los dos rerolls de este turno.",
+  "Ya tienes una plantilla sobre la mesa."
+]);
+
 function handleError(response: Response, error: unknown): void {
   const message = error instanceof Error ? error.message : "UNKNOWN";
-  const status = message === "ROOM_NOT_FOUND" ? 404 : message === "ROOM_CONFLICT" ? 409 : message === "NO_OPTIONS" ? 422 : 400;
+  const status = message === "ROOM_NOT_FOUND" ? 404 : message === "ROOM_CONFLICT" ? 409 : message === "NO_OPTIONS" ? 422 : publicRoomErrors.has(message) ? 400 : 500;
   const translated = message === "ROOM_NOT_FOUND"
     ? "La sala no existe o ha caducado."
     : message === "ROOM_CONFLICT"
       ? "La sala cambió al mismo tiempo. Inténtalo de nuevo."
       : message === "NO_OPTIONS"
         ? "No quedan cartas válidas para completar esa formación."
-        : message;
+        : publicRoomErrors.has(message) ? message : "Error interno del servidor.";
   response.status(status).json({ error: translated });
 }
 
@@ -610,6 +641,9 @@ app.post("/api/admin/maintenance/cleanup", (request, response) => {
 app.post("/api/rooms", rateLimit({ windowMs: 60 * 60_000, limit: 20 }), (request, response) => {
   const parsed = roomSchema.safeParse(request.body);
   if (!parsed.success) return response.status(400).json({ error: "Revisa los datos de la sala." });
+  if (store.activeRoomCount() >= MAX_ACTIVE_ROOMS) {
+    return response.status(503).json({ error: "El servidor tiene demasiadas salas activas. Inténtalo más tarde." });
+  }
   const input = parsed.data;
   if (input.mode === "final" && input.bracketSize !== 4) input.bracketSize = 4;
   const roomCode = code();
@@ -676,10 +710,17 @@ app.get("/api/rooms/:code", (request, response) => {
 
 app.get("/api/rooms/:code/events", (request, response) => {
   const roomCode = String(request.params.code).toUpperCase();
-  if (!sessionFor(request, roomCode)) return response.status(401).end();
+  const session = sessionFor(request, roomCode);
+  if (!session) return response.status(401).end();
+  const room = store.loadRoom(roomCode);
+  if (!room) return response.status(404).end();
+  const memberKey = `${roomCode}:${session.memberId}`;
+  if (streamCount >= MAX_STREAMS || (memberStreams.get(memberKey) ?? 0) >= MAX_MEMBER_STREAMS) {
+    return response.status(429).json({ error: "Demasiadas conexiones abiertas. Cierra otras pestañas e inténtalo de nuevo." });
+  }
   response.set({
     "Content-Type": "text/event-stream",
-    "Cache-Control": "no-cache, no-transform",
+    "Cache-Control": "no-store, no-transform",
     Connection: "keep-alive",
     "X-Accel-Buffering": "no",
   });
@@ -688,8 +729,18 @@ app.get("/api/rooms/:code/events", (request, response) => {
   const roomStreams = streams.get(roomCode) ?? new Set<Response>();
   roomStreams.add(response);
   streams.set(roomCode, roomStreams);
+  streamCount += 1;
+  memberStreams.set(memberKey, (memberStreams.get(memberKey) ?? 0) + 1);
+  // Release a connection even when its client never closes the tab.
+  const expiry = setTimeout(() => response.end(), Math.max(1, Date.parse(room.expiresAt) - Date.now()));
+  expiry.unref();
   request.on("close", () => {
-    roomStreams.delete(response);
+    clearTimeout(expiry);
+    if (!roomStreams.delete(response)) return;
+    streamCount -= 1;
+    const count = (memberStreams.get(memberKey) ?? 1) - 1;
+    if (count > 0) memberStreams.set(memberKey, count);
+    else memberStreams.delete(memberKey);
     if (!roomStreams.size) streams.delete(roomCode);
   });
 });
@@ -845,6 +896,14 @@ app.use("/portraits", express.static(join(staticDirectory, "portraits"), { immut
 app.use(express.static(staticDirectory, { maxAge: 0, etag: true }));
 app.get(/.*/, (_request, response) => response.sendFile(join(staticDirectory, "index.html")));
 
+const errorHandler: ErrorRequestHandler = (error, _request, response, next) => {
+  if (response.headersSent) return next(error);
+  const status = error?.type === "entity.too.large" ? 413 : error?.type === "entity.parse.failed" ? 400 : 500;
+  response.set("Cache-Control", "no-store");
+  response.status(status).json({ error: status === 413 ? "La petición es demasiado grande." : status === 400 ? "JSON no válido." : "Error interno del servidor." });
+};
+app.use(errorHandler);
+
 const heartbeat = setInterval(() => {
   for (const responses of streams.values()) for (const response of responses) response.write(": heartbeat\n\n");
 }, 25_000);
@@ -854,7 +913,7 @@ cleanup.unref();
 store.cleanup();
 
 if (process.env.NODE_ENV !== "test") {
-  app.listen(port, "0.0.0.0", () => console.log(`Eleven Force listening on ${port}`));
+  app.listen(port, process.env.BIND_ADDRESS ?? "127.0.0.1", () => console.log(`Eleven Force listening on ${port}`));
 }
 
 export { app };

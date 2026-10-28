@@ -3,6 +3,8 @@ dist
 dist-server
 data
 .env
+.env.*
+!.env.example
 .git
 test-results
 *.log
